@@ -27,6 +27,7 @@ GEM
       tzinfo (~> 0.3.33)
     arel (4.0.0)
     atomic (1.1.8)
+    bcrypt-ruby (3.0.1)
     bootstrap-sass (2.3.0.1)
       sass (~> 3.2)
     builder (3.1.4)
@@ -110,6 +111,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby
   bootstrap-sass (= 2.3.0.1)
   coffee-rails (~> 4.0.0.beta1)
   jbuilder (~> 1.0.1)
