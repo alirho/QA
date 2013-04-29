@@ -4864,3 +4864,132 @@ Processing by StaticPagesController#home as HTML
   Rendered layouts/_header.html.erb (0.2ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 12:57:10 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `singup_path' for #<#<Class:0x00000003df7cc8>:0x00000003f1c5e0>):
+    4:   
+    5:   <h2>This is the home page for the Question and Answer website</h2>
+    6:   
+    7:   <%= link_to "Sign up now!", singup_path, class:"btn btn-large btn-primary" %>
+    8: </div>
+    9: 
+   10:    
+  app/views/static_pages/home.html.erb:7:in `_app_views_static_pages_home_html_erb__635200541927187659_33820520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 12:58:24 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (27.8ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined local variable or method `singup_path' for #<#<Class:0x007f7860973f30>:0x007f7860971780>):
+    4:   
+    5:   <h2>This is the home page for the Question and Answer website</h2>
+    6:   
+    7:   <%= link_to "Sign up now!", singup_path, class:"btn btn-large btn-primary" %>
+    8: </div>
+    9: 
+   10:    
+  app/views/static_pages/home.html.erb:7:in `_app_views_static_pages_home_html_erb__635200541927187659_33820520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 12:58:50 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (23.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 688ms (Views: 686.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 12:58:51 +0430
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 12:59:04 +0430
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-04-29 12:59:06 +0430
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
