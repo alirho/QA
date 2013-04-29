@@ -1555,3 +1555,3312 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-28 16:37:43 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-28 16:37:43 +0430
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 10:44:30 +0430
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/railties-4.0.0.beta1/lib/rails/templates/rails/welcome/index.html.erb (6.9ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 10:44:30 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:38 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 132ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:39 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:45 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:46 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:44:47 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:45:11 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:45:12 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:46:05 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:49:55 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 10:54:21 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:56:54 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:58:12 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 10:58:13 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:00:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:00:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:00:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.3ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:00:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:00:04 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:01:20 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:01:20 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/Alireza/Project/Rails Projects/qa/app/assets/images
+  /home/Alireza/Project/Rails Projects/qa/app/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/javascripts
+  /home/Alireza/Project/Rails Projects/qa/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/turbolinks-1.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/jquery-rails-2.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/coffee-rails-4.0.0/lib/assets/javascripts
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3007326996104644440_70255871547860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:02:05 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1274ms (Views: 1273.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 11:02:06 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:02:24 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:02:28 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:02:29 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:02:30 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:03:48 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 548ms (Views: 547.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:03:49 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:14 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 573ms (Views: 572.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:15 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:16 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:17 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:18 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 561ms (Views: 560.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:25 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 538ms (Views: 537.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:57 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:04:58 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:04:59 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:05:28 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 551ms (Views: 550.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:29 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:05:30 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:06:00 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 556ms (Views: 555.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:06:00 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:06:00 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:06:01 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:01 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:01 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:01 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:01 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:01 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:06:42 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 543ms (Views: 542.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:06:43 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:08:39 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 515ms (Views: 514.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:08:40 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 518ms (Views: 517.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:08 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:09 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:09:28 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 517ms (Views: 516.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:29 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:09:46 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 519ms (Views: 518.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:09:47 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:10:10 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 517ms (Views: 516.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:11 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:12 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:10:37 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 522ms (Views: 522.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:10:38 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:11:05 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (Invalid CSS after "  margin": expected "{", was "}"
+  (in /home/Alireza/Project/Rails Projects/qa/app/assets/stylesheets/custom.css.scss:45)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:45
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4130433480385796348_32343420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 519ms (Views: 518.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:13 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:15 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:11:25 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 526ms (Views: 525.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:26 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:11:35 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 549ms (Views: 548.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:35 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:35 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:11:35 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:36 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:36 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:36 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:36 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:11:36 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 518ms (Views: 517.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:02 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:12:33 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 526ms (Views: 526.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:34 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 512ms (Views: 511.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:12:59 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 515ms (Views: 514.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:18 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:13:44 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 510ms (Views: 509.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:44 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:45 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:13:46 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:46 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:46 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:46 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:46 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:13:46 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 508ms (Views: 507.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:03 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:04 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:14:37 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 517ms (Views: 516.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:14:38 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:15:06 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 541ms (Views: 541.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:07 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:15:24 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 553ms (Views: 553.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:25 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:15:50 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 542ms (Views: 541.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:15:51 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:16:15 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 577ms (Views: 576.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:16 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 512ms (Views: 512.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:16:40 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:16:59 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 528ms (Views: 528.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:00 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:17:22 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 545ms (Views: 544.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:23 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:17:44 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 528ms (Views: 528.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:17:45 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:18:10 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 563ms (Views: 562.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:11 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 555ms (Views: 554.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:33 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:18:53 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 551ms (Views: 551.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:18:54 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 501ms (Views: 501.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:16 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:19:25 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 519ms (Views: 518.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:26 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:19:53 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 521ms (Views: 520.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:19:54 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:47 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:48 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:20:52 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:21:01 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:24:42 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:48 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:50 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:27:51 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:28:33 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:26 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:29:33 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:29:34 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:30:30 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 525ms (Views: 524.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:31 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:30:49 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 571ms (Views: 570.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:30:50 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:31:20 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 518ms (Views: 517.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:21 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:22 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:31:38 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 518ms (Views: 517.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:31:39 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:32:01 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 559ms (Views: 558.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:02 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:32:36 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 514ms (Views: 514.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:32:37 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 501ms (Views: 500.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:33:03 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:34:03 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 542ms (Views: 542.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:04 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:34:42 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 549ms (Views: 548.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:34:43 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:35:19 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 574ms (Views: 573.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:19 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:20 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:35:35 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 550ms (Views: 549.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:36 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:35:45 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 509ms (Views: 508.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:46 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:35:55 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 511ms (Views: 510.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:35:56 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:36:04 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 519ms (Views: 518.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:36:05 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:37:41 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 543ms (Views: 542.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:37:41 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:37:41 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:37:41 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:37:42 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:37:42 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:37:42 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:37:42 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:37:42 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 537ms (Views: 536.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:05 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:38:06 +0430
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:43:52 +0430
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.beta1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.beta1) lib/rails/engine.rb:510:in `call'
+  railties (4.0.0.beta1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (46.4ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-04-29 11:44:28 +0430
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.beta1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.beta1) lib/rails/engine.rb:510:in `call'
+  railties (4.0.0.beta1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 11:44:33 +0430
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 11:44:35 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-04-29 11:44:36 +0430
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-04-29 11:44:38 +0430
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-04-29 11:44:41 +0430
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (28.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 11:44:45 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
