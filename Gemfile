@@ -1,9 +1,11 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 gem 'bootstrap-sass', '2.3.0.1'
 gem 'bcrypt-ruby'
+gem 'faker', '1.1.2'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 gem 'sqlite3'
 

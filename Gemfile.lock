@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (4.0.0.beta1)
       actionpack (= 4.0.0.beta1)
@@ -30,6 +30,8 @@ GEM
     bcrypt-ruby (3.0.1)
     bootstrap-sass (2.3.0.1)
       sass (~> 3.2)
+    bootstrap-will_paginate (0.0.9)
+      will_paginate
     builder (3.1.4)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -41,6 +43,8 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    faker (1.1.2)
+      i18n (~> 0.5)
     hike (1.2.2)
     i18n (0.6.4)
     jbuilder (1.0.2)
@@ -106,6 +110,7 @@ GEM
     uglifier (2.0.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    will_paginate (3.0.4)
 
 PLATFORMS
   ruby
@@ -113,7 +118,9 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby
   bootstrap-sass (= 2.3.0.1)
+  bootstrap-will_paginate (= 0.0.9)
   coffee-rails (~> 4.0.0.beta1)
+  faker (= 1.1.2)
   jbuilder (~> 1.0.1)
   jquery-rails
   rails (= 4.0.0.beta1)
