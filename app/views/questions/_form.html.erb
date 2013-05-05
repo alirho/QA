@@ -1,0 +1,17 @@
+<% provide(:title, 'New Question') %>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@question) do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+  
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+  
+        <%= f.label :body %>
+        <%= f.text_area :body%>
+  
+        <%= f.submit "Create Question", class: "btn btn-medium btn-primary" %>
+    <% end %>
+  </div>
+</div>
