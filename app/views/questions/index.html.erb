@@ -1,31 +1,18 @@
-<h1>Listing questions</h1>
+<% provide(:title,"Questions") %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th>User</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<h1>Listing Questions</h1>
 
-  <tbody>
-    <% @questions.each do |question| %>
-    <tr>
-      <td><%= question.title %></td>
-      <td><%= question.body %></td>
-      <td><%= question.user_id %></td>
-      <td><%= link_to 'Show', question %></td>
-      <td><%= link_to 'Edit', edit_question_path(question) %></td>
-      <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br />
-
-<%= link_to 'New Question', new_question_path %>
+<div class="questions">
+  <% @questions.each do |question| %>
+  <div class="title">
+    Title:
+    <%= question.title %>
+  </div>
+  <div class="body">
+    Body:
+    <%= question.body %>
+    <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+  </div>
+  
+  <% end %>
+</div>
