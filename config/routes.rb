@@ -1,6 +1,7 @@
 Qa::Application.routes.draw do
-  resources :questions
-
+  resources :questions do
+    resources :comments, only: [:new, :create]
+  end
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   

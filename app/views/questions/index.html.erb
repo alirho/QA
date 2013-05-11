@@ -13,11 +13,7 @@
     <%= question.body %>
     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
     <h6>Comments</h6>
-    <%= render  'comments/comment' %>
+    
   </div>
-  
-  
-
-  
   <% end %>
 </section>
