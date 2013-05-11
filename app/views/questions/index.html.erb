@@ -2,7 +2,7 @@
 
 <h1>Listing Questions</h1>
 
-<div class="questions">
+<section class="questions">
   <% @questions.each do |question| %>
   <div class="title">
     Title:
@@ -12,7 +12,12 @@
     Body:
     <%= question.body %>
     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    <h6>Comments</h6>
+    <%= render  'comments/comment' %>
   </div>
   
+  
+
+  
   <% end %>
-</div>
+</section>

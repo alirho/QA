@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@comment) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+      
+      <%= f.label :body %>
+      <%= f.text_area :body %>
+      
+      <%= f.submit "Comment", class: "btn btn-medium btn-primary" %>
+    <% end %>
+  </div>
+</div>
+

@@ -35932,3 +35932,2739 @@ Processing by StaticPagesController#home as HTML
   Rendered layouts/_header.html.erb (1.3ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2013-05-06 12:34:47 +0430
+Processing by QuestionsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered questions/_form.html.erb (2.7ms)
+  Rendered questions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:34:49 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:34:52 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:34:53 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:34:57 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:35:02 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:45:05 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (51.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 201ms (Views: 200.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-06 12:45:05 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-06 12:45:05 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-06 12:45:06 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:45:09 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (147.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 170ms (Views: 162.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:52:18 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lXXjhePhyXlKLWMJ6bIrPYk413cMj0wBH/Ksr4NL3a8="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-06 12:52:26 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:52:35 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:52:36 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:52:38 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2013-05-06 12:56:24 +0430
+Processing by QuestionsController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.5ms)
+  Rendered questions/_form.html.erb (12.3ms)
+  Rendered questions/new.html.erb within layouts/application (14.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:56:25 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:56:27 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-05-06 12:56:28 +0430
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-05-06 12:56:29 +0430
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:56:30 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-05-06 12:56:31 +0430
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:56:32 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-06 12:56:32 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-06 12:56:35 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 10:51:31 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (112.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 1074ms (Views: 1072.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 10:51:33 +0430
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-05-11 10:51:37 +0430
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (14.7ms)
+  Rendered users/new.html.erb within layouts/application (299.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 336ms (Views: 333.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-05-11 10:51:39 +0430
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 75ms (Views: 73.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 10:51:40 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (15.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 49.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 10:51:50 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2013-05-11 10:52:14 +0430
+Processing by QuestionsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered questions/_form.html.erb (19.0ms)
+  Rendered questions/new.html.erb within layouts/application (20.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/questions" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/K0QZNYOwpIAsWra2WuDVSwJvBF8Ic07ykMhqCUWiNk=", "question"=>{"title"=>"Third Question", "body"=>"Hello this is the third question."}, "commit"=>"Create Question"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (2.5ms)
+  Rendered questions/_form.html.erb (8.8ms)
+  Rendered questions/new.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 25.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 10:52:43 +0430
+
+
+Started POST "/questions" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/K0QZNYOwpIAsWra2WuDVSwJvBF8Ic07ykMhqCUWiNk=", "question"=>{"title"=>"Third Question", "body"=>"Hello this is the third question."}, "commit"=>"Create Question"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (53.7ms)[0m  INSERT INTO "questions" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Hello this is the third question."], ["created_at", Sat, 11 May 2013 06:23:14 UTC +00:00], ["title", "Third Question"], ["updated_at", Sat, 11 May 2013 06:23:14 UTC +00:00]]
+  [1m[36m (109.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/questions/3
+Completed 302 Found in 183ms (ActiveRecord: 163.6ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "3"]]
+  Rendered questions/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (7.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:14 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:15 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 10:53:19 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "3"]]
+  Rendered questions/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (34.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 59ms (Views: 43.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:40 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 10:53:41 +0430
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 10:54:02 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20130511063241)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "body" text, "user_id" integer, "post_id" integer, "post_type" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130511063241"]]
+  [1m[36m (145.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/comments/new" for 127.0.0.1 at 2013-05-11 11:21:55 +0430
+
+ActionController::RoutingError (No route matches [GET] "/comments/new"):
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.beta1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.beta1) lib/rails/engine.rb:510:in `call'
+  railties (4.0.0.beta1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (12.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 160ms (Views: 159.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 11:22:00 +0430
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."question_id" = ?  [[nil, 3]]
+SQLite3::SQLException: no such column: comments.question_id: SELECT "comments".* FROM "comments"  WHERE "comments"."question_id" = ?
+  [1m[36mQuestion Load (0.5ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC LIMIT 1[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."question_id" = ?  [[nil, 3]]
+SQLite3::SQLException: no such column: comments.question_id: SELECT "comments".* FROM "comments"  WHERE "comments"."question_id" = ?
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:28:13 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (151.9ms)
+Completed 500 Internal Server Error in 159ms
+
+ActionView::Template::Error (The partial name () is not a valid Ruby identifier; make sure your partial name starts with a lowercase letter or underscore, and is followed by any combination of letters, numbers and underscores.):
+    15:   </div>
+    16:   
+    17:   <h3>Comments</3>
+    18:   <%= render partial: ''%>
+    19:   
+    20:   <% end %>
+    21: </section>
+  app/views/questions/index.html.erb:18:in `block in _app_views_questions_index_html_erb___749939913948308776_33426920'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_33426920'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:28:14 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (The partial name () is not a valid Ruby identifier; make sure your partial name starts with a lowercase letter or underscore, and is followed by any combination of letters, numbers and underscores.):
+    15:   </div>
+    16:   
+    17:   <h3>Comments</3>
+    18:   <%= render partial: ''%>
+    19:   
+    20:   <% end %>
+    21: </section>
+  app/views/questions/index.html.erb:18:in `block in _app_views_questions_index_html_erb___749939913948308776_69923582722520'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923582722520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:31 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:28:55 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 11:28:56 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:10 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 11:29:11 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:38:34 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (33.4ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30a41893f0>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:44 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4403198>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:44 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b49df3a0>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:45 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (28.7ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30a40e3450>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:45 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4551630>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:45 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4747458>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:46 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4088270>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:46 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4950d08>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:41:46 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (29.1ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4b979e0>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/new'%>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923444120480'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923444120480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:17 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4432768>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4747a98>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x00000003fde5c8>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b48dd010>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (33.9ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b4aefce0>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b440f790>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:42:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x00000003fb57b8>:0x007f30b49ea278>):
+    13:     <%= question.body %>
+    14:     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
+    15:     <h6>Comments</h6>
+    16:     <%= render partial 'comments/comment' %>
+    17:   </div>
+    18:   
+    19:   
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_69923579725980'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_69923579725980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:43:32 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (9.7ms)
+  Rendered questions/index.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x00000003ac1748>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> - <%= comment_username(comment) %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_32882180'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:01 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (10.7ms)
+  Rendered questions/index.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b48de5c8>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:02 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (27.8ms)
+  Rendered questions/index.html.erb within layouts/application (29.3ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4b1ff08>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:02 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.4ms)
+  Rendered questions/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4582500>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:02 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (27.7ms)
+  Rendered questions/index.html.erb within layouts/application (29.2ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4a2f990>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:02 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.0ms)
+  Rendered questions/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b440fd30>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:02 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (6.4ms)
+  Rendered questions/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b47fb750>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:03 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.2ms)
+  Rendered questions/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x00000002fc7090>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:03 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (10.1ms)
+  Rendered questions/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b483c4f8>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:03 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (28.1ms)
+  Rendered questions/index.html.erb within layouts/application (29.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4a92798>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:03 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (6.0ms)
+  Rendered questions/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b443d910>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.2ms)
+  Rendered questions/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b47a3370>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (13.9ms)
+  Rendered questions/index.html.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x0000000400cd60>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.3ms)
+  Rendered questions/index.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4933ac8>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (30.0ms)
+  Rendered questions/index.html.erb within layouts/application (31.8ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4b822c0>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (5.4ms)
+  Rendered questions/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b460b8c8>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (29.9ms)
+  Rendered questions/index.html.erb within layouts/application (31.9ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4a4d008>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.0ms)
+  Rendered questions/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4588748>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (27.6ms)
+  Rendered questions/index.html.erb within layouts/application (29.0ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4a2da50>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (8.4ms)
+  Rendered questions/index.html.erb within layouts/application (11.4ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4582d20>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (5.5ms)
+  Rendered questions/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4a32e38>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (7.6ms)
+  Rendered questions/index.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b43cfa00>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (7.2ms)
+  Rendered questions/index.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b49ea660>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (30.3ms)
+  Rendered questions/index.html.erb within layouts/application (33.4ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30a4146258>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (5.7ms)
+  Rendered questions/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b45f4290>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (27.7ms)
+  Rendered questions/index.html.erb within layouts/application (29.1ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4a3afc0>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:05 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (6.3ms)
+  Rendered questions/index.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b44333c0>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:05 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.7ms)
+  Rendered questions/index.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b47e1d00>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (22.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.7ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:05 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (5.7ms)
+  Rendered questions/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x00000003a74a88>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:05 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (8.2ms)
+  Rendered questions/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b48b6e38>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:05 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (32.9ms)
+  Rendered questions/index.html.erb within layouts/application (35.5ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4aee660>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:05 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (5.5ms)
+  Rendered questions/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b455d4a8>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:06 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (5.8ms)
+  Rendered questions/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b48fafc0>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:06 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (6.2ms)
+  Rendered questions/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x000000041dbfb0>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:06 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (5.7ms)
+  Rendered questions/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4942960>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:44:06 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (28.2ms)
+  Rendered questions/index.html.erb within layouts/application (29.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b4b99790>):
+    1: <div class="row">
+    2:   <div class="span13"><%= comment_format comment.body %> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923582256720'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:45:20 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (6.5ms)
+  Rendered questions/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `comment' for #<#<Class:0x00000003fb57b8>:0x007f30b45efee8>):
+    1: <div class="row">
+    2:   <div class="span13"> <%= time_ago_in_words comment.created_at %> ago</div>
+    3: </div>
+  app/views/comments/_comment.html.erb:2:in `_app_views_comments__comment_html_erb___4157216980178944177_69923580685580'
+  app/views/questions/index.html.erb:16:in `block in _app_views_questions_index_html_erb___749939913948308776_30904780'
+  app/views/questions/index.html.erb:6:in `_app_views_questions_index_html_erb___749939913948308776_30904780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered comments/_comment.html.erb (0.6ms)
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 11:45:31 +0430
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 11:45:54 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:45:56 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (0.6ms)
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered questions/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 11:46:01 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-11 11:46:08 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered questions/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.4ms)
