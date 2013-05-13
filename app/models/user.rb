@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   has_many :questions
+  has_many :answers
   before_save { self.email = email.downcase }
   before_save :create_remember_token
   validates :name, presence: true, length: { maximum: 50 }

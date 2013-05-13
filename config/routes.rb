@@ -4,6 +4,7 @@ Qa::Application.routes.draw do
   end
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :answer, only:[:create, :edit, :update]
   
   root to: 'static_pages#home'
   match '/signup',  to: 'users#new',                      via: 'get'

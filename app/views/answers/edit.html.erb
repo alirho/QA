@@ -1,0 +1,10 @@
+<% provide(:tilte, 'Edit Answer') %>
+
+<%= form_for(@answer) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  
+  <%= f.label :body %>
+  <%= f.text_area :body %>
+  
+  <%= f.submit "Save", class: "btn btn-medium btn-primary" %>
+<% end %>
