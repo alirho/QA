@@ -45319,3 +45319,2006 @@ Processing by QuestionsController#index as HTML
   Rendered layouts/_header.html.erb (1.4ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:11:40 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:11:42 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:11:44 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-05-13 11:11:45 +0430
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (29.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 188ms (Views: 187.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:35 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:18:36 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:18:37 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (152.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 172ms (Views: 164.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:18:41 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (1.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (43.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:18:48 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "4"]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:19:29 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "4"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:18 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:19 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:19 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:19 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:19 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:19 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:19 +0430
+
+
+Started GET "/questions/4/comments/new" for 127.0.0.1 at 2013-05-13 11:20:21 +0430
+Processing by CommentsController#new as HTML
+  Parameters: {"question_id"=>"4"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  Rendered comments/new.html.erb (92.6ms)
+Completed 200 OK in 113ms (Views: 93.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions/4/comments/new" for 127.0.0.1 at 2013-05-13 11:20:21 +0430
+Processing by CommentsController#new as HTML
+  Parameters: {"question_id"=>"4"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "4"]]
+  Rendered comments/new.html.erb (2.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/questions/4/comments" for 127.0.0.1 at 2013-05-13 11:20:22 +0430
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "comment"=>{"post_id"=>"4", "post_type"=>"Question", "body"=>""}, "commit"=>"Create Comment", "question_id"=>"4"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.0.0.beta1) lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  activesupport (4.0.0.beta1) lib/active_support/callbacks.rb:377:in `_run__952397944587128435__process_action__callbacks'
+  activesupport (4.0.0.beta1) lib/active_support/callbacks.rb:78:in `run_callbacks'
+  actionpack (4.0.0.beta1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0.beta1) lib/active_support/notifications.rb:158:in `block in instrument'
+  activesupport (4.0.0.beta1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0.beta1) lib/active_support/notifications.rb:158:in `instrument'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0.beta1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0.beta1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0.beta1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0.beta1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.0.0.beta1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0.beta1) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.0.0.beta1) lib/action_dispatch/routing/route_set.rb:78:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/routing/route_set.rb:78:in `dispatch'
+  actionpack (4.0.0.beta1) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/journey/router.rb:69:in `block in call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/journey/router.rb:57:in `each'
+  actionpack (4.0.0.beta1) lib/action_dispatch/journey/router.rb:57:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/routing/route_set.rb:651:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/cookies.rb:452:in `call'
+  activerecord (4.0.0.beta1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0.beta1) lib/active_record/connection_adapters/abstract/connection_pool.rb:632:in `call'
+  activerecord (4.0.0.beta1) lib/active_record/migration.rb:348:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.beta1) lib/active_support/callbacks.rb:373:in `_run__3214171312038458695__call__callbacks'
+  activesupport (4.0.0.beta1) lib/active_support/callbacks.rb:78:in `run_callbacks'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.beta1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.beta1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.beta1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.beta1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.beta1) lib/rails/engine.rb:510:in `call'
+  railties (4.0.0.beta1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p0@railstutorial_rails_4_0/gems/actionpack-4.0.0.beta1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:28 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:20:29 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:53 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:20:54 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:08 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:21:09 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:10 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:42 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:21:43 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:04 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:22:09 +0430
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:22:18 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "4"]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2013-05-13 11:22:22 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 3], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/questions/2" for 127.0.0.1 at 2013-05-13 11:22:24 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "2"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 2], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-13 11:22:26 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "1"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 1], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-13 11:22:30 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "1"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 1], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions/1/edit" for 127.0.0.1 at 2013-05-13 11:22:32 +0430
+Processing by QuestionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "1"]]
+  Rendered shared/_error_messages.html.erb (1.2ms)
+  Rendered questions/_form.html.erb (10.1ms)
+  Rendered questions/edit.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/questions/1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+Processing by QuestionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"16fO3mcZ9yPKs2udj7U/aoJ/KSKf/QxAI5nB7B407pc=", "question"=>{"title"=>"First Question", "body"=>"This is the first question on question & answer site."}, "commit"=>"Create Question", "id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (38.9ms)[0m  UPDATE "questions" SET "body" = ?, "updated_at" = ? WHERE "questions"."id" = 1  [["body", "This is the first question on question & answer site."], ["updated_at", Mon, 13 May 2013 06:53:11 UTC +00:00]]
+  [1m[36m (135.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/questions/1
+Completed 302 Found in 182ms (ActiveRecord: 174.5ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "1"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 1], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:11 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:23:12 +0430
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:23:16 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:23:18 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-13 11:23:20 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "1"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 1], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:23:23 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-13 11:23:25 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "1"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 1], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:23:28 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-05-13 11:23:30 +0430
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:23:31 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-05-13 11:23:32 +0430
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (1.6ms)
+  Rendered users/index.html.erb within layouts/application (17.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:23:33 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:24:41 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1324ms (Views: 1323.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:24:43 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:15 +0430
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:25:25 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "4"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/4/edit" for 127.0.0.1 at 2013-05-13 11:25:27 +0430
+Processing by QuestionsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered questions/_form.html.erb (4.6ms)
+  Rendered questions/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/questions/4" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+Processing by QuestionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"16fO3mcZ9yPKs2udj7U/aoJ/KSKf/QxAI5nB7B407pc=", "question"=>{"title"=>"Another question", "body"=>"It is another question on Q&A."}, "commit"=>"Create Question", "id"=>"4"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "questions" SET "title" = ?, "updated_at" = ? WHERE "questions"."id" = 4  [["title", "Another question"], ["updated_at", Mon, 13 May 2013 06:55:31 UTC +00:00]]
+  [1m[36m (138.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/questions/4
+Completed 302 Found in 144ms (ActiveRecord: 139.5ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-13 11:25:31 +0430
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:34 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:25:38 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "4"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:42 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions/2" for 127.0.0.1 at 2013-05-13 11:25:44 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "2"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 2], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:46 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-05-13 11:25:47 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["id", "1"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?  [["post_id", 1], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:49 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2013-05-13 11:25:50 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 3], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:54 +0430
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY created_at DESC[0m
+  Rendered questions/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:25:56 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2013-05-13 11:25:59 +0430
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" ORDER BY created_at DESC
+  Rendered questions/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2013-05-13 11:26:03 +0430
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? ORDER BY created_at DESC LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."post_type" = ?[0m  [["post_id", 4], ["post_type", "Question"]]
+  Rendered comments/_comment.html.erb (0.0ms)
+  Rendered questions/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 11:26:09 +0430
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zukHXB0g_u5v42GnAGjaNw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.1ms)

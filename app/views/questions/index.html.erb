@@ -4,16 +4,7 @@
 
 <section class="questions">
   <% @questions.each do |question| %>
-  <div class="title">
-    Title:
-    <%= question.title %>
-  </div>
-  <div class="body">
-    Body:
-    <%= question.body %>
-    <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span>
-    <h6>Comments</h6>
-    
-  </div>
+    <%= link_to question.title, question_path(question) %>
+    <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
   <% end %>
 </section>
