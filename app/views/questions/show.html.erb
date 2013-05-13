@@ -1,15 +1,15 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @question.title %>
-</p>
-
-<p>
-  <strong>Body:</strong>
-  <%= @question.body %>
-</p>
-
+<div class="row">
+  <div class="span8">
+        <p>
+        Title:
+                <%= @question.title %>
+        <br/>
+        Body:
+                 <%= @question.body %>
+        </p>
+  </div>
+</div>
 
 <section class="comments">
     <div class="row">
@@ -21,10 +21,10 @@
 </section>
 
 
-<%= link_to 'Edit', edit_question_path(@question) %> |
-<%= link_to 'Back', questions_path %> |
-<%= link_to "Comment", new_question_comment_path(@question)  %> |
-<%= link_to "Answer",  new_answer_path %>
+<%= link_to 'Edit', edit_question_path(@question), class: "btn btn-small btn-primary" %> 
+<%= link_to 'Back', questions_path, class: "btn btn-small btn-primary" %> 
+<%= link_to "Comment", new_question_comment_path(@question), class: "btn btn-small btn-primary"  %> 
+<%= link_to "Answer", new_question_answer_path(@question), class: "btn btn-small btn-primary" %>
 
 
 

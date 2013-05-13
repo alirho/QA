@@ -2,9 +2,13 @@
 
 <h1>Listing Questions</h1>
 
+<%= will_paginate %>
+
 <section class="questions">
   <% @questions.each do |question| %>
     <%= link_to question.title, question_path(question) %>
     <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
   <% end %>
 </section>
+
+<%= will_paginate %>
