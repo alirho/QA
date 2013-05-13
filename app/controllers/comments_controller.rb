@@ -1,14 +1,15 @@
 class CommentsController < ApplicationController
 
  def new
-   
+   @item = Question.find(params[:question_id]) if params[:question_id]
+    @comment = @item.comments.new
+    render :new, :layout => false
  end
  
  def create
-   @comment = Comment.new(params[:comment])
-   @comment.questions_id = params[:questions_id]
-   @comment.save
-   
-   redirect_to question_path
+   @comment = current_user.comments.new(params[:comment])
+    if @comment.save
+      render :json => render_to_string(:partial => 'comments/comment', :locals => { :comment => @comment }).to_json
+    end
  end
 end

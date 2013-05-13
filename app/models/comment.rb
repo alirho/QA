@@ -1,4 +1,8 @@
 class Comment < ActiveRecord::Base
-  belongs_to :answer
-  belongs_to :question
+  belongs_to :post, :polymorphic => true
+  belongs_to :user
+
+  def by
+    user.name
+  end
 end

@@ -14,9 +14,19 @@
   <strong>User:</strong>
   <%= @question.user_id %>
 </p>
+<section class="comments">
+    <div class="row">
+      <div class="span13 offset1 comment-container">
+        <%= render :partial => 'comments/comment', :collection => @question.comments %>
+       
+        <%= link_to "add comment", new_question_comment_path(@question)  %>
+        
+      </div>
+    </div>
+</section>
 
 
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <%= link_to 'Back', questions_path %>
-<%= link_to 'Comment',  new_question_comment_path %>
+
 

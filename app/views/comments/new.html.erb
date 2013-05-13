@@ -1,15 +1,7 @@
-<div class="row">
-  <div class="span6 offset3">
-    <%= form_for(@comment) do |f| %>
-      <%= render 'shared/error_messages', object: f.object %>
-      
-      
-      <%= f.label :body %>
-      <%= f.text_area :body %>
-      
-      
-      <%= f.submit "Comment", class: "btn btn-medium btn-primary" %>
-    <% end %>
-  </div>
-</div>
+<%= form_for [@item, @comment], :remote => true do |f| %>
+  <%= f.hidden_field :post_id, :value => @item.id %>
+  <%= f.hidden_field :post_type, :value => @item.class %>
+  <%= f.text_area :body, :class => :span10, :rows => 5 %>
+  <%= f.submit :class => "btn primary" %>
+<% end %>
 
