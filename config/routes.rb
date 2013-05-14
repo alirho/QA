@@ -1,10 +1,10 @@
 Qa::Application.routes.draw do
   resources :questions do
     resources :comments, only: [:new, :create]
-    resources :answers, only:[:new, :create, :edit, :update]
   end
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :answers, only:[:new, :create, :edit, :update]
   
   
   root to: 'static_pages#home'
