@@ -9,6 +9,7 @@
                  <%= @question.body %>
         </p>
   </div>
+<% provide(:title,)%>
 </div>
 
 <section class="comments">
@@ -24,7 +25,7 @@
 <%= link_to 'Edit', edit_question_path(@question), class: "btn btn-small btn-primary" %> 
 <%= link_to 'Back', questions_path, class: "btn btn-small btn-primary" %> 
 <%= link_to "Comment", new_question_comment_path(@question), class: "btn btn-small btn-primary"  %> 
-<%= link_to "Answer", new_answer_path(@answer), class: "btn btn-small btn-primary" %>
+<%= link_to "Answer" %>
 
 
 
