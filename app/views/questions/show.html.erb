@@ -18,6 +18,12 @@
         <%= render :partial => 'comments/comment', :collection => @question.comments %>
       </div>
     </div>
+    
+    <p>
+      Tags: <% question.tags.each do |tag| %>
+                <%= tag.name %>
+              <% end %>
+    </p>
     <h6>Comments</h6>
 </section>
 
