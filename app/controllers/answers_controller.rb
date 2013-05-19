@@ -1,9 +1,5 @@
 class AnswersController < ApplicationController
-
-  def new
-    @answer = Answer.new
-  end
-  
+ 
   def create
     @question = Question.find(params[:answer][:question_id])
     @answer = @question.answers.new(answer_params)
@@ -19,6 +15,8 @@ class AnswersController < ApplicationController
   
   def update
     @answer = Answer.find(params[:id])
+    @answer.update_attributes(answer_params)
+    redirect_to @answer.question
   end
   
   private
