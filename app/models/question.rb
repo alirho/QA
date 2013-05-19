@@ -10,7 +10,7 @@ class Question < ActiveRecord::Base
   has_many :comments, :as => "post"
   
   
-   def self.tagged_with(name)
+  def self.tagged_with(name)
     Tag.find_by_name!(name).questions
   end
 
