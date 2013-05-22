@@ -32,7 +32,7 @@
 <div>
   <h5>
     Answers: <% @question.answers.each do |answer| %>
-               <%=  @question.answers %>
+               <%= answer.body %>
              <% end %>
   </h5>
 </div>
