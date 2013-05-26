@@ -12,6 +12,8 @@ class QuestionsController < ApplicationController
   def show
     @answers = @question.answers
     @answer = @question.answers.build
+    @question = Question.find(params[:id])
+    Visit.track(@question, request.remote_ip)
   end
 
   # GET /questions/new

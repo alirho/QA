@@ -2,6 +2,7 @@ class Question < ActiveRecord::Base
   has_many :answers
   has_many :taggings
   has_many :tags, through: :taggings
+  has_one :visit, :as => :visitable
   belongs_to :user
   default_scope -> { order('created_at DESC') }
   validates :title, presence: true, length: { minimum: 10 , maximum: 150 }

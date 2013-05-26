@@ -12,6 +12,9 @@
   </div>
 
 </div>
+<h5>Visits:</h5>
+  <p><span class="gray">Total:</span><%= @question.visit.total_visits rescue 0 %></p>
+  <p><span class="gray">Unique:</span><%= @question.visit.unique_visits rescue 0 %></p>
 <p>
   Tags: <% @question.tags.each do |tag| %>
           <%= tag.name %>
