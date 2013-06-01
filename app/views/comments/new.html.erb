@@ -1,7 +1,7 @@
 <%= form_for [@item, @comment], :remote => true do |f| %>
   <%= f.hidden_field :post_id, :value => @item.id %>
   <%= f.hidden_field :post_type, :value => @item.class %>
-  <%= f.text_area :body, :class => :span10, :rows => 5 %>
+  <%= f.text_area :body %>
   <%= f.submit :class => "btn primary" %>
 <% end %>
 

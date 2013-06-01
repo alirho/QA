@@ -12,4 +12,9 @@ class CommentsController < ApplicationController
       render :json => render_to_string(:partial => 'comments/comment', :locals => { :comment => @comment }).to_json
     end
  end
+ 
+ def comment_params
+      params.require(:comment).permit(:body, :user_id, :post_id, :post_type)
+ end
+
 end
