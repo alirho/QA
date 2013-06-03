@@ -1,5 +1,6 @@
 Qa::Application.routes.draw do
   resources :questions do
+    member { post :vote }
     resources :comments, only: [:new, :create]
   end
   resources :users

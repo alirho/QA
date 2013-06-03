@@ -8,6 +8,7 @@ gem 'faker', '1.1.2'
 gem 'bootstrap-will_paginate', '0.0.9'
 
 gem 'sqlite3'
+gem 'activerecord-reputation-system'
 
 # Gems used only for assets and not required
 # in production environments by default.

@@ -56,6 +56,13 @@ class QuestionsController < ApplicationController
       end
     end
   end
+  
+  def vote
+    value = params[:type] == "up" ? 1 : -1
+    @question = Question.find(params[:id])
+    @question.add_or_update_evaluation(:vote, value, current_user)
+    redirect_to :back, notice: "Thank you for voting"
+  end
 
   # DELETE /questions/1
   # DELETE /questions/1.json

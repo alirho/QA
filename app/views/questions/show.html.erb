@@ -10,6 +10,10 @@
                  <%= @question.body %>
         </p>
   </div>
+  <%= @question.user.name %>
+  | <%= pluralize @question.reputation_for(:votes).to_i, "vote" %>
+  | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
+  | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
 
 </div>
 <h5>Visits:</h5>

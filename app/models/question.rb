@@ -9,6 +9,7 @@ class Question < ActiveRecord::Base
   validates :body, presence: true, length: { minimum: 30 }
   validates :user_id, presence: true
   has_many :comments, :as => "post"
+  has_reputation :votes, source: :user, aggregated_by: :sum
   
   
   def self.tagged_with(name)

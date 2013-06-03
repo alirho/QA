@@ -19,6 +19,7 @@ GEM
       activesupport (= 4.0.0.beta1)
       arel (~> 4.0.0.beta1)
     activerecord-deprecated_finders (0.0.3)
+    activerecord-reputation-system (2.0.2)
     activesupport (4.0.0.beta1)
       i18n (~> 0.6.2)
       minitest (~> 4.2)
@@ -115,6 +116,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-reputation-system
   bcrypt-ruby
   bootstrap-sass (= 2.3.0.1)
   bootstrap-will_paginate (= 0.0.9)
