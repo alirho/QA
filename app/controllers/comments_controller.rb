@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  before_action :signed_in_user
 
  def new
    @item = Question.find(params[:question_id]) if params[:question_id]
