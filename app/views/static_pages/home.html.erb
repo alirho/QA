@@ -1,9 +1,14 @@
 <% provide(:title, 'Home')%>
 <div class="center hero-unit">
-  <h1>Welcome to the Question & Answer</h1>
+<%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+  <ul class="nav nav-tabs">
+    <li class="active">
+      <%= link_to "Questions", questions_path %>
+    </li>
+    <li><%= link_to "Users", users_path %></li>
+    <li><%= link_to "Tags"%></li>
+  </ul>
   
-  <h2>This is the home page for the Question and Answer website</h2>
-  <%= link_to "Ask Question", "questions/new", class: "btn btn-large btn-primary" %>
 </div>
 
    
