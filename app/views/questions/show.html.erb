@@ -22,9 +22,7 @@
 <h5>Visits:</h5>
   <p><span class="gray">Total:</span><%= @question.visit.total_visits rescue 0 %></p>
 <p>
-  Tags: <% @question.tags.each do |tag| %>
-          <%= tag.name %>
-        <% end %>
+  Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
 </p>
 
 

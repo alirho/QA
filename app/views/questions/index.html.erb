@@ -19,7 +19,9 @@
       <%= link_to "Users", users_path %>
     </div>
     <div class="tab-pane" id="tab3">
-      <%= link_to "Tags" %>
+      <% tag_cloud Question.tag_counts, %w[s m l] do |tag, css_class| %>
+        <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+      <% end %>
     </div>
   </div>
 </div>
