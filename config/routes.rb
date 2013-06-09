@@ -8,7 +8,7 @@ Qa::Application.routes.draw do
   resources :answers, only:[:create, :edit, :update]
   
   
-  root to: 'static_pages#home'
+  root to: 'questions#index'
   match '/signup',  to: 'users#new',                      via: 'get'
   match '/signin',  to: 'sessions#new',                   via: 'get'
   match '/signout', to: 'sessions#destroy',             via: 'delete'

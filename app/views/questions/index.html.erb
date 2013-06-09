@@ -1,15 +1,27 @@
 <% provide(:title,"Questions") %>
 
-<h1>Listing Questions</h1>
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Questions</a></li>
+    <li><a href="#tab2" data-toggle="tab">Users</a></li>
+    <li><a href="#tab3" data-toggle="tab">Tags</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+        <section class="questions">
+          <% @questions.each do |question| %>
+            <%= link_to question.title, question_path(question) %>
+            <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
+          <% end %>
+        </section>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <%= link_to "Users", users_path %>
+    </div>
+    <div class="tab-pane" id="tab3">
+      <%= link_to "Tags" %>
+    </div>
+  </div>
+</div>
 
 
-<%= will_paginate %>
-
-<section class="questions">
-  <% @questions.each do |question| %>
-    <%= link_to question.title, question_path(question) %>
-    <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
-  <% end %>
-</section>
-
-<%= will_paginate %>

@@ -69,13 +69,13 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: gray;
+  color: black;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: white;
+    color: gray;
     text-decoration: none;
   }
 }

@@ -1,14 +1,21 @@
 <% provide(:title, 'Home')%>
-<div class="center hero-unit">
-<%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+<div class="tabbable">
   <ul class="nav nav-tabs">
-    <li class="active">
-      <%= link_to "Questions", questions_path %>
-    </li>
-    <li><%= link_to "Users", users_path %></li>
-    <li><%= link_to "Tags"%></li>
+    <li class="active"><a href="#tab1" data-toggle="tab">Questions</a></li>
+    <li><a href="#tab2" data-toggle="tab">Users</a></li>
+    <li><a href="#tab3" data-toggle="tab">Tags</a></li>
   </ul>
-  
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+        <%= link_to "Questions", questions_path %>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <%= link_to "Users", users_path %>
+    </div>
+    <div class="tab-pane" id="tab3">
+      <%= link_to "Tags" %>
+    </div>
+  </div>
 </div>
 
    
