@@ -1,20 +1,15 @@
-<% provide(:title,"Questions") %>
+<% provide(:title) %>
 
 <div class="tabbable">
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#tab1" data-toggle="tab">Questions</a></li>
+  <ul class="nav nav-tabs ">
+    <li class="active  offset2"><a href="#tab1" data-toggle="tab">Questions</a></li>
     <li><a href="#tab2" data-toggle="tab">Users</a></li>
     <li><a href="#tab3" data-toggle="tab">Tags</a></li>
     <li><a href="#tab4" data-toggle="tab">Unanswered</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
-        <section class="questions">
-          <% @questions.each do |question| %>
-            <%= link_to question.title, question_path(question) %>
-            <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
-          <% end %>
-        </section>
+        <%= render partial: 'summary' %>
     </div>
     <div class="tab-pane" id="tab2">
       <%= link_to users_path %>

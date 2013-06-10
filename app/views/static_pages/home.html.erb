@@ -1,21 +1,29 @@
-<% provide(:title, 'Home')%>
+<% provide(:title) %>
+
+
 <div class="tabbable">
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#tab1" data-toggle="tab">Questions</a></li>
+  <ul class="nav nav-tabs ">
+    <li class="active  offset2"><a href="#tab1" data-toggle="tab">Questions</a></li>
     <li><a href="#tab2" data-toggle="tab">Users</a></li>
     <li><a href="#tab3" data-toggle="tab">Tags</a></li>
+    <li><a href="#tab4" data-toggle="tab">Unanswered</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
-        <%= link_to "Questions", questions_path %>
+        <%= render partial: 'summary' %>
     </div>
     <div class="tab-pane" id="tab2">
-      <%= link_to "Users", users_path %>
+      <%= link_to users_path %>
     </div>
     <div class="tab-pane" id="tab3">
-      <%= link_to "Tags" %>
+      <% tag_cloud Question.tag_counts, %w[s m l] do |tag, css_class| %>
+        <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+      <% end %>
+    </div>
+    <div class="tab-pane" id="tab4">
+      <%=  %>
     </div>
   </div>
 </div>
 
-   
+
