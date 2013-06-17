@@ -24,3 +24,18 @@ $grayMediumLight: #eaeaea;
   font-size: x-small;
   color: $grayLight;
 }
+
+#question-mini-list {
+overflow: auto;
+margin-top: -10px;
+margin-bottom: 30px;
+}
+
+
+.question-summary {
+border-bottom: 1px solid #eaeaea;
+overflow: hidden;
+padding: 11px 0px;
+width: 730px;
+float: left;
+}
