@@ -2,8 +2,20 @@
   <div id="question-mini-list">
     <% @questions.each do |question| %>
       <div class="question-summary">
-      <%= link_to question.title, question_path(question) %>
-      <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
+        <div class="votes">
+          <div class="mini-counts"></div>
+          <div>Votes</div>
+        </div>
+        <div class="status unanswerd">
+          <div class="mini-counts"></div>
+          <div>answers</div>
+        </div>
+        <div class="views">
+          <div class="mini-counts"></div>
+          <div>Views</div>
+        </div>
+        <h3><%= link_to question.title, question_path(question) %></h3>
+        <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
       </div>
     <% end %>
   </div>
