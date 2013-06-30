@@ -1,14 +1,13 @@
 <div class="row">
   <div class="span6 offset3">
-    <%= form_for(@answer) do |f| %>
+    <%= simple_form_for @answer do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
       
       <%=  hidden_field_tag :question_id, @answer.question.id %>
     
-      <%= f.label :body %>
-      <%= f.text_area :body %><br/>
+      <%= f.input :body %><br/>
     
-      <%= f.submit 'Your Answer',class: "btn btn-medium btn-primary" %>
+      <%= f.submit 'Your answer' ,class: "btn btn-medium btn-primary" %>
     
     <% end %>
   </div>
