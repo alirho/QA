@@ -2,17 +2,16 @@
 
 <div class="row">
   <div class="span6 offset3">
-    <%= form_for(@question) do |f| %>
+    <%= simple_form_for @question do |f| %>
         <%= render 'shared/error_messages', object: f.object %>
   
-        <%= f.label :title %>
-        <%= f.text_field :title %>
-  
-        <%= f.label :body %>
-        <%= f.text_area :body%>
+        <%= f.input :title, placeholder: 'what your question' %>
         
-        <%= f.label :tag_list %>
-        <%= f.text_field :tag_list %><br/>
+  
+        <%= f.input :body, placeholder: 'Your answer' %>
+        
+        
+        <%= f.input :tag_list, placeholder: 'seprate tags with' %><br/>
         
         
         <%= f.submit "Create Question", class: "btn btn-medium btn-primary" %>

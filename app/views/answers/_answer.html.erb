@@ -5,7 +5,7 @@
       
       <%=  hidden_field_tag :question_id, @answer.question.id %>
     
-      <%= f.input :body %><br/>
+      <%= f.input :body, placeholder: 'Your answer' %><br/>
     
       <%= f.submit 'Your answer' ,class: "btn btn-medium btn-primary" %>
     
