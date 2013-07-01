@@ -1,15 +1,14 @@
-<div class="row">
-  <div class="span6 offset3">
-    <%= simple_form_for @answer do |f| %>
-      <%= render 'shared/error_messages', object: f.object %>
+<div class="answers">
+  <%= simple_form_for @answer do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
       
-      <%=  hidden_field_tag :question_id, @answer.question.id %>
+    <%=  hidden_field_tag :question_id, @answer.question.id %>
     
-      <%= f.input :body, placeholder: 'Your answer' %><br/>
+    <%= f.input :body, placeholder: 'Your answer' %><br/>
     
-      <%= f.submit 'Your answer' ,class: "btn btn-medium btn-primary" %>
+    <%= f.submit 'Your answer' ,class: "btn btn-medium btn-primary" %>
     
-    <% end %>
-  </div>
+  <% end %>
 </div>
+
 

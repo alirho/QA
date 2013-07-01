@@ -7,13 +7,10 @@
   
         <%= f.input :title, placeholder: 'what your question' %>
         
-  
         <%= f.input :body, placeholder: 'Your answer' %>
-        
-        
-        <%= f.input :tag_list, placeholder: 'seprate tags with' %><br/>
-        
-        
+                
+        <%= f.input :tag_list, placeholder: 'seprate tags with comma' %><br/>
+                
         <%= f.submit "Create Question", class: "btn btn-medium btn-primary" %>
     <% end %>
   </div>

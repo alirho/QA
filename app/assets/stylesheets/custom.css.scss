@@ -35,7 +35,26 @@ textarea {
   }
 }
 
+.container {
+text-align: left;
+width: 100%;
+zoom: 1;
+}
+
+#content {
+margin: 0 auto;
+width: 980px;
+min-height: 450px;
+}
+
+#mainbar, .mainbar {
+float: left;
+margin-bottom: 40px;
+width: 735px;
+}
+
 /* typography */
+
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
