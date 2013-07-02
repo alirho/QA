@@ -18,7 +18,10 @@
         </div>
         <div class="summary">
           <h3><%= link_to question.title, question_path(question) %></h3>
-          <span class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
+          <div class="tags">
+            
+          </div>
+          <span class="started"><%= time_ago_in_words(question.created_at) %> ago</span><br/>
         </div>
       </div>
     <% end %>
