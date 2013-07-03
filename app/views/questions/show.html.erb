@@ -24,6 +24,9 @@
 <p>
   Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
 </p>
+<p>
+  answers: <%= @question.answers.count %>
+</p>
 
 
 <section class="comments">
