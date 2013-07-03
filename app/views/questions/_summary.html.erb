@@ -21,7 +21,8 @@
           <div class="tags">
             <%= raw question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
           </div>
-          <span class="started"><%= time_ago_in_words(question.created_at) %> ago | <%= question.user.name %></span>
+          <span class="started"><%= time_ago_in_words(question.created_at) %> ago | 
+          <%= question.user.name %> <%= gravatar_for question.user, size: 30 %></span>
         </div>
       </div>
     <% end %>
