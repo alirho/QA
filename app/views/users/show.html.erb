@@ -1,11 +1,33 @@
 <% provide(:title, @user.name)%>
-<div class="row">
-  <aside class="span4">
+<div >
+  <aside>
     <section>
       <h1>
-        <%= gravatar_for @user %>
+        <%= gravatar_for @user, size: 125 %>
         <%= @user.name %>
       </h1>
     </section>
+    <div class="tabbable">
+      <ul class="nav nav-tabs ">
+        <li class="active  offset2"><a href="#tab1" data-toggle="tab">Profile</a></li>
+        <li><a href="#tab2" data-toggle="tab">Questions</a></li>
+        <li><a href="#tab3" data-toggle="tab">Answers</a></li>
+        <li><a href="#tab4" data-toggle="tab">Tags</a></li>
+      </ul>
+      <div class="tab-content">
+      <div class="tab-pane active" id="tab1">
+        <%= render partial: 'profile' %>
+      </div>
+      <div class="tab-pane" id="tab2">
+        <%= 'your questions' %>
+      </div>
+      <div class="tab-pane" id="tab3">
+        <%= 'your answers' %>
+      </div>
+      <div class="tab-pane" id="tab4">
+      <%= 'your tags' %>
+      </div>
+  </div>
+</div>
   </aside>
 </div>
