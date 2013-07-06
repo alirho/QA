@@ -3,11 +3,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 gem 'bootstrap-sass', '2.3.0.1'
-gem 'bcrypt-ruby'
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'faker', '1.1.2'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'simple_form'
-
+gem 'nifty-generators'
+gem 'omniauth'
+gem 'omniauth-twitter'
 group :development do
   gem 'sqlite3', '1.3.7'
 end
@@ -48,3 +50,5 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+gem "mocha", group: :test

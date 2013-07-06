@@ -1,4 +1,5 @@
 Qa::Application.routes.draw do
+  resources :authentications
   resources :questions do
     member { post :vote }
     resources :comments, only: [:new, :create]
@@ -9,6 +10,7 @@ Qa::Application.routes.draw do
   
   
   root to: 'questions#index'
+  match '/auth/:provider/callback' => 'authentications#create',  via: 'get'
   match '/signup',  to: 'users#new',                      via: 'get'
   match '/signin',  to: 'sessions#new',                   via: 'get'
   match '/signout', to: 'sessions#destroy',             via: 'delete'
