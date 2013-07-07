@@ -16,7 +16,8 @@
       <%= render partial: 'summary' %>
     </div>
     <div class="tab-pane" id="tab2">
-      <%=  link_to 'users', users_path %>
+      <!-- <%= render partial: "users/user", collection: @users %> -->
+      <%= render "users/index" %>
     </div>
     <div class="tab-pane" id="tab3">
       <%= render partial: 'tag' %>
