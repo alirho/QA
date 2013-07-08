@@ -30,4 +30,13 @@ class Question < ActiveRecord::Base
       Tag.where(name: n.strip).first_or_create!
     end
   end
+  
+  def self.search(search)
+    if search
+      find(:all, :conditions => ['title LIKE ?', "%#{search}%"])
+    else
+      find(:all)
+    end
+  end
+
 end

@@ -1,5 +1,15 @@
 <% provide(:title) %>
 <%= link_to "Ask Question", "questions/new", class:"btn btn-primary" %>
+
+
+<%= form_tag questions_path, :method => 'get' do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
+
+
 <div id="content">
 <div id="mainbar">
 
@@ -17,6 +27,7 @@
     </div>
     <div class="tab-pane" id="tab2">
       <%= render partial: "users/user", collection: @users %>
+      <%= will_paginate @users %>
       
     </div>
     <div class="tab-pane" id="tab3">
