@@ -2,7 +2,8 @@
 <h1>All users</h1>
 
 <ul class="users">
-	  <%= render @users %>
+  <%= gravatar_for user, size: 52 %>
+  <%= link_to user.name, user %>
 </ul>
 
 <%= will_paginate @users %>
