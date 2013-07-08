@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130706114214) do
+ActiveRecord::Schema.define(version: 20130708093538) do
 
   create_table "answers", force: true do |t|
     t.text     "body"
@@ -31,9 +31,9 @@ ActiveRecord::Schema.define(version: 20130706114214) do
 
   create_table "comments", force: true do |t|
     t.text     "body"
+    t.integer  "questio_id"
     t.integer  "user_id"
-    t.integer  "post_id"
-    t.string   "post_type"
+    t.integer  "question_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

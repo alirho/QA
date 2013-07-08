@@ -1,6 +1,7 @@
 class Question < ActiveRecord::Base
   has_many :answers
   has_many :taggings
+  has_many :comments
   has_many :tags, through: :taggings
   has_one :visit, :as => :visitable
   belongs_to :user
@@ -8,7 +9,6 @@ class Question < ActiveRecord::Base
   validates :title, presence: true, length: { minimum: 10 , maximum: 150 }
   validates :body, presence: true, length: { minimum: 30 }
   validates :user_id, presence: true
-  has_many :comments, :as => "post"
   has_reputation :votes, source: :user, aggregated_by: :sum
   
   

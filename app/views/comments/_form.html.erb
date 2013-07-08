@@ -1,0 +1,10 @@
+<%= form_for [ @question, @comment ] do |f| %>
+  
+  <p>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit 'Comment',class: "btn btn-small btn-primary" %>
+  </p>
+<% end %>

@@ -30,27 +30,24 @@
 
 
 <section class="comments">
-    <div class="row">
-      <div class="span13 offset1 comment-container">
-        <%= render partial: 'comments/comment', collection:  @question.comments %>
-      </div>
-    </div>
-    
-    <h6>Comments</h6>
+    <h6>Comments(<%= @question.comments.size %>)</h6>
+    <%= render partial: 'questions/comment', collection: @question.comments %>
+    <%= render partial: 'comments/form' %>
+
 </section>
 
 <div>
-  <h5>
-    Answers: <% @question.answers.each do |answer| %>
-               <%= answer.body %><br/>
-             <% end %>
-  </h5>
-</div>
+  <h5>Answers:</h5>
+       <% @question.answers.each do |answer| %>
+         <%= answer.body %> <br/>
+       <% end %>
+  
+</div><br/>
 
 
 <%= link_to 'Edit', edit_question_path(@question), class: "btn btn-small btn-primary" %> 
 <%= link_to 'Back', questions_path, class: "btn btn-small btn-primary" %> 
-<%= link_to "Comment", new_question_comment_path(@question), class: "btn btn-small btn-primary"  %><br/>
+
 
 <%= render partial: 'answers/answer' %>
 

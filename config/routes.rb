@@ -2,7 +2,7 @@ Qa::Application.routes.draw do
   resources :authentications
   resources :questions do
     member { post :vote }
-    resources :comments, only: [:new, :create]
+    resources :comments
   end
   resources :users
   resources :sessions, only: [:new, :create, :destroy]

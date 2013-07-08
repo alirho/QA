@@ -1,0 +1,1000 @@
+    7  cd Project/Other/qa
+    8  rails generate model Answertle:string body:string user_id:integer
+    9  bundle exec rake db:migrate
+   10  rails destroy  model Answer title:string body:string user_id:integer
+   11  rails generate  model Questions title:string body:string user_id:integer
+   12  bundle exec rake db:migrate
+   13  rails s
+   14  cd ../..
+   15  cd Rails\ Projects/qa/
+   16  rails s
+   17  cd ..
+   18  cd example
+   19  rails generate scaffold Question title:string body:text user_id:integer
+   20  cd ..
+   21  cd qa/
+   22  rails s
+   23  cd Downloads/tor-browser_en-US/
+   24  ./start-tor-browser 
+   25  sensors
+   26  su
+   27  pulsaudio
+   28  pulseaudio
+   29  man pulseaudio
+   30  su
+   31  pulseaudio --check
+   32  pulseaudio --conf
+   33  pulseaudio --dump-conf
+   34  cd Project/Rails\ Projects/qa/
+   35  rails s
+   36  cd Downloads/tor-browser_en-US/
+   37  ./start-tor-browser 
+   38  cd Project/Rails\ Projects/qa/
+   39  rake routes
+   40  git add .
+   41  git commit -m "change home page link"
+   42  git push
+   43  git push --force
+   44  git add .
+   45  git commit -m "a little css"
+   46  git push --force
+   47  filedescriptr mp3
+   48  cd Music/Mohsen\ Chavoshi/Man\ Khode\ An\ Sizdaham/
+   49  idv3
+   50  file 01_Ghalat\ Kardam.ogg 
+   51  man file
+   52  cd ../../../..
+   53  cd Alireza/Downloads/tor-browser_en-US/
+   54  ./start-tor-browser 
+   55  cd Project/Rails\ Projects/qa/
+   56  rails s
+   57  pwertop
+   58  powertop
+   59  su
+   60  xrandr 
+   61  cd Music/Mohsen\ Chavoshi/Man\ Khode\ An\ Sizdaham/
+   62  tail 01_Ghalat\ Kardam.ogg 
+   63  su
+   64  cd Project/Rails\ Projects/qa/
+   65  git commit -m "Comment"
+   66  git checkout -b comment
+   67  git checkout master
+   68  git push
+   69  git checkout -b comment
+   70  rails generate model Comment body:text user_id:integer post_id:integer post_type:string
+   71  rake db:migrate
+   72  sensors
+   73  cd ../../..
+   74  cd qa/
+   75  rails generate scaffold Comment body:text user_id:integer post_id:integer post_type:string
+   76  rails distroy scaffold Comment body:text user_id:integer post_id:integer post_type:string
+   77  rails destroy scaffold Comment body:text user_id:integer post_id:integer post_type:string
+   78  rails g scaffold Comment body:text
+   79  cd ..
+   80  cd Project/Rails\ Projects/qa/
+   81  rails c
+   82  git checkout master
+   83  git commit -m "comment"
+   84  git merge comment
+   85  git push --force
+   86  git add .
+   87  git commit -m "comment"
+   88  git push
+   89  rake db:migrate
+   90  rails c
+   91  rails generate controller comments
+   92  git add .
+   93  git commit "change comment"
+   94  git commit -m "change comment"
+   95  git push
+   96  sensors
+   97  cd ../../..
+   98  cd Downloads/tor-browser_en-US/
+   99  ./start-tor-browser 
+  100  sensors
+  101  cd Project/Rails\ Projects/qa/
+  102  rails s
+  103  cd ../../..
+  104  cd qa/
+  105  rails s
+  106  run db:migrate
+  107  rake db:migrate
+  108  rails s
+  109  rake db:migrate
+  110  rails s
+  111  cd ..
+  112  cd Project/Rails\ Projects/qa/
+  113  rails s
+  114  cd Project/Rails\ Projects/qa/
+  115  rails s
+  116  cd Project/Rails\ Projects/qa/
+  117  cd ../../..
+  118  cd qa/
+  119  rails generate scaffold Answer body:text question_id:ineger user_id:integer
+  120  cd ..
+  121  cd Downloads/qa-master/
+  122  rails s
+  123  bundle install
+  124  sensors
+  125  px
+  126  apx
+  127  apropos cpu
+  128  lscpu 
+  129  apropos top
+  130  apropos pid
+  131  apropos 
+  132  apropos proccess
+  133  apropos procces
+  134  apropos cpu
+  135  apropos time
+  136  cd Project/Rails\ Projects/qa/
+  137  pwd
+  138  rails s
+  139  cd ../../..
+  140  cd Downloads/qa-master/
+  141  rails s
+  142  cd ..
+  143  cd tor-browser_en-US/
+  144  ./start-tor-browser 
+  145  sensors
+  146  cd Downloads/tor-browser_en-US/
+  147  ./start-tor-browser 
+  148  sensors
+  149  cd Project/Rails\ Projects/qa/
+  150  git add .
+  151  git commit -m "nothing"
+  152  git push
+  153  rials generate model  Answer body:text question_id:integer user_id:integer
+  154  rails generate model  answer
+  155  rakedb:migrate
+  156  rake db:migrate
+  157  rails generate controller answers
+  158  git add .
+  159  git commit -m "Add Answers"
+  160  git push
+  161  git add .
+  162  git commit -m "Change the index questions"
+  163  git push
+  164  rake routes
+  165  cd ..
+  166  cd ~/Downloads/qa-master/
+  167  rake routes
+  168  rake routes > 01.txt
+  169  cd ~/Project/Rails\ Projects/qa/
+  170  rake db:populate
+  171  rake db:migrate
+  172  rails c
+  173  rails --sandbox
+  174  rails c --sandbox
+  175  cd Project/Rails\ Projects/qa/
+  176  rails s
+  177  cd ..
+  178  cd blogger/
+  179  rails s
+  180  bundle install
+  181  rails s
+  182  cd ..
+  183  cd qa/
+  184  rails s
+  185  su
+  186  cd Project/Rails\ Projects/qa/
+  187  rake routes
+  188  sensors
+  189  cd Project/Rails\ Projects/qa/
+  190  git add .
+  191  git commit -m "a few changes"
+  192  git push
+  193  rails s
+  194  sensors
+  195  cd Project/Rails\ Projects/qa/
+  196  git add .
+  197  git commit -m "change css"
+  198  git push
+  199  sensors
+  200  cd Downloads/tor-browser_en-US/
+  201  ./start-tor-browser 
+  202  sensors
+  203  cd ../..
+  204  cd Project/Rails\ Projects/qa/
+  205  rails s
+  206  sensors
+  207  cd Downloads/tor-browser_en-US/
+  208  ./start-tor-browser 
+  209  sensors
+  210  cd Project/Rails\ Projects/qa/
+  211  rails s
+  212  cd ~/Downloads/qa-master/
+  213  rails s
+  214  cd Project/Rails\ Projects/qa/
+  215  rake routes
+  216  rials c
+  217  rails c
+  218  bundle update
+  219  gem install sass -v '3.2.9'
+  220  bundle update
+  221  sensors
+  222  cd Project/Rails\ Projects/qa/
+  223  rails s
+  224  cd ~/Downloads/qa-master/
+  225  rails s
+  226  cd Project/Rails\ Projects/qa/
+  227  git add .
+  228  git commit -m "change the question form"
+  229  git push
+  230  systemctl start postgresql-9.2.service
+  231  systemctl enable postgresql-9.2.service
+  232  su - postgres -c /usr/pgsql-9.2/bin/initdb
+  233  su
+  234  su - postgres -c /usr/pgsql-9.2/bin/initdb
+  235  su
+  236  cd Project/Rails\ Projects/qa/
+  237  rake routes
+  238  pwd
+  239  git add .
+  240  git commit -m "Change a answer"
+  241  gti push
+  242  git push
+  243  cd Project/Rails\ Projects/qa/
+  244  rails s
+  245  cd Downloads/tor-browser_en-US/
+  246  ./start-tor-browser 
+  247  sensors
+  248  cpupower -c all frequency-info
+  249  su
+  250  configuration
+  251  sensors
+  252   sensors-detect
+  253  su
+  254  sensors
+  255  su
+  256  mc
+  257  su
+  258  mc
+  259  top
+  260  sensors
+  261  cd Project/Rails\ Projects/qa/
+  262  rails s
+  263  cd Project/Rails\ Projects/qa/
+  264  rails s
+  265  cd Project/Rails\ Projects/aq
+  266  cd Project/Rails\ Projects/qa/
+  267  rails s
+  268  su
+  269  sensors
+  270  poewrtop
+  271  su
+  272  cd Downloads/tor-browser_en-US/
+  273  ./start-tor-browser 
+  274  sensors
+  275  cd Downloads/tor-browser_en-US/
+  276  ./start-tor-browser 
+  277  sensors
+  278  su
+  279  sensors
+  280  sensors
+  281  cd Project/Rails\ Projects/qa/
+  282  git add .
+  283  git commit -m "a little change"
+  284  git push 
+  285  cd ../../..
+  286  cd qa/
+  287  rails generate model Tag name:string
+  288  rails generate model Tagging tag:belongs_to question:belongs_to
+  289  rake db:migrate
+  290  rails c
+  291  rake db:migrate
+  292  cd Project/Rails\ Projects/qa/
+  293  rails s
+  294  cd qa/
+  295  rails s
+  296  cd ..
+  297  cd Project/Rails\ Projects/qa/
+  298  rails generate model Tag name:string
+  299  rails generate model Tagging tag:belongs_to question:belongs_to
+  300  rake db:migrate
+  301  git add .
+  302  git commit -m "Add Tags"
+  303  git push
+  304  rails c
+  305  git add .
+  306  gti commit -m "add tag in form"
+  307  git commit -m "add tag in form"
+  308  git push
+  309  sensors
+  310  top
+  311  cd Downloads/tor-browser_en-US/
+  312  ./start-tor-browser 
+  313  cd Project/Rails\ Projects/qa/
+  314  rails c
+  315  sensors
+  316  cd Project/Rails\ Projects/qa/
+  317  rails s
+  318  su
+  319  cd Project/Rails\ Projects/qa/
+  320  git commit -m "change question controller"
+  321  git push
+  322  git add .
+  323  git commit -m "change question controller"
+  324  git push
+  325  rake routes
+  326  sensors
+  327  git add .
+  328  git commit -m "change the view question"
+  329  git push
+  330  cd Project/Rails\ Projects/qa/
+  331  rails s
+  332  cd Downloads/qa-master/
+  333  rails s
+  334  cd Downloads/qa-master/
+  335  systemctl enable postgresql.service
+  336  su
+  337  cd Downloads/qa-master/
+  338  rails s
+  339  cd Project/Rails\ Projects/qa/
+  340  rails c
+  341  cd Project/Rails\ Projects/qa/
+  342  rails s
+  343  cd Project/Rails\ Projects/qa/
+  344  sensors
+  345  rails c
+  346  git add .
+  347  git commit -m "fix tag problem"
+  348  git push
+  349  cd Project/Rails\ Projects/qa/
+  350  rails s
+  351  sensors
+  352  cd Downloads/tor-browser_en-US/
+  353  ./start-tor-browser 
+  354  su
+  355  cd Downloads/qa-master/
+  356  rails s
+  357  cd Downloads/qa-master/
+  358  rails s
+  359  su
+  360  cd Downloads/qa-master/
+  361  su
+  362  cd Downloads/qa-master/
+  363  rails s
+  364  cd Project/Rails\ Projects/qa/
+  365  rails s
+  366  su
+  367  cd Project/Rails\ Projects/qa/
+  368  rake routes
+  369  git add .
+  370  git commit -m "a little change"
+  371  git push
+  372  cd Downloads/tor-browser_en-US/
+  373  ./start-tor-browser 
+  374  cd ../..
+  375  cd Project/Rails\ Projects/qa/
+  376  rails c
+  377  git add .
+  378  git commit -m "fix answer problem"
+  379  git push
+  380  cd ../../..
+  381  cd Downloads/tor-browser_en-US/
+  382  ./start-tor-browser 
+  383  cd Project/Rails\ Projects/qa/
+  384  rails s
+  385  su
+  386  cd Project/Rails\ Projects/qa/
+  387  rails s
+  388  cd Project/Rails\ Projects/qa/
+  389  cd qa/
+  390  rails s
+  391  bundle install
+  392  bundle update
+  393  rails generate acts_as_votable:migration
+  394  rake db:migrate
+  395  cd ..
+  396  cd Project/Rails\ Projects/qa/
+  397  rake db:migrate
+  398  cd ~/qa/
+  399  rails s
+  400  bundle install
+  401  rails generate acts_as_votable:migration
+  402  cd qa/
+  403  gem install rails --version 4.0.0.rc1 --no-ri --no-rdoc
+  404  cd  qa/
+  405  bundle update
+  406  cd ..
+  407  cd Project/Rails\ Projects/
+  408  rails new project
+  409  rm -R project/
+  410  ls
+  411  cd ..
+  412  cd qa/
+  413  bundle install
+  414  bundle update rails
+  415  rails generate acts_as_votable:migration
+  416  cd Downloads/tor-browser_en-US/
+  417  ./start-tor-browser 
+  418  ./start-tor-browser
+  419  cd ~/Project/Rails\ Projects/qa/
+  420  cd Project/Rails\ Projects/qa/
+  421  rails s
+  422  cd ..
+  423  cd `
+  424  cd ~
+  425  cd Downloads/tor-browser_en-US/
+  426  ./start-tor-browser 
+  427  cd Project/Rails\ Projects/qa/
+  428  git add .
+  429  git commit -m "Show answers"
+  430  git push
+  431  cd Project/Rails\ Projects/qa/
+  432  git add .
+  433  git commit -m "change question show"
+  434  git push
+  435  cd Project/Rails\ Projects/qa/
+  436  rails s
+  437  cd ~/Downloads/tor-browser_en-US/
+  438  ./start-tor-browser 
+  439  cd ~/Project/Rails\ Projects/qa/
+  440  rails s
+  441  cd ~/Downloads/tor-browser_en-US/
+  442  ./start-tor-browser 
+  443  su
+  444  sensors
+  445  su
+  446  cd ~/Downloads/tor-browser_en-US/
+  447  ./start-tor-browser 
+  448  cd Downloads/tor-browser_en-US/
+  449  ./start-tor-browser 
+  450  sensors
+  451  cd Project/Rails\ Projects/qa/
+  452  rails s
+  453  cd ~/qa/
+  454  rails s
+  455  cd ~/Project/Rails\ Projects/qa/
+  456  rails s
+  457  cd Project/Rails\ Projects/qa/
+  458  cd ../../..
+  459  cd qa/
+  460  rails generate model visit
+  461  rails generate model visit_detail
+  462  rake db:migrate
+  463  bundle install 
+  464  gem 'activesupport'
+  465  gem install 'activesupport'
+  466  bundle install 
+  467  cd ~/Project/Rails\ Projects/qa/
+  468  rails generate model visit
+  469  rails generate model visit_detail
+  470  rake db:migrate
+  471  git add .
+  472  git commit -m "add count view question"
+  473  git push
+  474  sensors
+  475  su
+  476  sensors
+  477  cd Downloads/tor-browser_en-US/
+  478  ./start-tor-browser 
+  479  su
+  480  cd Downloads/
+  481  ls
+  482  rpm -Uvh mdic-0.8-1.i386.rpm 
+  483  su
+  484  su
+  485  cd Downloads/tor-browser_en-US/
+  486  ./start-tor-browser 
+  487  cd Project/
+  488  cd Rails\ Projects/qa/
+  489  rails s
+  490  cd Project/Rails\ Projects/qa/
+  491  git add .
+  492  git commit -m "little change"
+  493  git push
+  494  git push --force
+  495  rails c
+  496  git add .
+  497  git commit -m "change the comment-controller"
+  498  git push
+  499  sensors
+  500  cd Project/Rails\ Projects/qa/
+  501  cd ~/qa/
+  502  rails generate model value:integer voteable_id:integer voteable_type:string user_id:integer
+  503  rails generate model votes value:integer voteable_id:integer voteable_type:string user_id:integer
+  504  rails generate controller votes
+  505  rails rollback controller votes
+  506  rails destroy controller votes
+  507  rails destroy model votes value:integer voteable_id:integer voteable_type:string user_id:integer
+  508  bundle install
+  509  gem install activerecord-reputation-system -v '2.0.2'
+  510  cd Project/Rails\ Projects/qa/
+  511  rails s
+  512  cd ~/qa/
+  513  rails s
+  514  cd qa/
+  515  rails generate reputation_system
+  516  su
+  517  cd qa/
+  518  bundle install
+  519  rails generate reputation_system
+  520  rake db:migrate
+  521  rake routes
+  522  rake db:migrate
+  523  cd qa/
+  524  rails s
+  525  cd qa/
+  526  rails s
+  527  cd qa/
+  528  bundle install
+  529  rails generate reputation_system
+  530  rake db:migrate
+  531  cd Project/
+  532  cd Rails\ Projects/qa/
+  533  rails s
+  534  cd Project/Rails\ Projects/qa/
+  535  bundle
+  536  rails generate reputation_system
+  537  rake db:migrate
+  538  git add .
+  539  git commit -m "Add voting to answer"
+  540  git push
+  541  git add .
+  542  git commit -m "fix vote problem"
+  543  git push
+  544  git add .
+  545  git commit -m "User can vote once"
+  546  git push
+  547  su
+  548  sensors
+  549  cd Project/Rails\ Projects/qa/
+  550  rails s
+  551  su
+  552  cd Downloads/tor-browser_en-US/
+  553  ./start-tor-browser 
+  554  powertop
+  555  su
+  556  cd Project/Rails\ Projects/qa/
+  557  rails s
+  558  sensors
+  559  su
+  560  sensors
+  561  su
+  562  cd Project/Rails\ Projects/qa/
+  563  rails s
+  564  cd Project/Rails\ Projects/
+  565  cd qa/
+  566  git add3
+  567  git add .
+  568  git commit -m "add signed_in user"
+  569  git push
+  570  git push --force
+  571  git add .
+  572  git commit -m "Change the css home"
+  573  git push
+  574  git add .
+  575  git commit -m "change header"
+  576  git push
+  577  history > 01.txt
+  578  cd Project/Rails\ Projects/qa/
+  579  git add .
+  580  git commit -m "Change homepage to question index"
+  581  git push
+  582  git add .
+  583  git commit -m "complete tags"
+  584  git push
+  585  ping 4.2.2.4
+  586  sensors
+  587  su
+  588  cd Project/Rails\ Projects/qa/
+  589  rails s
+  590  su
+  591  cd Project/Rails\ Projects/qa/
+  592  rails s
+  593  cd Project/Rails\ Projects/qa/
+  594  cd qa/
+  595  cd ..
+  596  cd Project/Rails\ Projects/qa/
+  597  cd qa/
+  598  rails s
+  599  cd .
+  600  cd ..
+  601  cd Project/Rails\ Projects/qa/
+  602  rails s
+  603  postgres -D /usr/local/pgsql/data
+  604  ps -ef | grep postmaster | awk '{print $1}'
+  605  cd Project/Other/qa-master/
+  606  rails s
+  607  systemctl start postgresql-9.2.service
+  608  su
+  609  systemctl start postgresql-9.2.service
+  610  su
+  611  ping 8.8.8.8
+  612  cd Project/Rails\ Projects/qa/
+  613  rails s
+  614  cd ..
+  615  cd Other/qa-master/
+  616  bundle
+  617  rails s
+  618  cd ..
+  619  cd .
+  620  cd ..
+  621  cd Rails\ Projects/qa/
+  622  rails s
+  623  cd Project/Rails\ Projects/qa/
+  624  git add .
+  625  git commit -m "change homepage"
+  626  git push
+  627  rake routes
+  628  git add .
+  629  git commit -m "remove login for ask question"
+  630  git push
+  631  su
+  632  su 
+  633  cd Project/Rails\ Projects/qa/
+  634  rails s
+  635  cd Project/Rails\ Projects/qa/
+  636  git add .
+  637  git commit -m "add ask question to homepage"
+  638  git push
+  639  pwd
+  640  vpisvb'd
+  641  ls
+  642  cat 01.txt 
+  643  su
+  644  cd Project/Rails\ Projects/qa/
+  645  cd ~/Downloads/zoncolor-themes/
+  646  chmod +x install.sh 
+  647  ./install.sh 
+  648  su
+  649  sensors
+  650  cd Project/Rails\ Projects/qa/
+  651  git add .
+  652  git commit -m "add change css homepage"
+  653  git push
+  654  git push --force
+  655  cd Project/Rails\ Projects/q
+  656  cd Project/Rails\ Projects/qa/
+  657  rails s
+  658  su
+  659  sensors
+  660  cd Downloads/tor-browser_en-US/
+  661  ./start-tor-browser 
+  662  cd Project/Rails\ Projects/qa/
+  663  bundle install --without production
+  664  git commit -a -m "Update Gemfile.lock for Heroku"
+  665  heroku login
+  666  wget -qO- https://toolbelt.heroku.com/install.sh | sh
+  667  . bashrc
+  668  .bashrc
+  669  . .bashrc
+  670  cd Project/Rails\ Projects/qa/
+  671  heroku login
+  672  bash
+  673  heroku login
+  674  source ~/.bashrc
+  675  heroku login
+  676  bashrc restart
+  677  wget -qO- https://toolbelt.heroku.com/install.sh | sh
+  678  echo 'PATH="/usr/local/heroku/bin:$PATH"' >> ~/.profile
+  679  . .bashrc
+  680  ..bashrc
+  681  source ~/.bashrc
+  682  heroku login
+  683  heroku create
+  684  git push heroku master
+  685  su
+  686  cd Project/Rails\ Projects/qa/
+  687  git push 
+  688  sensors
+  689  cd Project/Rails\ Projects/qa/
+  690  rails s
+  691  cd Project/Rails\ Projects/qa/
+  692  heroku login
+  693  heroku open
+  694  heroku run rake db:migrate
+  695  git commit -a -m "Serve static assets"
+  696  git push heroku master
+  697  heroku run rake db:migrate
+  698  git push heroku
+  699  git push heroku master
+  700  git push heroku
+  701  cd Downloads/tor-browser_en-US/
+  702  ./start-tor-browser 
+  703  sensors
+  704  cd Project/Rails\ Projects/qa/
+  705  rails s
+  706  cd Project/Rails\ Projects/qa/
+  707  heroku open
+  708  git push heroku master
+  709  git commit -m "change css"
+  710  git add .
+  711  git commit -m "change css"
+  712  git push
+  713  git push heroku master
+  714  su
+  715  cd Project/Rails\ Projects/qa/
+  716  git push heroku master
+  717  cd Downloads/tor-browser_en-US/
+  718  ./start-tor-browser 
+  719  cd ~/Project/Rails\ Projects/qa/
+  720  rails s
+  721  sensors
+  722  cd qa/
+  723  rails s
+  724  bundle install
+  725  sudo hdparm -t --direct/dev/sda
+  726  rails s
+  727  bundle update
+  728  gem install sprockets -v '2.10.0'
+  729  bundle update
+  730  pwd
+  731  rails s
+  732  cd ..
+  733  cd Project/Rails\ Projects/qa/
+  734  rails s
+  735  cd ~/qa/
+  736  bundle update
+  737  bundle install
+  738  cd ..
+  739  cd Downloads/tor-browser_en-US/
+  740  ./start-tor-browser 
+  741  cd qa/
+  742  rails s
+  743  cd Project/Rails\ Projects/qa/
+  744  rails s
+  745  cd /run/media/Alireza/84CB-79ED/01
+  746  cd ..
+  747  rmdir -R 01
+  748  rmdir 01
+  749  su
+  750  gnome-session-properties 
+  751  cd Project/Rails\ Projects/qa/
+  752  git add .
+  753  git commit -m "add simple_form to answer"
+  754  git push
+  755  git add .
+  756  git commit -m "add simple_form to question"
+  757  git push
+  758  sensors
+  759  su
+  760  cd Downloads/tor-browser_en-US/
+  761  ./start-tor-browser 
+  762  cd Project/Rails\ Projects/qa/
+  763  rails s
+  764  bundle
+  765  rails generate simple_form:install
+  766  rails s
+  767  bundle install
+  768  rails s
+  769  bundle update
+  770  bundle install
+  771  gem 'rails (= 4.0.0) ruby'
+  772  bundle install
+  773  rails s
+  774  cd ../..
+  775  cd qa-master/
+  776  rails s
+  777  bundle install
+  778  cd ..
+  779  cd Rails\ Projects/qa/
+  780  rails s
+  781  sensors
+  782  su
+  783  systemctl start postgresql-9.2.servic
+  784  cd Downloads/tor-browser_en-US/
+  785  ./start-tor-browser 
+  786  cd Downloads/tor-browser_en-US/
+  787  ./start-tor-browser 
+  788  lspci -v
+  789  ifconfig -a
+  790  man lspci
+  791  lspci
+  792  lspci -v
+  793  iwlist wlan0 scanning
+  794  sudo iwlist wlan0 scanning
+  795  lspci -v
+  796  lspci
+  797  iwconfig
+  798  lspci -v
+  799  uname -a
+  800  uname
+  801  uname -r
+  802  man uname
+  803  uname -i
+  804  cd Project/Rails\ Projects/qa/
+  805  git add .
+  806  git commit -m "change css homepage"
+  807  git push
+  808  cd Project/Rails\ Projects/qa/
+  809  rails s
+  810  cd Downloads/tor-browser_en-US/
+  811  ./start-tor-browser 
+  812   cd Project/Rails\ Projects/aq
+  813   cd Project/Rails\ Projects/qa/
+  814  rake routes
+  815  cd Project/Rails\ Projects/qa/
+  816  rails s
+  817  cd Downloads/tor-browser_en-US/
+  818  ./start-tor-browser 
+  819  cd Project/Rails\ Projects/qa/
+  820  git add .
+  821  git commit -m "css for homepage"
+  822  git push
+  823  cd ~/Downloads/tor-browser_en-US/
+  824  ./start-tor-browser 
+  825  su
+  826  cd Project/Rails\ Projects/qa/
+  827  rails s
+  828  cd Project/Rails\ Projects/qa/
+  829  git add commit -m "add view vote to homepage"
+  830  git add .
+  831  git add commit -m "add view vote to homepage"
+  832  git commit -m "add view vote to homepage"
+  833  git push
+  834  su
+  835  heroku login
+  836  heroku create
+  837  git push heroku master
+  838  su
+  839  cd ~/Downloads/tor-browser_en-US/
+  840  ./start-tor-browser 
+  841  top
+  842  cd Project/Rails\ Projects/qa/
+  843  git add .
+  844  git commit -m "add unanswer question to homepage"
+  845  git push
+  846  iwlist wlan0 scanning
+  847  lspci -v
+  848  cd Project/Rails\ Projects/qa/
+  849  rails s
+  850  gnome-session-properties 
+  851  cd Project/Rails\ Projects/qa/
+  852  rails s
+  853  git push
+  854  su
+  855  su 
+  856  cd Project/Rails\ Projects/qa/
+  857  rails s
+  858  cd Project/Rails\ Projects/qa/
+  859  rails s
+  860  su
+  861  cd Project/Rails\ Projects/qa/
+  862  rails s
+  863  cd Project/Rails\ Projects/qa/
+  864  git add .
+  865  git commit -m "add avatar to summary questions"
+  866  git push
+  867  cd Downloads/tor-browser_en-US/
+  868  ./start-tor-browser 
+  869  cd ~/Project/Rails\ Projects/qa/
+  870  rails s
+  871  uname -a
+  872  cd Project/Rails\ Projects/qa/
+  873  git add .
+  874  git commit -m "add Question and answers users to profile"
+  875  git push
+  876  cd ~/Downloads/tor-browser_en-US/
+  877  ./start-tor-browser 
+  878  cd Downloads/tor-browser_en-US/
+  879  ./start-tor-browser 
+  880  cd Project/Rails\ Projects/qa/
+  881  rails s
+  882  cd Project/Rails\ Projects/qa/
+  883  rails s
+  884  cd Project/Rails\ Projects/qa/
+  885  rails s
+  886  sensors
+  887  su
+  888  cd Project/Rails\ Projects/qa/
+  889  rails s
+  890  su
+  891  cd Project/Rails\ Projects/qa/
+  892  git add .
+  893  git commit -m "add simple_form to users form"
+  894  git push
+  895  cd Project/Rails\ Projects/qa/
+  896  rails s
+  897  cd Project/Rails\ Projects/qa/
+  898  rails s
+  899  rails generate simple_form:install --bootstrap
+  900  rails s
+  901  rails destroy simple_form:install --bootstrap
+  902  rails destroy simple_form:install
+  903  rails generate simple_form:install --bootstrap
+  904  cd Project/Rails\ Projects/qa/
+  905  rails s
+  906  bundle update
+  907  rails s
+  908  bundle install
+  909  rails s
+  910  bundle update
+  911  rails s
+  912  cd Downloads/simple_form-bootstrap-master/
+  913  rails s
+  914  bundle install
+  915  cd ~/Project/Rails\ Projects/qa/
+  916  su
+  917  cd Downloads/QA-master/
+  918  rails s
+  919  cd ~/Project/Rails\ Projects/qa/
+  920  rails s
+  921  cd Downloads/tor-browser_en-US/
+  922  ./start-tor-browser 
+  923  cd Downloads/tor-browser_en-US/
+  924  ./start-tor-browser 
+  925  cd Downloads/tor-browser_en-US/
+  926  ./start-tor-browser 
+  927  cd Downloads/tor-browser_en-US/
+  928  ./start-tor-browser 
+  929  su
+  930  cd Project/Rails\ Projects/qa/
+  931  bundle
+  932  rails generate nifty:scaffold authentication user_id:integer provider:string uid;string index create destroy
+  933  rails g nifty:scaffold authentication user_id:integer provider:string uid:string index create destroy
+  934  bundle install
+  935  rails g nifty:scaffold authentication user_id:integer provider:string uid:string index create destroy
+  936  rake db:migrate
+  937  cd Project/Rails\ Projects/qa/
+  938  rails s
+  939  rails g nifty:scaffold authentication user_id:integer provider:string uid:string index create destroy
+  940  bundle update
+  941  rails s
+  942  cd Project/Rails\ Projects/qa/
+  943  rails s
+  944  git add .
+  945  git status
+  946  git add --all .
+  947  git commit -m "add authentication for signin"
+  948  git push
+  949  rails s
+  950  whois 2.190.42.104
+  951  cd Downloads/tor-browser_en-US/
+  952  ./start-tor-browser 
+  953  cd Downloads/tor-browser_en-US/
+  954  ./start-tor-browser 
+  955  cd Project/Rails\ Projects/qa/
+  956  rails s
+  957  su
+  958  cd Project/Rails\ Projects/qa/
+  959  cd Downloads/tor-browser_en-US/
+  960  ./start-tor-browser 
+  961  cd ~/Downloads/tor-browser_en-US/
+  962  ./start-tor-browser 
+  963  rails s
+  964  su -
+  965  cd Project/Rails\ Projects/qa/
+  966  heroku login
+  967  bundle install
+  968  rake db:create
+  969  su
+  970  curl -O http://yum.postgresql.org/9.2/fedora/fedora-18-x86_64/pgdg-fedora92-9.2-6.noarch.rpm
+  971  rpm -ivh pgdg-fedora92-9.2-6.noarch.rpm
+  972  su
+  973  service postgresql initdb
+  974  su
+  975  useradd Alireza
+  976  su - postgres
+  977  curl -O http://yum.postgresql.org/9.2/fedora/fedora-18-x86_64/pgdg-fedora92-9.2-6.noarch.rpm
+  978  su rpm -ivh pgdg-centos91-9.1-4.noarch.rpm
+  979  su - rpm -ivh pgdg-centos91-9.1-4.noarch.rpm
+  980  su
+  981  cd Project/Rails\ Projects/qa/
+  982  rails s
+  983  bundle install
+  984  useradd Alireza
+  985  cd Downloads/tor-browser_en-US/
+  986  ./start-tor-browser 
+  987  su
+  988  cd Project/Rails\ Projects/qa/
+  989  rails s
+  990  cd Project/Rails\ Projects/qa/
+  991  git add .
+  992  git commit -m "add view users to index"
+  993  git push
+  994  cd Project/Rails\ Projects/qa/
+  995  git add .
+  996  git push
+  997  git commit -m "add question user to profile"
+  998  git push
+  999  cd Project/Rails\ Projects/qa/
+ 1000  rails s
+ 1001  cd Project/Rails\ Projects/qa/
+ 1002  git add .
+ 1003  git commit -m "add initial search"
+ 1004  git push
+ 1005  history
+ 1006  history > 02.txt

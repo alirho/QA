@@ -1,21 +1,17 @@
 class CommentsController < ApplicationController
-  before_action :signed_in_user
 
- def new
-   @item = Question.find(params[:question_id]) if params[:question_id]
-    @comment = @item.comments.new
-    render :new, :layout => false
- end
- 
- def create
-   @comment = current_user.comments.new(params[:comment])
-    if @comment.save
-      render :json => render_to_string(:partial => 'comments/comment', :locals => { :comment => @comment }).to_json
-    end
- end
- 
- def comment_params
-      params.require(:comment).permit(:body, :user_id, :post_id, :post_type)
- end
+  def create
+    @comment = Comment.new(comment_params)
+    @comment.question_id = params[:question_id]
 
+    @comment.save
+
+    redirect_to question_path(@comment.question)
+  end
+  
+  private
+  
+  def comment_params
+      params.require(:comment).permit(:body, :user_id, :question_id)
+  end
 end
