@@ -1,19 +1,8 @@
 <% provide(:title) %>
 <%= link_to "Ask Question", "questions/new", class:"btn btn-primary" %>
 
-
-<%= form_tag questions_path, :method => 'get' do %>
-  <p>
-    <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search", :name => nil %>
-  </p>
-<% end %>
-
-
 <div id="content">
 <div id="mainbar">
-
-
 <div class="tabbable">
   <ul class="nav nav-tabs ">
     <li class="active  offset2"><a href="#tab1" data-toggle="tab">Questions</a></li>

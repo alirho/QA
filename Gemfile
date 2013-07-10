@@ -10,6 +10,7 @@ gem 'simple_form'
 gem 'nifty-generators'
 gem 'omniauth'
 gem 'omniauth-twitter'
+
 group :development do
   gem 'sqlite3', '1.3.7'
 end

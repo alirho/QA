@@ -1,7 +1,7 @@
 <% provide(:tilte, "Sign in") %>
-<h1>Sign in</h1>
 <div class="row">
-  <div class="span6 offset3">
+  <div class="span4 offset4 well">
+    <legend>Please Sign In</legend>
     <%= form_tag sessions_path do |f| %>
      
       <%= label_tag :email %>
@@ -10,13 +10,15 @@
       <%= label_tag :password %>
       <%= password_field_tag :password %><br/>
       
-      <%= submit_tag "Sign in", class: "btn btn-medium btn-primary" %>
+      <%= submit_tag "Sign in", class: "btn btn-info btn-block" %>
     <% end %>
     
     <p>New user?<%= link_to "Sign up now!", signup_path%></p>
   </div>
 </div>
 
+<div class="row">
+  <div class="span4 offset4 well">
 <% if @authentications %>
   <% unless @authentications.empty? %>
     <p><strong>You can sign in to this account using:</strong></p>
@@ -55,4 +57,5 @@
 </a>
 <div class="clear"></div>
 
-
+</div>
+</div>

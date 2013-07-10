@@ -3,13 +3,14 @@
 
 <div class="row">
   <div class="span8">
-        <p>
+        <h3>
         Title:
                 <%= @question.title %>
+        </h3>
         <br/>
         Body:
                  <%= @question.body %>
-        </p>
+        
   </div>
   <%= @question.user.name %>
   | <%= pluralize @question.reputation_for(:votes).to_i, "vote" %>
