@@ -1,8 +1,11 @@
-<ul class="users">
-  <li>
-    <%= gravatar_for user, size: 52 %>
-    <%= link_to user.name, user %>
-  
+<ul class="thumbnails">
+  <li class="span3 clearfix">
+    <div class="thumbnail clearfix">
+      <%= gravatar_for user, size: 52, class: "pull-left span2 clearfix", style: 'margin-right:10px' %>
+      <div class="span1">
+        <h5><%= link_to user.name, user %></h5>
+      </div>
+    </div>
   </li>
 </ul>
 
