@@ -1,37 +1,36 @@
 <% provide(:title,)%>
 <p id="notice"><%= notice %></p>
-
 <div class="row">
-  <div class="span8">
-        <h3>
-        Title:
-                <%= @question.title %>
-        </h3>
-        <br/>
-        Body:
-                 <%= @question.body %>
+  <div class="span12 well">
+    <h4>Title: <%= @question.title %></h4><br/>
+    <div class="row">
+        <div class="span8">
+        <p></p>
+        <p>
+         <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name %></a></span>
+         <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(@question.created_at) %> ago</span>
+         <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
+         <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>
+         <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
+         <span class="space"><i class="icon- icon-thumbs-up"></i>
+         <%= pluralize @question.reputation_for(:votes).to_i, "vote" %></span>
+         <% if current_user && !current_user.voted_for?(@question)%>
+         | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
+         | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
+         <% end %>
         
-  </div>
-  <%= @question.user.name %>
-  | <%= pluralize @question.reputation_for(:votes).to_i, "vote" %>
-  <% if current_user && !current_user.voted_for?(@question)%>
-    | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
-    | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
-  <% end %>
-
-</div>
-<h5>Visits:</h5>
-  <p><span class="gray">Total:</span><%= @question.visit.total_visits rescue 0 %></p>
-<p>
-  Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
-</p>
-<p>
-  answers: <%= @question.answers.count %>
-</p>
-
-
-<section class="comments">
-    <h6>Comments(<%= @question.comments.size %>)</h6>
+        </p>
+        </div>
+        </div>
+    Body:<%= @question.body %>
+    
+    <div class="row">
+        <div class="span8">
+        Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
+        </div>
+    </div>
+    <section class="comments">
+    <h6>Comments</h6>
     <%= render partial: 'questions/comment', collection: @question.comments %>
     <%= render partial: 'comments/form' %>
 
@@ -51,8 +50,5 @@
 
 
 <%= render partial: 'answers/answer' %>
-
-
-
-
-
+  </div>
+</div>

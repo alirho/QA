@@ -2,20 +2,20 @@
 <h1>Update your profile</h1>
 
 <div class="row">
-	<div class="span6 offset3">
+	<div class="span4 offset3 well">
 		<%= simple_form_for @user do |f| %>
 		  <%= render 'shared/error_messages', object: f.object %>
 		  
-		  <%= f.input :name %>
+		  <%= f.input :name,:input_html => { :class => "span4" } %>
 		  		  
-		  <%= f.input :email %>
+		  <%= f.input :email,:input_html => { :class => "span4" } %>
 		  
-		  <%= f.input :password %>
+		  <%= f.input :password,:input_html => { :class => "span4" } %>
 			  
-		  <%= f.input :password_confirmation %>
+		  <%= f.input :password_confirmation,:input_html => { :class => "span4" } %>
 		  
 		  
-		  <%= f.submit "Save changes", class: "btn btn-medium btn-primary" %>
+		  <%= f.submit "Save changes", class: "btn btn-medium btn-warning" %>
 		<% end %>
 		
 		<%= gravatar_for @user %>
