@@ -1,18 +1,20 @@
 <% provide(:title, 'New Question') %>
 
-<div class="row">
-  <div class="span6 offset3">
+<div class="span11 well">
+  
+  
     <%= simple_form_for @question do |f| %>
         <%= render 'shared/error_messages', object: f.object %>
   
-        <%= f.input :title, placeholder: 'what your question' %>
+        <%= f.input :title, placeholder: 'add your question title',:input_html => { :class => "span10" } %>
         
-        <%= f.input :body, placeholder: 'Your answer' %>
+        <%= f.input :body, placeholder: 'add your question',:input_html => { :class => "span10",rows: 15 } %>
                 
-        <%= f.input :tag_list, placeholder: 'seprate tags with comma' %><br/>
+        <%= f.input :tag_list, placeholder: 'seprate tags with comma', :input_html => { :class => "span10" } %><br/>
                 
         <%= f.submit "Create Question", class: "btn btn-medium btn-primary" %>
     <% end %>
-  </div>
-</div>
+  
+  <%= link_to 'Back', questions_path,  class: "btn btn-medium btn-primary" %>
 
+</div>

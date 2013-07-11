@@ -1,34 +1,30 @@
-<div class="row">
-  <% @questions.each do |question| %>
+<% @questions.each do |question| %>
     <div class="row">
-    <div class="span9">
+    <div class="span12">
       <div class="row">
-      <div class="span3">
-        <div class="row">
-        <div class="span1 btn btn-inverse disabled">
-          <%= pluralize question.reputation_for(:votes).to_i, "vote" %>
-        </div>
-        <div class="span1 btn btn-primary disabled">
-          <%= question.answers.count %>
-          <span><strong>answers</strong></span>  
-        </div>
-        <div class="span1 btn btn-primary disabled">
-          <%= question.visit.total_visits rescue 0 %>
-          <span><strong>views</strong></span>
-        </div>
-        </div>
-      </div>
-      <div class="span5">
+      
+        <li class="span1 well well-small digit">
+          <span><%= pluralize question.reputation_for(:votes).to_i, "votes" %></span><br/>
+        </li>
+        <li class="span1 well well-small digit">
+          <span><%= question.answers.count %></span><br/>
+          <span>answer</span>  
+        </li>
+        <li class="span1 well well-small digit">
+          <span><%= question.visit.total_visits rescue 0 %></span><br/>
+          <span>views</span>
+        </li>
+      <div class="span6">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
       
       <div class="row">
         <div class="span5">
           <p></p>
           <p>
-            <i class="icon-user"></i> by <%= question.user.name %>
+            <i class="icon-user"></i> by <%= link_to question.user.name %>
              | <i class="icon-calendar"></i><%= time_ago_in_words(question.created_at) %> ago
-             | <i class="icon-tags"></i> Tags : <span class="label label-info"> 
-             <%= raw question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ')%></span>
+             | <i class="icon-tags"></i> Tags : 
+             <%= raw question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(' ')%></span>
           </p>
         </div>
       </div>
@@ -38,5 +34,4 @@
     </div>
     </div>
   <% end %>
-</div>
 
