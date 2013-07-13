@@ -1,11 +1,11 @@
 <% provide(:title) %>
-<%= link_to "Ask Question", "questions/new", class:"btn btn-primary" %>
-
-<div id="content">
-<div id="mainbar">
+<div class="span3 offset9">
+  <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+  <%= link_to "FAQ", "/faq",class: "btn btn-primary" %>
+</div>
 <div class="tabbable span12">
   <ul class="nav nav-tabs">
-    <li class="active  offset2"><a href="#tab1" data-toggle="tab">Questions</a></li>
+    <li class="active  offset1"><a href="#tab1" data-toggle="tab">Questions</a></li>
     <li><a href="#tab2" data-toggle="tab">Users</a></li>
     <li><a href="#tab3" data-toggle="tab">Tags</a></li>
     <li><a href="#tab4" data-toggle="tab">Unanswered</a></li>
@@ -27,6 +27,5 @@
     </div>
   </div>
 </div>
-</div>
-</div>
+
 

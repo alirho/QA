@@ -29,17 +29,21 @@
         Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
         </div>
     </div>
+    <hr>
+    <div class="offset1">
     <section class="comments">
     <h6>Comments</h6>
+    <small>
     <%= render partial: 'questions/comment', collection: @question.comments %>
     <%= render partial: 'comments/form' %>
-
+    </small>
+    </div>
 </section>
 
 <div>
   <h5>Answers:</h5>
        <% @question.answers.each do |answer| %>
-         <%= answer.body %> <br/>
+         <%= answer.body %><hr>
        <% end %>
   
 </div><br/>
