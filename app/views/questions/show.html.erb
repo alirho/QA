@@ -19,10 +19,12 @@
          | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
          <% end %>
           <div class="offset8">
+          <% if current_user?(@question.user) %>
           <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_question_path(@question), class: "btn btn-small" %> 
           <%= link_to raw('<i class=" icon-arrow-left"></i> Back'), questions_path, class: "btn btn-small" %>
           <%= link_to raw('<i class="icon-trash"></i> Delete'), @question, method: :delete,
                                   data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+          <% end %>
           </div>
         </p>
         </div>
@@ -41,9 +43,9 @@
     <h6>Comments</h6>
     <small>
     <%= render partial: 'questions/comment', collection: @question.comments %>
-    
+    <% if signed_in? %>
     <%= render partial: 'comments/form' %>
-    
+    <% end %>
     </small>
     </div>
 </section>
@@ -52,14 +54,17 @@
   <h5>Answers:</h5>
        <% @question.answers.each do |answer| %>
          <%= answer.body %> 
+         <% if current_user?(answer.user) %>
          <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
          <%= link_to raw('<i class="icon-trash"></i> Delete'), @answer, method: :delete,
                                   data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+         <% end %>
          <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %><hr>
        <% end %>
   
 </div><br/>
-
+<% if signed_in? %>
 <%= render partial: 'answers/answer' %>
+<% end %>
   </div>
 </div>

@@ -1,6 +1,7 @@
 class QuestionsController < ApplicationController
   
   before_action :set_question, only: [:show, :edit, :update, :destroy]
+  before_action :correct_user,   only: :destroy
 
   # GET /questions
   # GET /questions.json
