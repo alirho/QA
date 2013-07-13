@@ -1,6 +1,25 @@
 <h1>Editing question</h1>
 
-<%= render 'form' %>
+<div class="span11 well">
+  
+  
+    <%= simple_form_for @question do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+  
+        <%= f.input :title, placeholder: 'add your question title',:input_html => { :class => "span10" } %>
+        
+        <%= f.input :body, placeholder: 'add your question',:input_html => { :class => "span10",rows: 15 } %>
+                
+        <%= f.input :tag_list, placeholder: 'seprate tags with comma', :input_html => { :class => "span10" } %><br/>
+                
+        <%= f.submit "Update Question", class: "btn btn btn-warning" %>
+        
+        <%= link_to raw('<i class="icon-arrow-left"></i> Back'), @question, class: "btn" %>
+    <% end %>
+  
+   
+  
 
-<%= link_to 'Show', @question %> |
-<%= link_to 'Back', questions_path %>
+</div>
+
+

@@ -7,7 +7,7 @@ Qa::Application.routes.draw do
   end
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
-  resources :answers, only:[:create, :edit, :update]
+  resources :answers, only:[:create, :edit, :update, :destroy]
   
   
   root to: 'questions#index'

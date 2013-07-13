@@ -20,6 +20,12 @@ class AnswersController < ApplicationController
     redirect_to @answer.question
   end
   
+  def destroy
+    @answer = Answer.find(params[:id])
+    @@question.answers.destroy
+    redirect_to @answer.question, :notice => "Successfully destroyed answer."
+  end
+  
   private
   
   def answer_params

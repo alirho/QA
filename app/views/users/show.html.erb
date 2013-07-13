@@ -7,12 +7,12 @@
         <%= @user.name %>
       </h1>
     </section>
-    <div class="tabbable">
+    <div class="tabbable span12">
       <ul class="nav nav-tabs ">
         <li class="active  offset2"><a href="#tab1" data-toggle="tab">Profile</a></li>
         <li><a href="#tab2" data-toggle="tab">Questions</a></li>
         <li><a href="#tab3" data-toggle="tab">Answers</a></li>
-        <li><a href="#tab4" data-toggle="tab">Tags</a></li>
+        <li><a href="#tab4" data-toggle="tab">About me</a></li>
       </ul>
       <div class="tab-content">
       <div class="tab-pane active" id="tab1">
@@ -20,14 +20,16 @@
       </div>
       <div class="tab-pane" id="tab2">
         <% @questions.each do |question| %>
-          <%= link_to question.title, question_path(question) %><br />
+          <div class="span5 well">
+          <h4><%= link_to question.title, question_path(question) %></h4>
+          </div>
         <% end %>
       </div>
       <div class="tab-pane" id="tab3">
         
       </div>
       <div class="tab-pane" id="tab4">
-      <%= 'your tags' %>
+      <%= 'about me' %>
       </div>
   </div>
 </div>

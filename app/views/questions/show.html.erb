@@ -4,7 +4,7 @@
   <div class="span12 well">
     <h4>Title: <%= @question.title %></h4><br/>
     <div class="row">
-        <div class="span8">
+        <div class="span12">
         <p></p>
         <p>
          <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name %></a></span>
@@ -18,7 +18,12 @@
          | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
          | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
          <% end %>
-        
+          <div class="offset8">
+          <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_question_path(@question), class: "btn btn-small" %> 
+          <%= link_to raw('<i class=" icon-arrow-left"></i> Back'), questions_path, class: "btn btn-small" %>
+          <%= link_to raw('<i class="icon-trash"></i> Delete'), @question, method: :delete,
+                                  data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+          </div>
         </p>
         </div>
         </div>
@@ -29,13 +34,16 @@
         Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
         </div>
     </div>
+     
     <hr>
     <div class="offset1">
     <section class="comments">
     <h6>Comments</h6>
     <small>
     <%= render partial: 'questions/comment', collection: @question.comments %>
+    
     <%= render partial: 'comments/form' %>
+    
     </small>
     </div>
 </section>
@@ -43,15 +51,14 @@
 <div>
   <h5>Answers:</h5>
        <% @question.answers.each do |answer| %>
-         <%= answer.body %><hr>
+         <%= answer.body %> 
+         <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
+         <%= link_to raw('<i class="icon-trash"></i> Delete'), @answer, method: :delete,
+                                  data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+         <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %><hr>
        <% end %>
   
 </div><br/>
-
-
-<%= link_to 'Edit', edit_question_path(@question), class: "btn btn-small btn-primary" %> 
-<%= link_to 'Back', questions_path, class: "btn btn-small btn-primary" %> 
-
 
 <%= render partial: 'answers/answer' %>
   </div>

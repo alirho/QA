@@ -1,2 +1,8 @@
-Name: <%= @user.name %><br/>
-Email: <%= @user.email %>
+<p><i class="icon-user"></i> <%= @user.name %></p><br/>
+<p><i class="icon-envelope"></i> <%= link_to @user.email %></p>
+<p><i class="icon-th"></i> website </p>
+<p><i class="icon-globe"></i> location </p>
+<p><i class="icon-user"></i> real name </p>
+<p><i class="icon-time"></i> member for: <%= @user.created_at %> </p>
+<p><i class="icon-list"></i> about me </p>
+
