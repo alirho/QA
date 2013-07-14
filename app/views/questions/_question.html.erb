@@ -1,0 +1,34 @@
+<h4>Title: <%= @question.title %></h4><br/>
+<div class="row">
+  <div class="span6">
+    <p>
+      <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name %></a></span>
+      <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(@question.created_at) %> ago</span>
+      <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
+      <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>
+      <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
+      <span class="space"><i class="icon- icon-thumbs-up"></i>
+      <%= pluralize @question.reputation_for(:votes).to_i, "vote" %></span>
+      <% if current_user && !current_user.voted_for?(@question)%>
+        | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
+        | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
+      <% end %>
+     </p>
+  </div>
+  <div class="span3 offset2">
+    <% if current_user?(@question.user) %>
+       <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_question_path(@question), class: "btn btn-small" %> 
+       <%= link_to raw('<i class=" icon-arrow-left"></i> Back'), questions_path, class: "btn btn-small" %>
+       <%= link_to raw('<i class="icon-trash"></i> Delete'), @question, method: :delete,
+                                  data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+    <% end %>
+  </div>
+</div>
+<p></p>
+<div class="span10 blockquote">
+  Body:<%= @question.body %>
+</div>
+<div class="span8">
+  Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
+</div>
+

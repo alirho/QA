@@ -1,70 +1,23 @@
 <% provide(:title,)%>
 <p id="notice"><%= notice %></p>
-<div class="row">
-  <div class="span12 well">
-    <h4>Title: <%= @question.title %></h4><br/>
+<div class="row well">
+  <div class="span12 ">
+    <%= render partial: 'question' %>
+    </br> 
     <div class="row">
-        <div class="span12">
-        <p></p>
-        <p>
-         <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name %></a></span>
-         <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(@question.created_at) %> ago</span>
-         <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
-         <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>
-         <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
-         <span class="space"><i class="icon- icon-thumbs-up"></i>
-         <%= pluralize @question.reputation_for(:votes).to_i, "vote" %></span>
-         <% if current_user && !current_user.voted_for?(@question)%>
-         | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
-         | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
-         <% end %>
-          <div class="offset8">
-          <% if current_user?(@question.user) %>
-          <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_question_path(@question), class: "btn btn-small" %> 
-          <%= link_to raw('<i class=" icon-arrow-left"></i> Back'), questions_path, class: "btn btn-small" %>
-          <%= link_to raw('<i class="icon-trash"></i> Delete'), @question, method: :delete,
-                                  data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
-          <% end %>
-          </div>
-        </p>
-        </div>
-        </div>
-    Body:<%= @question.body %>
+      <div class="span11">
+      <hr>
+      </div>
+    </div>
     
+    <%= render partial: 'comment', collection: @question.comments %>
+    </br> 
     <div class="row">
-        <div class="span8">
-        Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
-        </div>
+      <div class="span11">
+      <hr>
+      </div>
     </div>
-     
-    <hr>
-    <div class="offset1">
-    <section class="comments">
-    <h6>Comments</h6>
-    <small>
-    <%= render partial: 'questions/comment', collection: @question.comments %>
-    <% if signed_in? %>
-    <%= render partial: 'comments/form' %>
-    <% end %>
-    </small>
-    </div>
-</section>
-
-<div>
-  <h5>Answers:</h5>
-       <% @question.answers.each do |answer| %>
-         <%= answer.body %> 
-         <% if current_user?(answer.user) %>
-         <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
-         <%= link_to raw('<i class="icon-trash"></i> Delete'), @answer, method: :delete,
-                                  data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
-         <% end %>
-         <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %><hr>
-       <% end %>
-  
-</div><br/>
-<% if signed_in? %>
-<%= render partial: 'answers/answer' %>
-<% end %>
+    
+    <%= render partial: 'answer' %>
   </div>
 </div>

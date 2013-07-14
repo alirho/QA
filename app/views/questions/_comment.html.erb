@@ -1,3 +1,16 @@
-<div>
-  <p class="comment"><%= comment.body %></p>
+<div class=" span8 well offset1">
+  <p>Comments</p>
+  <small>
+    <p class="comment"><%= comment.body %></p>
+      <div class="row">
+        <div class="span8">
+          <hr>
+        </div>
+      </div>
+    <% if signed_in? %>
+      <%= render partial: 'comments/form' %>
+    <% end %>
+  </small>
 </div>
+
+
