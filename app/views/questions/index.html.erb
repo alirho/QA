@@ -1,7 +1,17 @@
 <% provide(:title) %>
-<div class="span3 offset9">
-  <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
-  <%= link_to "FAQ", "/faq",class: "btn btn-primary" %>
+<div class="row">  
+  <div class="span5">
+    <%= form_tag questions_path, :method => 'get' do %>
+      <p>
+        <%= text_field_tag :search, params[:search] %>
+        <%= submit_tag "Search", :name => nil %>
+      </p>
+    <% end %>
+  </div>
+  <div class="span3 offset3">
+    <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+    <%= link_to "FAQ", "/faq",class: "btn btn-primary" %>
+  </div>
 </div>
 <div class="tabbable span12">
   <ul class="nav nav-tabs">
