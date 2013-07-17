@@ -8,7 +8,7 @@
       <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>
       <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
       <span class="space"><i class="icon- icon-thumbs-up"></i>
-      <%= pluralize @question.reputation_for(:votes).to_i, "vote" %></span>
+      <%= pluralize @question.reputation_for(:votes).to_i, "" %></span>
       <% if current_user && !current_user.voted_for?(@question)%>
         | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
         | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
@@ -29,6 +29,8 @@
   Body:<%= @question.body %>
 </div>
 <div class="span8">
-  Tags: <%= raw @question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
+  Tags: <% @question.tags.each do |tag| %>
+          <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
+        <% end %>
 </div>
 

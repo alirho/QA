@@ -1,7 +1,0 @@
-<div class="tag">  
-  <% tag_cloud Question.tag_counts, %w[s m l] do |tag, css_class| %>
-    <div>
-      <%= link_to tag.name, tag_path(tag.name), class: "label label-info" %><p></p>
-    </div>
-  <% end %>
-</div>

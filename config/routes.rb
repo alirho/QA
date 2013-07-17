@@ -6,6 +6,7 @@ Qa::Application.routes.draw do
     resources :comments
   end
   resources :users
+  resources :tags
   resources :sessions, only: [:new, :create, :destroy]
   resources :answers, only:[:create, :edit, :update, :destroy]
   
@@ -19,7 +20,7 @@ Qa::Application.routes.draw do
   match '/about', to: 'static_pages#about',            via: 'get'
   match '/contact', to: 'static_pages#contact',       via: 'get'
   match '/faq', to: 'static_pages#faq',       via: 'get'
-  match 'tags/:tag', to: 'questions#index', as: :tag, via: 'get'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

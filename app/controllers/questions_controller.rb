@@ -8,6 +8,7 @@ class QuestionsController < ApplicationController
   def index
     @questions = Question.search(params[:search]).paginate(page: params[:page])
     @users = User.paginate(page: params[:page])
+    @tags = Tag.all
   end
 
   # GET /questions/1
