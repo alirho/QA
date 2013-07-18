@@ -2,7 +2,7 @@
 <div class="row">
   <div class="span6">
     <p>
-      <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name %></a></span>
+      <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name, @question.user %></a></span>
       <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(@question.created_at) %> ago</span>
       <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
       <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>

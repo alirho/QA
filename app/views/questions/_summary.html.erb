@@ -22,10 +22,12 @@
         <div class="span8">
           <p></p>
           <p>
-            <i class="icon-user"></i> by <%= link_to question.user.name %>
+            <i class="icon-user"></i> by <%= link_to question.user.name, question.user %>
              | <i class="icon-calendar"></i><%= time_ago_in_words(question.created_at) %> ago
-             | <i class="icon-tags"></i> Tags : 
-             <%= raw question.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(' ')%></span>
+             | <i class="icon-tags"></i> Tags: 
+               <% question.tags.each do |tag| %>
+                 <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
+               <% end %>
           </p>
         </div>
       </div>

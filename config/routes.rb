@@ -2,7 +2,6 @@ Qa::Application.routes.draw do
   resources :authentications
   resources :questions do
     member { post :vote }
-    
     resources :comments
   end
   resources :users
