@@ -13,9 +13,7 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
   validates :password, length: { minimum: 6 }
   
-  def voted_for?(question)
-    evaluations.where(target_type: question.class, target_id: question.id).present?
-  end
+ 
   
    private
 

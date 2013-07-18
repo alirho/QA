@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/NARKOZ/activerecord-reputation-system.git
+  revision: c93bc81c7a51813411c81a4957a9a2e0043589ad
+  branch: master
+  specs:
+    activerecord-reputation-system (1.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -138,6 +145,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-reputation-system!
   bcrypt-ruby (~> 3.0.0)
   bootstrap-sass (= 2.3.0.1)
   bootstrap-will_paginate (= 0.0.9)
