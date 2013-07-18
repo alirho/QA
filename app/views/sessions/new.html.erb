@@ -1,28 +1,18 @@
-<div class="container">
-  <div class="row-fluid">
-    <div class="span12">
-      <div class="span6">
-        <div class="row">
-         <div class="span7 well">
-           <legend>Please Sign In</legend>
-           <%= form_tag sessions_path do |f| %>
+<div class="row">
+  <div class="span4 well">
+    <legend>Please Sign In</legend>
+    <%= simple_form_for sessions_path do |f| %>
      
-             <%= label_tag :email %>
-             <%= text_field_tag :email %>
+      <%= f.input :email,:input_html => { :class => "span4" } %>
       
-             <%= label_tag :password %>
-             <%= password_field_tag :password %><br/>
+      <%= f.input :password,:input_html => { :class => "span4" } %><br/>
       
-             <%= submit_tag "Sign in", class: "btn btn-info btn-primary" %>
-           <% end %>
-    
-           <p>New user?<%= link_to "Sign up now!", signup_path%></p>
-          </div>
-        </div>
-      </div>
-      <div class="span6">     
-        <div class="span7 well">
-          <% if @authentications %>
+      <%= f.submit "Sign in", class: "btn btn-medium btn-primary" %>
+    <% end %>
+    <p>New user?<%= link_to "Sign up now!", signup_path%></p>
+  </div>
+  <div class="span6">
+            <% if @authentications %>
           <% unless @authentications.empty? %>
           <p><strong>You can sign in to this account using:</strong></p>
           <div class="authentications">
@@ -55,8 +45,5 @@
           <%= image_tag "openid_64.png", :size => "64x64", :alt => "OpenID" %>OpenID
           </a>
           <div class="clear"></div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
