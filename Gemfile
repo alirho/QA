@@ -16,7 +16,7 @@ group :development do
   gem 'sqlite3', '1.3.7'
 end
 
-gem 'activerecord-reputation-system', github: 'NARKOZ/activerecord-reputation-system', branch: 'rails4'
+gem 'activerecord-reputation-system', github: 'NARKOZ/activerecord-reputation-system', branch: 'master'
 
 # Gems used only for assets and not required
 # in production environments by default.
