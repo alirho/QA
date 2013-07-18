@@ -8,7 +8,6 @@ gem 'faker', '1.1.2'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'simple_form'
 gem 'nifty-generators'
-gem 'protected_attributes'
 gem 'omniauth'
 gem 'omniauth-twitter'
 
