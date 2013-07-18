@@ -1,13 +1,15 @@
 <div class="row">
-  <div class="span4 well">
+  <div class="span4">
     <legend>Please Sign In</legend>
-    <%= simple_form_for sessions_path do |f| %>
+    <%= form_tag sessions_path do |f| %>
      
-      <%= f.input :email,:input_html => { :class => "span4" } %>
+      <%= label_tag :email %>
+      <%= text_field_tag :email %>
       
-      <%= f.input :password,:input_html => { :class => "span4" } %><br/>
+      <%= label_tag :password %>
+      <%= password_field_tag :password %><br/>
       
-      <%= f.submit "Sign in", class: "btn btn-medium btn-primary" %>
+      <%= submit_tag "Sign in", class: "btn btn-info btn-primary" %>
     <% end %>
     <p>New user?<%= link_to "Sign up now!", signup_path%></p>
   </div>

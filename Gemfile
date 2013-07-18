@@ -8,13 +8,15 @@ gem 'faker', '1.1.2'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'simple_form'
 gem 'nifty-generators'
+gem 'protected_attributes'
 gem 'omniauth'
 gem 'omniauth-twitter'
 
 group :development do
   gem 'sqlite3', '1.3.7'
 end
-gem 'activerecord-reputation-system'
+
+gem 'activerecord-reputation-system', github: 'NARKOZ/activerecord-reputation-system', branch: 'rails4'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,7 +40,9 @@ gem 'jbuilder', '~> 1.0.1'
 
 group :production do
   gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
