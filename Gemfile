@@ -9,7 +9,6 @@ gem 'bootstrap-will_paginate', '0.0.9'
 gem 'simple_form'
 gem 'nifty-generators'
 gem "activerecord", "~> 4.0.0"
-
 gem 'omniauth'
 gem 'omniauth-twitter'
 
