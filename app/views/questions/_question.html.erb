@@ -1,17 +1,18 @@
 <h4>Title: <%= @question.title %></h4><br/>
 <div class="row">
-  <div class="span6">
+  <div class="span7">
     <p>
       <span class="space"><i class="icon-user"></i> by <%= link_to @question.user.name, @question.user %></a></span>
       <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(@question.created_at) %> ago</span>
       <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
       <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>
       <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
-      <span class="space"><i class="icon- icon-thumbs-up"></i>
+      <span class="space"><i class="icon- icon-thumbs-up"></i> 
+       
       
      </p>
   </div>
-  <div class="span3 offset2">
+  <div class="span3 offset1">
     <% if current_user?(@question.user) %>
        <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_question_path(@question), class: "btn btn-small" %> 
        <%= link_to raw('<i class=" icon-arrow-left"></i> Back'), questions_path, class: "btn btn-small" %>

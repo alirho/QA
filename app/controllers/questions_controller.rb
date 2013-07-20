@@ -1,7 +1,7 @@
 class QuestionsController < ApplicationController
   
   before_action :set_question, only: [:show, :edit, :update, :destroy]
-  before_action :correct_user,   only: :destroy
+  
 
   # GET /questions
   # GET /questions.json
@@ -74,6 +74,7 @@ class QuestionsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.

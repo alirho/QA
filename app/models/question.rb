@@ -10,7 +10,8 @@ class Question < ActiveRecord::Base
   validates :body, presence: true, length: { minimum: 30 }
   validates :user_id, presence: true
   
-  
+
+
   def tag_list
     self.tags.collect do |tag|
       tag.name

@@ -2,7 +2,6 @@ class User < ActiveRecord::Base
   has_many :authentications
   has_many :questions
   has_many :answers
-  has_many :evaluations, class_name: "ReputationSystem::Evaluation", as: :source
   before_save { self.email = email.downcase }
   before_save :create_remember_token
   validates :name, presence: true, length: { maximum: 50 }
@@ -13,7 +12,6 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
   validates :password, length: { minimum: 6 }
   
- 
   
    private
 
