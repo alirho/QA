@@ -1,16 +1,18 @@
-<div class=" span8 well offset1">
-  <p>Comments</p>
+<div class="row">
+<div class="span8 well offset1">
+  <p>Comments(<%= @question.comments.size %>)</p>
   <small>
-    <p class="comment"><%= comment.body %></p>
+    <% @question.comments.each do |comment| %>
+    <p class="comment"><%= comment.body %>Comment by</p>
       <div class="row">
         <div class="span8">
           <hr>
         </div>
       </div>
-    <% if signed_in? %>
+      <% end %>
+    
       <%= render partial: 'comments/form' %>
-    <% end %>
+    
   </small>
 </div>
-
-
+</div>

@@ -11,6 +11,7 @@ gem 'nifty-generators'
 gem "activerecord", "~> 4.0.0"
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'tinymce-rails'
 
 group :development do
   gem 'sqlite3', '1.3.7'
