@@ -1,6 +1,5 @@
-theme_advanced_toolbar_location: top
-theme_advanced_toolbar_align: left
-theme_advanced_buttons3_add:
-  - fullscreen
+toolbar1:  undo redo | bold italic underline | alignleft aligncenter alignright alignjustify |
+           bullist numlist outdent indent | cut copy paste | fullscreen 
 plugins:
-  - fullscreen
+    - fullscreen
+
