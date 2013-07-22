@@ -1,6 +1,7 @@
 <div class="row">
   <div class="span11">
     <% @question.answers.each do |answer| %>
+    <p>Answers(<%= @question.answers.size %>)</p>
     <div class="span6">
       <%= answer.body %>
     </div>
