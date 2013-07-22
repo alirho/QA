@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.0.1'
@@ -13,7 +12,7 @@ gem "activerecord", "~> 4.0.0"
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'tinymce-rails'
-gem 'activerecord-reputation-system'
+gem 'activerecord-reputation-system', github: 'NARKOZ/activerecord-reputation-system', branch: 'rails4'
 
 group :development do
   gem 'sqlite3', '1.3.7'
