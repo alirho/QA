@@ -3,8 +3,8 @@
   <div class="span5">
     <%= form_tag questions_path, :method => 'get' do %>
       <p>
-        <%= text_field_tag :search, params[:search] %>
-        <%= submit_tag "Search", :name => nil %>
+        <%= text_field_tag :search, params[:search], class: "navbar-search span3" %>
+        <%= submit_tag "Search", :name => nil, class: "btn btn-primary" %>
       </p>
     <% end %>
   </div>

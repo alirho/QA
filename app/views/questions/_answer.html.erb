@@ -13,7 +13,7 @@
       <% if current_user && !current_user.voted_for?(answer) %>
         | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
         | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
-      <% end %> 
+      <% end %><br/>
       <%= answer.body %>
     </div>
     <div class="span3">
