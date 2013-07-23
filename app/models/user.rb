@@ -17,6 +17,10 @@ class User < ActiveRecord::Base
     evaluations.where(target_type: question.class, target_id: question.id).present?
   end
   
+  def voted_for?(answer)
+    evaluations.where(target_type: answer.class, target_id: answer.id).present?
+  end
+  
    private
 
     def create_remember_token

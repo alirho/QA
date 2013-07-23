@@ -7,8 +7,9 @@ Qa::Application.routes.draw do
   resources :users
   resources :tags
   resources :sessions, only: [:new, :create, :destroy]
-  resources :answers, only:[:create, :edit, :update, :destroy]
-  
+  resources :answers do
+    member { post :vote }
+  end
   
   root to: 'questions#index'
   match '/auth/:provider/callback' => 'authentications#create',  via: 'get'

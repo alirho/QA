@@ -8,8 +8,13 @@
       </p>
     <% end %>
   </div>
-  <div class="span3 offset3">
-    <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+  <div class="span4 offset3">
+    <% if signed_in? %>
+      <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+    <% else %>
+      <small>you need to signin!</small>
+      <%= link_to "Ask Question", "", class: "btn btn-primary disabled" %>
+    <% end %>
     <%= link_to "FAQ", "/faq",class: "btn btn-primary" %>
   </div>
 </div>

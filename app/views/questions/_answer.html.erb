@@ -3,6 +3,17 @@
     <% @question.answers.each do |answer| %>
     <p>Answers(<%= @question.answers.size %>)</p>
     <div class="span6">
+      <% if  @answer.reputation_for(:votes).to_i >= 0 %>
+        <span class="space"><i class="icon- icon-thumbs-up"></i>
+        <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+      <% else %>
+        <span class="space"><i class="icon- icon-thumbs-down"></i>
+        <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+      <% end %>
+      <% if current_user && !current_user.voted_for?(answer) %>
+        | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
+        | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
+      <% end %> 
       <%= answer.body %>
     </div>
     <div class="span3">

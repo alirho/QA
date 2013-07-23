@@ -7,8 +7,14 @@
       <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
       <span class="space"><i class="icon-eye-open"></i> <%= @question.visit.total_visits rescue 0 %></span>
       <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
-      <span class="space"><i class="icon- icon-thumbs-up"></i>
-      <%= pluralize @question.reputation_for(:votes).to_i, "" %>
+      
+      <% if  @question.reputation_for(:votes).to_i >= 0 %>
+        <span class="space"><i class="icon- icon-thumbs-up"></i>
+        <%= pluralize @question.reputation_for(:votes).to_i, "" %>
+      <% else %>
+        <span class="space"><i class="icon- icon-thumbs-down"></i>
+        <%= pluralize @question.reputation_for(:votes).to_i, "" %>
+      <% end %>
       <% if current_user && !current_user.voted_for?(@question) %>
         | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
         | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
