@@ -3,7 +3,8 @@
   <p>Comments(<%= @question.comments.size %>)</p>
   <small>
     <% @question.comments.each do |comment| %>
-    <p class="comment"><%= comment.body %>Comment by</p>
+    <p class="comment"><%= comment.body %>
+    <%= time_ago_in_words comment.created_at %> ago by <%= link_to comment.user_id, comment.user %></p>
       <div class="row">
         <div class="span8">
           <hr>
