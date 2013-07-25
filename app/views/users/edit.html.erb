@@ -1,34 +1,21 @@
 <% provide(:title, "Edit user") %>
 <h4>Update your profile</h4>
-
-<div class="tabbable span11 well">
-  <ul class="nav nav-tabs ">
-    <li class="active  offset1"><a href="#tab1" data-toggle="tab">Profile</a></li>
-    <li><a href="#tab2" data-toggle="tab">Password</a></li>
-  </ul>
-  <%= simple_form_for @user do |f| %>
-    <%= render 'shared/error_messages', object: f.object %>
-    <div class="tab-content">
-      <div class="tab-pane active" id="tab1">
-        <div class="row">
-          <div class="span4">
-          <%= f.input :name,:input_html => { :class => "span4" } %>
-          <%= f.input :email,:input_html => { :class => "span4" } %>
-          <%= f.input :location,:input_html => { :class => "span4" } %>
-          <%= f.input :website,:input_html => { :class => "span4" } %>
-          <%= f.input :realname,:input_html => { :class => "span4" } %>
-          <%= f.submit "Save changes", class: "btn btn-medium  btn-warning" %>
-          </div>
-          <div class="span5">
-            <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 13 } %>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="tab2">
-        <%= f.input :password,:input_html => { :class => "span4" } %>
-        <%= f.input :password_confirmation,:input_html => { :class => "span4" } %>
-        <%= f.submit "Save changes", class: "btn btn-medium  btn-warning" %>
-      </div>
+<%= simple_form_for @user do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="row">
+    <div class="span4">
+      <%= f.input :name,:input_html => { :class => "span4" } %>
+      <%= f.input :email,:input_html => { :class => "span4" } %>
+      <%= f.input :password,:input_html => { :class => "span4" } %>
+      <%= f.input :password_confirmation,:input_html => { :class => "span4" } %>
+      <%= f.input :location,:input_html => { :class => "span4" } %>
+      <%= f.input :website,:input_html => { :class => "span4" } %>
+      <%= f.input :realname,:input_html => { :class => "span4" } %>                    
     </div>
-  <% end %>
-</div>
+    <div class="span5">
+      <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 19 } %>
+    </div>
+  </div>
+      <%= f.submit "Save changes", class: "btn btn-medium  btn-warning" %>
+<% end %>
+
