@@ -6,11 +6,11 @@
     <%= simple_form_for @question do |f| %>
         <%= render 'shared/error_messages', object: f.object %>
   
-        <%= f.input :title, placeholder: 'add your question title',:input_html => { :class => "span10" } %>
+        <%= f.input :title, :input_html => { :class => "span10" } %>
         
-        <%= f.input :body, placeholder: 'add your question',:input_html => { :class => "span10",rows: 15 } %>
+        <%= f.input :body,:input_html => { :class => "span10",rows: 15 } %>
                 
-        <%= f.input :tag_list, placeholder: 'seprate tags with comma', :input_html => { :class => "span10" } %><br/>
+        <%= f.input :tag_list, :input_html => { :class => "span10" } %><br/>
                 
         <%= f.submit "Update Question", class: "btn btn btn-warning" %>
         
