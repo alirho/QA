@@ -19,11 +19,7 @@
         <%= render partial: 'profile' %>
       </div>
       <div class="tab-pane" id="tab2">
-        <% @questions.each do |question| %>
-          <div class="span5 well">
-          <h4><%= link_to question.title, question_path(question) %></h4>
-          </div>
-        <% end %>
+        <%= render partial: 'question' %>
       </div>
       <div class="tab-pane" id="tab3">
         <%= 'your answers' %>

@@ -6,11 +6,12 @@
     <%= simple_form_for @question do |f| %>
         <%= render 'shared/error_messages', object: f.object %>
   
-        <%= f.input :title, :input_html => { :class => "span10" } %>
+        <%= f.input :title, :input_html => { :class => "span11" } %>
         
-        <%= f.input :body,:input_html => { :class => "span10",rows: 15 } %>
+        <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 } %>
+        <%= tinymce %>
                 
-        <%= f.input :tag_list, :input_html => { :class => "span10" } %><br/>
+        <%= f.input :tag_list, :input_html => { :class => "span11" } %><br/>
                 
         <%= f.submit "Update Question", class: "btn btn btn-warning" %>
         
