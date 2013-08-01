@@ -13,6 +13,7 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'tinymce-rails'
 gem 'activerecord-reputation-system', github: 'NARKOZ/activerecord-reputation-system', branch: 'rails4'
+gem 'therubyracer'
 
 group :development do
   gem 'sqlite3', '1.3.7'

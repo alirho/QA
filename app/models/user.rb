@@ -11,8 +11,9 @@ class User < ActiveRecord::Base
   validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }, 
                           uniqueness: { case_sensitive: false }
   has_secure_password
-  validates :password_confirmation, presence: true
-  validates :password, length: { minimum: 6 }
+  validates :password, length: { minimum: 6 }, :allow_blank => true
+  validates :password_confirmation, presence: true, :allow_blank => true
+  
   
   def voted_for?(question)
     evaluations.where(target_type: question.class, target_id: question.id).present?
