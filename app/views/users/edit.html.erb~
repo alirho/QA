@@ -6,14 +6,14 @@
     <div class="span4">
       <%= f.input :name,:input_html => { :class => "span4" } %>
       <%= f.input :email,:input_html => { :class => "span4" }, disabled: true %>
-      <%= f.input :password,:input_html => { :class => "span4" } %>
-      <%= f.input :password_confirmation,:input_html => { :class => "span4" } %>
+      <%= f.input :password,:input_html => { :class => "span4" }, required: false %>
+      <%= f.input :password_confirmation,:input_html => { :class => "span4" }, required: false %>
       <%= f.input :location,:input_html => { :class => "span4" } %>
       <%= f.input :website,:input_html => { :class => "span4" } %>
       <%= f.input :realname,:input_html => { :class => "span4" } %>                    
     </div>
     <div class="span5">
-      <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 19 } %>
+      <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 20.5 } %>
     </div>
   </div>
       <%= f.submit "Save changes", class: "btn btn-medium  btn-warning" %>

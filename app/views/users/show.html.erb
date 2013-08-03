@@ -4,8 +4,9 @@
     <section>
       <h1>
         <%= gravatar_for @user, size: 125 %>
-        <%= @user.name %>
+        <%= @user.name %><br/>
       </h1>
+	<p><%= @questions.size %> Questions</p>
     </section>
     <div class="tabbable span12">
       <ul class="nav nav-tabs ">
