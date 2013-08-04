@@ -9,7 +9,12 @@ class UsersController < ApplicationController
   
   def show
     @user = User.find(params[:id])
-    @questions = @user.questions
+    @total_questions = @user.questions
+    @questions = @total_questions
+    @total_answers = @user.answers
+    @answers = @user.answers.includes(:question)
+    @total_comments = @user.comments
+    @comments = @user.comments.includes(:question)
   end
   
   def new

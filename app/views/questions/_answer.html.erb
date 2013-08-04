@@ -19,8 +19,6 @@
     <div class="span3">
       <% if current_user?(answer.user) %>
         <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
-        <%= link_to raw('<i class="icon-trash"></i> Delete'), @answer, method: :delete,
-                data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
       <% end %>
     </div>
     

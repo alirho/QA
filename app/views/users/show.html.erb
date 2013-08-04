@@ -6,14 +6,17 @@
         <%= gravatar_for @user, size: 125 %>
         <%= @user.name %><br/>
       </h1>
-	<p><%= @questions.size %> Questions</p>
+	<p><%= @total_questions.count %> Questions</p>
+	<p><%= @total_answers.count %> Answers</p>
+	<p><%= @total_comments.count %> Comments</p>
     </section>
     <div class="tabbable span12">
       <ul class="nav nav-tabs ">
         <li class="active  offset2"><a href="#tab1" data-toggle="tab">Profile</a></li>
         <li><a href="#tab2" data-toggle="tab">Questions</a></li>
         <li><a href="#tab3" data-toggle="tab">Answers</a></li>
-        <li><a href="#tab4" data-toggle="tab">About me</a></li>
+        <li><a href="#tab4" data-toggle="tab">Comments</a></li>
+	<li><a href="#tab5" data-toggle="tab">About me</a></li>
       </ul>
       <div class="tab-content">
       <div class="tab-pane active" id="tab1">
@@ -23,10 +26,17 @@
         <%= render partial: 'question' %>
       </div>
       <div class="tab-pane" id="tab3">
-        <%= 'your answers' %>
+        <% @answers.each do |answer| %>
+	  <li><%= link_to answer.question.title, question_path(@question) %></li>
+	<% end %>
       </div>
       <div class="tab-pane" id="tab4">
-      <%= @user.aboutme %>
+	<% @comments.each do |comment| %>
+	  <li><%= link_to comment.question.title, question_path(@comment) %></li>
+	<% end %>
+      </div>
+      <div class="tab-pane" id="tab5">
+        <%= @user.aboutme %>
       </div>
   </div>
 </div>

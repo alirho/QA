@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="span11">
+    <% @question.answers.each do |answer| %>
+    <p>Answers(<%= @question.answers.size %>)</p>
+    <div class="span6">
+      <% if  @answer.reputation_for(:votes).to_i >= 0 %>
+        <span class="space"><i class="icon- icon-thumbs-up"></i>
+        <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+      <% else %>
+        <span class="space"><i class="icon- icon-thumbs-down"></i>
+        <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+      <% end %>
+      <% if current_user && !current_user.voted_for?(answer) %>
+        | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
+        | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
+      <% end %><br/>
+      <%= answer.body %>
+    </div>
+    <div class="span3">
+      <% if current_user?(answer.user) %>
+        <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
+        <%= link_to raw('<i class="icon-trash"></i> Delete'), answer_path(answer), method: :delete,
+                data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+      <% end %>
+    </div>
+    
+    <div class="span3 offset6">
+      <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %>
+    </div>
+    <div class="row">
+      <div class="span10">
+        <hr>
+      </div>
+    </div>
+    <% end %>
+    <% if signed_in? %>
+      <%= render partial: 'answers/answer' %>
+    <% end %>
+  </div>
+</div>
+

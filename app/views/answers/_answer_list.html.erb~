@@ -1,0 +1,3 @@
+<% unless @answer %>
+  <li><%= @answer.question.title %></li>
+<% end %>
