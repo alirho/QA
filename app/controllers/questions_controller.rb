@@ -37,30 +37,25 @@ class QuestionsController < ApplicationController
   def create
     @question = Question.new(question_params)
     @question.user = current_user
-
-    respond_to do |format|
-      if @question.save
-        format.html { redirect_to @question, notice: 'Question was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @question }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @question.errors, status: :unprocessable_entity }
-      end
+    if @question.save
+      flash[:success] = 'Question was successfully created.'
+      redirect_to @question
+    else
+      render 'new'
     end
   end
 
   # PATCH/PUT /questions/1
   # PATCH/PUT /questions/1.json
   def update
-    respond_to do |format|
+    
       if @question.update(question_params)
-        format.html { redirect_to @question, notice: 'Question was successfully updated.' }
-        format.json { head :no_content }
+        flash[:success] = 'Question was successfully updated.'
+        redirect_to @question
       else
-        format.html { render action: 'edit' }
-        format.json { render json: @question.errors, status: :unprocessable_entity }
+       render  'edit'
       end
-    end
+   
   end
   
   
@@ -69,17 +64,16 @@ class QuestionsController < ApplicationController
   # DELETE /questions/1.json
   def destroy
     @question.destroy
-    respond_to do |format|
-      format.html { redirect_to questions_url }
-      format.json { head :no_content }
-    end
+    flash[:success] = 'Question was successfully deleted.'
+    redirect_to questions_url
   end
   
   def vote
     value = params[:type] == "up" ? 1 : -1
     @question = Question.find(params[:id])
     @question.add_or_update_evaluation(:votes, value, current_user)
-    redirect_to :back, notice: "Thank you for voting"
+    flash[:success] = "Thank you for voting"
+    redirect_to :back
   end
   
   private

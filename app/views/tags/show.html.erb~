@@ -1,0 +1,42 @@
+<p>Questions Tagged with <strong><%= @tag.name %></strong</p>
+
+<hr>
+  <% @tag.questions.each do |question| %>
+   <div class="row">
+    <div class="span12">
+      <div class="row">
+      
+        <li class="span1 well well-small digit">
+          <span><%= pluralize question.reputation_for(:votes).to_i, "" %></span><br/>
+          <span>votes</span>
+        </li>
+        <li class="span1 well well-small digit">
+          <span><%= question.answers.count %></span><br/>
+          <span>answer</span>  
+        </li>
+        <li class="span1 well well-small digit">
+          <span><%= question.visit.total_visits rescue 0 %></span><br/>
+          <span>views</span>
+        </li>
+      <div class="span8">
+        <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
+      
+      <div class="row">
+        <div class="span8">
+          <p></p>
+          <p>
+            <i class="icon-user"></i> by <%= link_to question.user.name, question.user %>
+             | <i class="icon-calendar"></i><%= time_ago_in_words(question.created_at) %> ago
+             | <i class="icon-tags"></i> Tags: 
+               <% question.tags.each do |tag| %>
+                 <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
+               <% end %>
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <hr>
+    </div>
+    </div>
+  <% end %>

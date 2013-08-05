@@ -1,6 +1,6 @@
 <div class="row">
 <div class="span8 well offset1">
-  <p>Comments(<%= @question.size %>)</p>
+  <p>Comments(<%= @question.comments.size %>)</p>
   <small>
     <% @question.comments.each do |comment| %>
     <p class="comment"><%= comment.body %>

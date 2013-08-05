@@ -1,0 +1,18 @@
+<% provide(:title, 'New Question') %>
+
+<div class="span11 well">
+  <%= simple_form_for(@question,:html => { :novalidate => true }) do |f| %>
+
+  
+    <%= f.input :title, placeholder: 'add your question title',:input_html => { :class => "span11" } %>
+        
+    <%= f.input :body, placeholder: 'add your question',:input_html => { :class => "tinymce",rows: 15 } %>
+    <%= tinymce %>
+                
+    <%= f.input :tag_list, placeholder: 'seprate tags with comma', :input_html => { :class => "span11" } %><br/>
+                
+    <%= f.submit "Create Question", class: "btn btn-medium btn-primary" %>
+    <%= link_to raw('<i class="icon-arrow-left"></i> Back'), questions_path, class: "btn" %>
+  <% end %>
+</div>
+

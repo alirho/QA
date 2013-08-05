@@ -6,7 +6,8 @@ class AnswersController < ApplicationController
     @answer = @question.answers.new(answer_params)
     @answer.user = current_user
     @answer.save
-    redirect_to @answer.question
+    flash[:success] = 'Answer was successfully created.'
+    redirect_to @answer.question 
   end
   
   
@@ -30,7 +31,8 @@ class AnswersController < ApplicationController
     value = params[:type] == "up" ? 1 : -1
     @answer = Answer.find(params[:id])
     @answer.add_or_update_evaluation(:votes, value, current_user)
-    redirect_to :back, notice: "Thank you for voting"
+    flash[:success] = "Thank you for voting"
+    redirect_to :back
   end
   
   private

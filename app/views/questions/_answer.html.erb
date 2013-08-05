@@ -2,7 +2,10 @@
   <div class="span11">
     <% @question.answers.each do |answer| %>
     <p>Answers(<%= @question.answers.size %>)</p>
-    <div class="span6">
+    <div class="span10">
+      <div class="row">
+      <div class="span10">
+      <div class="span3">
       <% if  @answer.reputation_for(:votes).to_i >= 0 %>
         <span class="space"><i class="icon- icon-thumbs-up"></i>
         <%= pluralize answer.reputation_for(:votes).to_i, "" %>
@@ -13,14 +16,20 @@
       <% if current_user && !current_user.voted_for?(answer) %>
         | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
         | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
-      <% end %><br/>
-      <%= answer.body %>
-    </div>
-    <div class="span3">
+      <% end %>
+      </div>
+      <div class="offset5 span1">
       <% if current_user?(answer.user) %>
         <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
       <% end %>
+      </div>
+      </div>
+      </div>
+      <br/>
+      <%= answer.body %>
     </div>
+    
+    
     
     <div class="span3 offset6">
       <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %>

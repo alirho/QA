@@ -1,11 +1,10 @@
-<p>Questions Tagged with <%= @tag.name %></p>
+<p>Questions Tagged with <strong><%= @tag.name %></strong</p>
 
 <hr>
   <% @tag.questions.each do |question| %>
    <div class="row">
     <div class="span12">
       <div class="row">
-      
         <li class="span1 well well-small digit">
           <span><%= pluralize question.reputation_for(:votes).to_i, "" %></span><br/>
           <span>votes</span>
