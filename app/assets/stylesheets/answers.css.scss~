@@ -1,0 +1,20 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.answers {
+  .answer {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.edit_answer {
+  #answer_body {
+    height: 400px;
+  }
+}

@@ -6,9 +6,9 @@
         <%= gravatar_for @user, size: 125 %>
         <%= @user.name %><br/>
       </h1>
-	<p><%= @total_questions.count %> Questions</p>
-	<p><%= @total_answers.count %> Answers</p>
-	<p><%= @total_comments.count %> Comments</p>
+	<p><%= @total_questions.count %> Questions | <%= @total_answers.count %> Answers | 
+	<%= @total_comments.count %> Comments</p>
+	<p></p>
     </section>
     <div class="tabbable span12">
       <ul class="nav nav-tabs ">
@@ -36,7 +36,7 @@
 	<% end %>
       </div>
       <div class="tab-pane" id="tab5">
-        
+        <%= @user.aboutme %>
       </div>
   </div>
 </div>
