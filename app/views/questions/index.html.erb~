@@ -16,7 +16,7 @@
     <% end %>
   </div>
 </div><br>
-<div class="row">
+<div class="row  alert alert-block">
   <strong>
     <div class="span2">
       <p><%= @total_questions.count %> Questions</p>
@@ -34,7 +34,7 @@
       <p><%= @total_users.count %> Users</p>
     </div>
   </strong>
-</div>
+</div><br>
 <div class="tabbable">
   <ul class="nav nav-tabs">
     <li class="active  offset1"><a href="#tab1" data-toggle="tab">Questions</a></li>

@@ -1,16 +1,17 @@
 <% provide(:title, @user.name)%>
-<div >
+<div>
   <aside>
     <section>
       <h1>
-        <%= gravatar_for @user, size: 125 %>
-        <%= @user.name %><br/>
-      </h1>
-	<p><%= @total_questions.count %> Questions</p>
-	<p><%= @total_answers.count %> Answers</p>
-	<p><%= @total_comments.count %> Comments</p>
+        <%= gravatar_for @user, size: 135 %>
+        <%= @user.name %><br/><br>
+      </h1>	
+	<strong><%= @total_questions.count %> Questions</strong>
+	<strong style="padding-left:7em"><%= @total_answers.count %> Answers</strong>
+	<strong style="padding-left:7em"><%= @total_comments.count %> Comments</strong>
+      
     </section>
-    <div class="tabbable span12">
+    <div class="tabbable">
       <ul class="nav nav-tabs ">
         <li class="active  offset2"><a href="#tab1" data-toggle="tab">Profile</a></li>
         <li><a href="#tab2" data-toggle="tab">Questions</a></li>
@@ -27,12 +28,20 @@
       </div>
       <div class="tab-pane" id="tab3">
         <% @answers.each do |answer| %>
-	  <li><%= link_to answer.question.title, question_path(@question) %></li>
+	  <div class="row">
+	    <div class="span10">
+	      <li><%= link_to answer.question.title, question_path(@question) %></li>
+	    </div>
+	  </div><br>
 	<% end %>
       </div>
       <div class="tab-pane" id="tab4">
 	<% @comments.each do |comment| %>
-	  <li><%= link_to comment.question.title, question_path(@comment) %></li>
+	  <div class="row">
+	    <div class="span10">
+	      <li><%= link_to comment.question.title, question_path(@comment) %></li>
+	    </div>
+	  </div><br>
 	<% end %>
       </div>
       <div class="tab-pane" id="tab5">
