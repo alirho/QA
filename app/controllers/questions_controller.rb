@@ -9,6 +9,11 @@ class QuestionsController < ApplicationController
     @questions = Question.search(params[:search]).paginate(page: params[:page])
     @users = User.paginate(page: params[:page])
     @tags = Tag.all
+    @total_questions = Question.all
+    @total_answers = Answer.all
+    @total_comments = Comment.all
+    @total_tags = Tag.all
+    @total_users = User.all
   end
 
   # GET /questions/1

@@ -9,6 +9,9 @@ class QuestionsController < ApplicationController
     @questions = Question.search(params[:search]).paginate(page: params[:page])
     @users = User.paginate(page: params[:page])
     @tags = Tag.all
+    @total_questions = Question.all
+    @total_answers = Answer.all
+    @total_comments = Comment.all
   end
 
   # GET /questions/1
@@ -64,7 +67,7 @@ class QuestionsController < ApplicationController
   # DELETE /questions/1.json
   def destroy
     @question.destroy
-    flash[:error] = 'Question was successfully deleted.'
+    flash[:success] = 'Question was successfully deleted.'
     redirect_to questions_url
   end
   

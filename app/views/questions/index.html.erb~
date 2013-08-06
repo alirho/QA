@@ -10,11 +10,30 @@
   </div>
   <div class="span2 offset5">
     <% if signed_in? %>
-      <%= link_to "Ask Question", "questions/new", class: "btn  btn-large btn-primary" %>
+      <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
     <% else %>
       <%= link_to "Ask Question", "", class: "btn btn-primary disabled" %>
     <% end %>
   </div>
+</div><br>
+<div class="row">
+  <strong>
+    <div class="span2">
+      <p><%= @total_questions.count %> Questions</p>
+    </div>
+    <div class="span2">
+      <p><%= @total_answers.count %> Answers</p>
+    </div>
+    <div class="span2">
+      <p><%= @total_comments.count %> Comments</p>
+    </div>
+    <div class="span2">
+      <p><%= @total_tags.count %> Tags</p>
+    </div>
+    <div class="span2">
+      <p><%= @total_users.count %> Users</p>
+    </div>
+  </strong>
 </div>
 <div class="tabbable">
   <ul class="nav nav-tabs">

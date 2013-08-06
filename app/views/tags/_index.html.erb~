@@ -1,0 +1,5 @@
+<% @tags.each do |tag| %>
+  <div class="span1">
+  <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
+  </div>
+<% end %>
