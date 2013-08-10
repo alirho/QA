@@ -1,4 +1,4 @@
-<p>Questions Tagged with <strong><%= @tag.name %></strong</p>
+<p class="offset4">Questions Tagged with <strong><%= @tag.name %> (<%= @total_tags.count %>)</strong</p>
 
 <hr>
   <% @tag.questions.each do |question| %>
