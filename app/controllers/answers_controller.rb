@@ -18,6 +18,7 @@ class AnswersController < ApplicationController
   def update
     @answer = Answer.find(params[:id])
     @answer.update_attributes(answer_params)
+    flash[:success] = 'Answer was successfully updated.'
     redirect_to @answer.question
   end
   
