@@ -2,7 +2,8 @@
   <div class="span4">
     <legend>Please Sign In</legend>
     <%= form_tag sessions_path do |f| %>
-     
+      <%= render 'shared/error_messages', object: f.object %>
+      
       <%= label_tag :email %>
       <%= text_field_tag :email %>
       
@@ -12,7 +13,6 @@
       <%= submit_tag "Sign in", class: "btn btn-info btn-primary" %>
     <% end %>
     <p>New user?<%= link_to "Sign up now!", signup_path%></p>
-    <p><%= link_to "forgotten password?", new_password_reset_path %></p>
   </div>
   <div class="span6">
             <% if @authentications %>

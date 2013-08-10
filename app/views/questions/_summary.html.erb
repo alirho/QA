@@ -3,16 +3,16 @@
     <div class="span12">
       <div class="row">
         <li class="span1 well well-small digit">
-          <strong><span><%= pluralize question.reputation_for(:votes).to_i, "" %></span><br/>
-          <span>votes</span></strong>
+          <span><%= pluralize question.reputation_for(:votes).to_i, "" %></span><br/>
+          <span>votes</span>
         </li>
         <li class="span1 well well-small digit">
-          <strong><span><%= question.answers.count %></span><br/>
-          <span>answer</span></strong> 
+          <span><%= question.answers.count %></span><br/>
+          <span>answer</span>
         </li>
         <li class="span1 well well-small digit">
-          <strong><span><%= question.visit.total_visits rescue 0 %></span><br/>
-          <span>views</span></strong>
+          <span><%= question.visit.total_visits rescue 0 %></span><br/>
+          <span>views</span>
         </li>
       <div class="span8">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>

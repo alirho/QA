@@ -11,8 +11,8 @@
           <span>answer</span></strong> 
         </li>
         <li class="span1 well well-small digit">
-          <strong><span><%= question.visit.total_visits rescue 0 %></span></strong><br/>
-          <span>views</span>
+          <strong><span><%= question.visit.total_visits rescue 0 %></span><br/>
+          <span>views</span></strong>
         </li>
       <div class="span8">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>

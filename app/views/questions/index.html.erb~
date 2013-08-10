@@ -1,4 +1,5 @@
 <% provide(:title) %>
+<div class="container">
 <div class="row">  
   <div class="span5">
     <%= form_tag questions_path, :method => 'get' do %>
@@ -16,7 +17,7 @@
     <% end %>
   </div>
 </div><br>
-<div class="row  alert alert-block">
+<div class="row alert alert-success ">
   <strong>
     <div class="span2">
       <p><%= @total_questions.count %> Questions</p>
@@ -59,5 +60,5 @@
     </div>
   </div>
 </div>
-
+</div>
 
