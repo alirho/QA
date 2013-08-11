@@ -4,43 +4,43 @@
     <%= form_tag questions_path, :method => 'get' do %>
       <p>
         <%= text_field_tag :search, params[:search], class: "search-query span3" %>
-        <%= submit_tag "Search", :name => nil, class: "btn" %>
+        <%= submit_tag t('.search'), :name => nil, class: "btn" %>
       </p>
     <% end %>
   </div>
   <div class="span2 offset5">
     <% if signed_in? %>
-      <%= link_to "Ask Question", "questions/new", class: "btn btn-primary" %>
+      <%= link_to t('.askquestion'), "questions/new", class: "btn btn-primary" %>
     <% else %>
-      <%= link_to "Ask Question", "", class: "btn btn-primary disabled" %>
+      <%= link_to t('.askquestion'), "", class: "btn btn-primary disabled" %>
     <% end %>
   </div>
 </div><br>
 <div class="row offset1">
   <strong>
     <div class="span2">
-      <p><%= @total_questions.count %> Questions</p>
+      <p><%= @total_questions.count %> <%= t('.questions') %></p>
     </div>
     <div class="span2">
-      <p><%= @total_answers.count %> Answers</p>
+      <p><%= @total_answers.count %> <%= t('.answers') %></p>
     </div>
     <div class="span2">
-      <p><%= @total_comments.count %> Comments</p>
+      <p><%= @total_comments.count %> <%= t('.comments') %></p>
     </div>
     <div class="span2">
-      <p><%= @total_tags.count %> Tags</p>
+      <p><%= @total_tags.count %> <%= t('.tags') %></p>
     </div>
     <div class="span2">
-      <p><%= @total_users.count %> Users</p>
+      <p><%= @total_users.count %> <%= t('.users') %></p>
     </div>
   </strong>
 </div><br>
 <div class="tabbable">
   <ul class="nav nav-tabs">
-    <li class="active  offset1"><a href="#tab1" data-toggle="tab">Questions</a></li>
-    <li><a href="#tab2" data-toggle="tab">Users</a></li>
-    <li><a href="#tab3" data-toggle="tab">Tags</a></li>
-    <li><a href="#tab4" data-toggle="tab">Unanswered</a></li>
+    <li class="active  offset1"><a href="#tab1" data-toggle="tab"><%= t('.questions') %></a></li>
+    <li><a href="#tab2" data-toggle="tab"><%= t('.users') %></a></li>
+    <li><a href="#tab3" data-toggle="tab"><%= t('.tags') %></a></li>
+    <li><a href="#tab4" data-toggle="tab"><%= t('.unanswered') %></a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">

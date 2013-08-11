@@ -17,7 +17,7 @@
       <hr>
       </div>
     </div>
-    
+    <p>Answers(<%= @question.answers.size %>)</p>
     <%= render partial: 'answer' %>
   </div>
 </div>

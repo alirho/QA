@@ -19,19 +19,16 @@
       </div>
       <div class="offset5 span1">
       <% if current_user?(answer.user) %>
-        <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
+        <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
       <% end %>
       </div>
       </div>
       </div>
       <br/>
       <%= answer.body %>
-    </div>
-    
-    
-    
+    </div> 
     <div class="span3 offset6">
-      <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %>
+      <%= time_ago_in_words answer.created_at %> <%= t('.ago') %> <%= t('.by') %> <%= link_to answer.user.name, answer.user %>
     </div>
     <div class="row">
       <div class="span10">

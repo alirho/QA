@@ -1,0 +1,26 @@
+<h1>Editing question</h1>
+
+<div class="span11 well">
+  
+  
+    <%= simple_form_for @question do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+  
+        <%= f.input :title, :input_html => { :class => "span11" } %>
+        
+        <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 } %>
+        <%= tinymce %>
+                
+        <%= f.input :tag_list, :input_html => { :class => "span11" } %><br/>
+                
+        <%= f.submit t('.submit'), class: "btn btn btn-warning" %>
+        
+        <%= link_to t('.back'), @question, class: "btn" %>
+    <% end %>
+  
+   
+  
+
+</div>
+
+

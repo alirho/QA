@@ -4,15 +4,15 @@
       <div class="row">
         <li class="span1 well well-small digit">
           <span><%= pluralize question.reputation_for(:votes).to_i, "" %></span><br/>
-          <span>votes</span>
+          <span><%= t('.votes')%></span>
         </li>
         <li class="span1 well well-small digit">
           <span><%= question.answers.count %></span><br/>
-          <span>answer</span>
+          <span><%= t('.answers')%></span>
         </li>
         <li class="span1 well well-small digit">
           <span><%= question.visit.total_visits rescue 0 %></span><br/>
-          <span>views</span>
+          <span><%= t('.views')%></span>
         </li>
       <div class="span8">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
@@ -21,9 +21,9 @@
         <div class="span8">
           <p></p>
           <p>
-            <i class="icon-user"></i> by <%= link_to question.user.name, question.user %>
-             | <i class="icon-calendar"></i> <%= time_ago_in_words(question.created_at) %> ago
-             | <i class="icon-tags"></i> Tags: 
+            <i class="icon-user"></i> <%= t('.by')%> <%= link_to question.user.name, question.user %>
+             | <i class="icon-calendar"></i> <%= time_ago_in_words(question.created_at) %> <%= t('.ago')%>
+             | <i class="icon-tags"></i> <%= t('.tags')%>: 
                <% question.tags.each do |tag| %>
                  <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
                <% end %>

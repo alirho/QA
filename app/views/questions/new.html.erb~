@@ -1,0 +1,5 @@
+<h4><strong>New question</strong></h4>
+
+<%= render 'form' %>
+
+

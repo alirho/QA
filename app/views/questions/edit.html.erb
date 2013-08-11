@@ -1,4 +1,4 @@
-<h1>Editing question</h1>
+<h1><%= t('.head') %></h1>
 
 <div class="span11 well">
   
@@ -13,9 +13,9 @@
                 
         <%= f.input :tag_list, :input_html => { :class => "span11" } %><br/>
                 
-        <%= f.submit "Update Question", class: "btn btn btn-warning" %>
+        <%= f.submit t('.submit'), class: "btn btn btn-warning" %>
         
-        <%= link_to raw('<i class="icon-arrow-left"></i> Back'), @question, class: "btn" %>
+        <%= link_to t('.back'), @question, class: "btn" %>
     <% end %>
   
    

@@ -1,18 +1,17 @@
 <div class="row">
   <div class="span4">
-    <legend>Please Sign In</legend>
+    <legend><%= t('.head') %></legend>
     <%= form_tag sessions_path do |f| %>
-      <%= render 'shared/error_messages', object: f.object %>
-      
+     
       <%= label_tag :email %>
       <%= text_field_tag :email %>
       
       <%= label_tag :password %>
       <%= password_field_tag :password %><br/>
       
-      <%= submit_tag "Sign in", class: "btn btn-info btn-primary" %>
+      <%= submit_tag t('.submit'), class: "btn btn-info btn-primary" %>
     <% end %>
-    <p>New user?<%= link_to "Sign up now!", signup_path%></p>
+    <p>New user?<%= link_to t('.signup'), signup_path%></p>
   </div>
   <div class="span6">
             <% if @authentications %>

@@ -1,0 +1,32 @@
+<% @questions.each do |question| %>
+  <div class="span11">
+    <h5><strong><%= link_to question.title, question_path(question) %></strong></h5>
+    <div class="row">
+      <div class="span11">
+        <p></p>
+        <p>
+          <span class="space"><i class="icon-user"></i> by 
+          	<%= link_to question.user.name, question.user %></a></span>
+          <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(question.created_at) %> ago</span>
+          <span class="space"><i class="icon-comment"></i> <%= question.comments.size %></span>
+          <span class="space"><i class="icon-eye-open"></i> <%= question.visit.total_visits rescue 0 %></span>
+          <span class="space"><i class="icon-pencil"></i> <%= question.answers.count %></span>
+      
+          <% if  question.reputation_for(:votes).to_i >= 0 %>
+            <span class="space"><i class="icon- icon-thumbs-up"></i>
+            <%= pluralize question.reputation_for(:votes).to_i, "" %>
+          <% else %>
+            <span class="space"><i class="icon- icon-thumbs-down"></i>
+            <%= pluralize question.reputation_for(:votes).to_i, "" %>
+          <% end %>
+          <span class="space"><i class="icon-tags"></i>  
+            <% question.tags.each do |tag| %>
+              <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
+            <% end %></span>
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+<% end %>

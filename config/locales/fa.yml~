@@ -1,0 +1,178 @@
+fa:
+  controllers:
+    answers:
+      create:
+        flash:
+          success: "پاسخ شما با موفقیت ایجاد شد."
+      update:
+        flash:
+          success: "پاسخ شما با موفقیت ویرایش شد."
+      destroy:
+        flash:
+          success: "پاسخ شما با موفقیت پاک شد."
+      vote:
+        flash:
+          success: "با تشکر از امتیاز شما"
+    
+    comments:
+      create:
+        flash:
+          success: "دیدگاه شما با موفقیت ایجاد شد."
+    questions:
+      create:
+        flash:
+          success: "پرسش شما با موفقیت ایجاد شد."
+      update:
+        flash:
+          success: "پرسش شما با موفقیت ویرایش شد."
+      destroy:
+        flash:
+          success: "پرسش شما با موفقیت پاک شد."
+      vote:
+        flash:
+          success: "با تشکر از امتیاز شما"
+      
+    sessions:
+      create:
+        flash:
+          success: " شما با موفقیت وارد شدید."
+          error: "ایمیل یا گذرواژه و یا ترکیبی از این دو اشتباه است."
+    
+    users:
+      create:
+        flash:
+          success: "به سایت پرسش و پاسخ خوش‌آمدید"
+      update:
+        falsh:
+          success: "اطلاعات پروفایل شما به‌روز شد"
+      destroy:
+        flash:
+          success: "با موفقیت پاک شد."
+          
+  answers:
+    title: "پاسخ‌ها"
+    answer: 
+      submit: "پاسخ شما"
+    edit:
+      submit: "بروزرسانی پاسخ"
+      back: "برگشت"
+      head: "ویرایش پاسخ"
+  comments:
+    form:
+      submit: "ایجاد دیدگاه"
+      
+  layouts:
+    footer:
+      about: "درباره"
+      contact: "ارتباط"
+    header:
+      brand_name: "پرسش و پاسخ"
+      faq: "سوالات متداول"
+      help: "کمک"
+      about: "درباره ما"
+      contact: "ارتباط با ما"
+      profile: "پروفایل"
+      settings: "تنظیمات"
+      signout: "خروج"
+      signin: "ورود"
+      signup: "ثبت نام"
+      
+  questions:
+    answer:
+      edit: "ویرایش"
+      ago: "قبل"
+      by: "توسط"
+    comment:
+      comments: "دیدگاه‌ها"
+      ago: "قبل"
+      by: "توسط"
+    edit:
+      head: "ویرایش پرسش"
+      submit: "بروزرسانی پرسش"
+      back: "برگشت"
+    form:
+      submit: "ایجاد پرسش"
+      back: "برگشت"
+    index:
+      search: "جستجو"
+      askquestion: "پرسش خود را بپرسید"
+      questions: "پرسش‌ها"
+      answers: "پاسخ‌ها"
+      comments: "دیدگاه‌ها"
+      tags: "تگ‌ها"
+      users: "کاربران"
+      unanswered: "بدون پاسخ‌ها"
+    new:
+      head: "پرسش جدید"
+    question:
+      by: "توسط"
+      ago: "قبل"
+      edit: "ویرایش"
+      back: "برگشت"
+      delete: "پاک کردن"
+      tags: "تگ‌ها"
+    show:
+      answers: "پاسخ‌ها"
+    summary:
+      votes: "امتیاز"
+      answers: "پاسخ‌"
+      views: "نمایش‌"
+      by: "توسط"
+      ago: "قبل"
+      tags: "تگ‌ها"
+    unanswer:
+      votes: "امتیاز"
+      answers: "پاسخ‌"
+      views: "نمایش‌"
+      by: "توسط"
+      ago: "قبل"
+      tags: "تگ‌ها"
+  
+  sessions:
+    new:
+      head: "ورود"
+      submit: "ورود"
+      signup: "ثبت نام کنید"
+      newuser: "کاربر جدید هستید؟"
+  
+  tags:
+    show:
+      votes: "امتیاز"
+      answers: "پاسخ‌"
+      views: "نمایش‌"
+      by: "توسط"
+      ago: "قبل"
+      tags: "تگ‌ها"
+  
+  users:
+    edit:
+      head: "پروفایل خود را ویرایش کنید"
+      submit: "ویرایش پروفایل"
+    index:
+    
+    new:
+      head: "ثبت نام"
+      submit: "ایجاد اکانت"
+    
+    profile:
+      memberof: "عضو شده"
+    
+    question:
+      by: "توسط"
+      ago: "قبل"
+    
+    show:
+      questions: "پرسش‌ها"
+      answers: "پاسخ‌ها"
+      comments: "دیدگاه‌ها"
+      profile: "پروفایل"
+      aboutme: "درباره من"
+    user:
+  
+  
+  
+  
+  
+  
+  
+   

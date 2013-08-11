@@ -1,5 +1,5 @@
 <% provide(:title, "Edit user") %>
-<h4>Update your profile</h4>
+<h4><%= t('.head') %></h4>
 <%= simple_form_for @user do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
   <div class="row">
@@ -16,6 +16,6 @@
       <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 20 } %>
     </div>
   </div>
-      <%= f.submit "Save changes", class: "btn btn-medium  btn-warning" %>
+      <%= f.submit t('.submit'), class: "btn btn-medium  btn-warning" %>
 <% end %>
 

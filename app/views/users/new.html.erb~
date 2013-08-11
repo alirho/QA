@@ -6,7 +6,7 @@
     <%= simple_form_for(@user) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
     
-      <%= f.input :name,:input_html => { :class => "span4" }, label: 'Your username please' %>
+      <%= f.input :name,:input_html => { :class => "span4" } %>
 		  		  
       <%= f.input :email,:input_html => { :class => "span4" } %>
 		  

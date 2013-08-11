@@ -1,0 +1,8 @@
+<p><i class="icon-user"></i> <%= @user.name %></p><br/>
+<p><i class="icon-envelope"></i> <%= link_to @user.email %></p>
+<p><i class="icon-th"></i> <%= @user.website %> </p>
+<p><i class="icon-globe"></i> <%= @user.location %> </p>
+<p><i class="icon-user"></i> <%= @user.realname %> </p>
+<p><i class="icon-time"></i> member for: <%= @user.created_at %> </p>
+
+
