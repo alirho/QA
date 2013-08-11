@@ -5,6 +5,13 @@ GIT
   specs:
     activerecord-reputation-system (2.0.2)
 
+GIT
+  remote: https://github.com/iCEAGE/rails-i18n.git
+  revision: 4a865051decdee259646d24e0d0ebe51376878a9
+  specs:
+    rails-i18n (0.6.4)
+      i18n (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,6 +168,7 @@ DEPENDENCIES
   omniauth-twitter
   pg (= 0.15.1)
   rails (= 4.0.0)
+  rails-i18n!
   rails_12factor (= 0.0.2)
   sass-rails
   simple_form

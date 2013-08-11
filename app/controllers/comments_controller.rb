@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
     @comment.question_id = params[:question_id]
     @comment.user = current_user
     @comment.save
-    flash[:success] = "Comment has been created!"
+    flash[:success] = t('controllers.comments.create.flash.success')
     redirect_to question_path(@comment.question)
   end
   

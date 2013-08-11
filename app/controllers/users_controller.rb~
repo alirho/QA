@@ -12,9 +12,9 @@ class UsersController < ApplicationController
     @total_questions = @user.questions
     @questions = @total_questions
     @total_answers = @user.answers
-    @answers = @user.answers.includes(:questions)
+    @answers = @user.answers.includes(:question)
     @total_comments = @user.comments
-    @comments = @user.comments.includes(:questions)
+    @comments = @user.comments.includes(:question)
   end
   
   def new

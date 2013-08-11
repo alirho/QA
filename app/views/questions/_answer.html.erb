@@ -1,7 +1,6 @@
 <div class="row">
   <div class="span11">
     <% @question.answers.each do |answer| %>
-    <p>Answers(<%= @question.answers.size %>)</p>
     <div class="span10">
       <div class="row">
       <div class="span10">
@@ -27,10 +26,7 @@
       </div>
       <br/>
       <%= answer.body %>
-    </div>
-    
-    
-    
+    </div> 
     <div class="span3 offset6">
       <%= time_ago_in_words answer.created_at %> ago by <%= link_to answer.user.name, answer.user %>
     </div>
@@ -40,6 +36,7 @@
       </div>
     </div>
     <% end %>
+    <hr>
     <% if signed_in? %>
       <%= render partial: 'answers/answer' %>
     <% end %>

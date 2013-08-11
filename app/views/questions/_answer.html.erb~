@@ -1,7 +1,6 @@
 <div class="row">
   <div class="span11">
     <% @question.answers.each do |answer| %>
-    <p>Answers(<%= @question.answers.size %>)</p>
     <div class="span10">
       <div class="row">
       <div class="span10">
@@ -18,7 +17,7 @@
         | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
       <% end %>
       </div>
-      <div class="offset6 span1">
+      <div class="offset5 span1">
       <% if current_user?(answer.user) %>
         <%= link_to raw('<i class="icon-edit"></i> Edit'), edit_answer_path(answer), class: "btn btn-small" %>
       <% end %>
@@ -40,6 +39,7 @@
       </div>
     </div>
     <% end %>
+    <hr>
     <% if signed_in? %>
       <%= render partial: 'answers/answer' %>
     <% end %>

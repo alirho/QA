@@ -1,0 +1,50 @@
+fa:
+  controllers:
+    answers:
+      create:
+        flash:
+          success: "پاسخ شما با موفقیت ایجاد شد."
+      update:
+        flash:
+          success: "پاسخ شما با موفقیت ویرایش شد."
+      destroy:
+        flash:
+          success: "پاسخ شما با موفقیت پاک شد."
+      vote:
+        flash:
+          success: "با تشکر از امتیاز شما"
+    
+    comments:
+      create:
+        flash:
+          success: "دیدگاه شما با موفقیت ایجاد شد."
+    questions:
+      create:
+        flash:
+          success: "پرسش شما با موفقیت ایجاد شد."
+      update:
+        flash:
+          success: "پرسش شما با موفقیت ویرایش شد."
+      destroy:
+        flash:
+          success: "پرسش شما با موفقیت پاک شد."
+      vote:
+        flash:
+          success: "با تشکر از امتیاز شما"
+      
+    sessions:
+      create:
+        flash:
+          success: " شما با موفقیت وارد شدید."
+          error: "ایمیل یا گذرواژه و یا ترکیبی از این دو اشتباه است."
+    
+    users:
+      create:
+        flash:
+          success: "به سایت پرسش و پاسخ خوش‌آمدید"
+      update:
+        falsh:
+          success: "اطلاعات پروفایل شما به‌روز شد"
+      destroy:
+        flash:
+          success: "با موفقیت پاک شد."

@@ -43,7 +43,7 @@ class QuestionsController < ApplicationController
     @question = Question.new(question_params)
     @question.user = current_user
     if @question.save
-      flash[:success] = 'Question was successfully created.'
+      flash[:success] = t('controllers.questions.create.flash.success')
       redirect_to @question
     else
       render 'new'
@@ -55,7 +55,7 @@ class QuestionsController < ApplicationController
   def update
     
       if @question.update(question_params)
-        flash[:success] = 'Question was successfully updated.'
+        flash[:success] = t('controllers.questions.update.flash.success')
         redirect_to @question
       else
        render  'edit'
@@ -69,7 +69,7 @@ class QuestionsController < ApplicationController
   # DELETE /questions/1.json
   def destroy
     @question.destroy
-    flash[:success] = 'Question was successfully deleted.'
+    flash[:success] = t('controllers.questions.destroy.flash.success')
     redirect_to questions_url
   end
   
@@ -77,7 +77,7 @@ class QuestionsController < ApplicationController
     value = params[:type] == "up" ? 1 : -1
     @question = Question.find(params[:id])
     @question.add_or_update_evaluation(:votes, value, current_user)
-    flash[:success] = "Thank you for voting"
+    flash[:success] = t('controllers.questions.vote.flash.success')
     redirect_to :back
   end
   
