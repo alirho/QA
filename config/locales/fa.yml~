@@ -132,8 +132,10 @@ fa:
     new:
       head: "ورود"
       submit: "ورود"
+      rememberme: "مرا بخاطر بسپار"
       signup: "ثبت نام کنید"
       newuser: "کاربر جدید هستید؟"
+      otherservise: "چنانچه در یکی از سایت‌های زیر عضو هستید، می‌توانید مستقیما وارد شوید:"
   
   tags:
     show:
@@ -167,7 +169,7 @@ fa:
       comments: "دیدگاه‌ها"
       profile: "پروفایل"
       aboutme: "درباره من"
-    user:
+
   
   
   
