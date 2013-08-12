@@ -1,0 +1,7 @@
+<% provide(:title, 'FAQ')%>
+
+<h3>  اگر شما کاربر تازه کار هستید بهتر است پیش از پرسیدن پرسش خود به لینک‌های زیر مراجعه کنید</h3>
+<a href="http://wiki.ubuntu-ir.org/SmartQuestions"><p>چگونه هوشمندانه سوال کنیم</p></a>
+<a href="https://github.com/AR-H/QA"><p>لینوکس ویندوز نیست</p></a>
+<a href="https://github.com/AR-H/QA"><p>راهنمای هکرها و گیک ها برای لینوکس و زندگی</p></a>
+

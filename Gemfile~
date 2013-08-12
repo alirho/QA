@@ -14,6 +14,7 @@ gem 'omniauth-twitter'
 gem 'tinymce-rails'
 gem 'activerecord-reputation-system', github: 'NARKOZ/activerecord-reputation-system', branch: 'rails4'
 gem 'therubyracer'
+gem 'rails-i18n', git: 'https://github.com/iCEAGE/rails-i18n.git'
 
 group :development do
   gem 'sqlite3', '1.3.7'
