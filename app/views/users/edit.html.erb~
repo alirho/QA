@@ -1,21 +1,22 @@
 <% provide(:title, "Edit user") %>
-<h4>Update your profile</h4>
+<h4><%= t('.head') %></h4>
 <%= simple_form_for @user do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
   <div class="row">
     <div class="span4">
-      <%= f.input :name,:input_html => { :class => "span4" } %>
-      <%= f.input :email,:input_html => { :class => "span4" }, disabled: true %>
-      <%= f.input :password,:input_html => { :class => "span4" }, required: false %>
-      <%= f.input :password_confirmation,:input_html => { :class => "span4" }, required: false %>
-      <%= f.input :location,:input_html => { :class => "span4" } %>
-      <%= f.input :website,:input_html => { :class => "span4" } %>
-      <%= f.input :realname,:input_html => { :class => "span4" } %>                    
+      <%= f.input :name, label: t('.name'), :input_html => { :class => "span4" } %>
+      <%= f.input :email, label: t('.email'),:input_html => { :class => "span4" }, disabled: true %>
+      <%= f.input :password, label: t('.password'),:input_html => { :class => "span4" }, required: false %>
+      <%= f.input :password_confirmation, label: t('.cpassword'),
+          :input_html => { :class => "span4" }, required: false %>
+      <%= f.input :location, label: t('.location'),:input_html => { :class => "span4" } %>
+      <%= f.input :website, label: t('.website'),:input_html => { :class => "span4" } %>
+      <%= f.input :realname, label: t('.realname'),:input_html => { :class => "span4" } %>                    
     </div>
     <div class="span5">
       <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 20 } %>
     </div>
   </div>
-      <%= f.submit "Save changes", class: "btn btn-medium  btn-warning" %>
+      <%= f.submit t('.submit'), class: "btn btn-medium  btn-warning" %>
 <% end %>
 

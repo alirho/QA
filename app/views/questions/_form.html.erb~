@@ -6,12 +6,15 @@
   <%= simple_form_for(@question,:html => { :novalidate => true }) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
     
-    <%= f.input :title, placeholder: 'add your question title',:input_html => { :class => "span11" } %>
+    <%= f.input :title, placeholder: 'add your question title',
+    :input_html => { :class => "span11" }, label: t('.title') %>
         
-    <%= f.input :body, placeholder: 'add your question',:input_html => { :class => "tinymce",rows: 15 } %>
+    <%= f.input :body, placeholder: 'add your question',
+    :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
     <%= tinymce %>
                 
-    <%= f.input :tag_list, placeholder: 'seprate tags with comma', :input_html => { :class => "span11" } %><br/>
+    <%= f.input :tag_list, placeholder: 'seprate tags with comma', 
+    :input_html => { :class => "span11" }, label: t('.tag') %><br/>
     
                 
     <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>

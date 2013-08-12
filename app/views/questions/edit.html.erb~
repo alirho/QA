@@ -1,4 +1,4 @@
-<h1>Editing question</h1>
+<h1><%= t('.head') %></h1>
 
 <div class="span11 well">
   

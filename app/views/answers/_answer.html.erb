@@ -4,7 +4,7 @@
       
     <%=  hidden_field_tag :question_id, @answer.question.id %>
     
-    <%= f.input :body, label: false,
+    <%= f.input :body, label: false, label: t('.youranswer'),
         :input_html => { :class => "tinymce span10",rows: 15 } %><br/>
     
     <%= f.submit  t('.submit') , class: "btn btn-medium btn-primary" %>

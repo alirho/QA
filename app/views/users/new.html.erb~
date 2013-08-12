@@ -1,20 +1,28 @@
 <% provide(:title,'Sign up') %>
-<h1>Sign up</h1>
+<h1><%= t('.head') %></h1>
 
 <div class="row">
-  <div class="span4 offset3 well">
+  <div class="span4">
     <%= simple_form_for(@user) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
-    
-      <%= f.input :name,:input_html => { :class => "span4" } %>
-		  		  
-      <%= f.input :email,:input_html => { :class => "span4" } %>
+      
+      <%= f.input :name, label: t('.name'),:input_html => { :class => "span4" },
+          placeholder: t('.namel') %>
+      <div class="control-group email optional">
+      <div class="controls">
+          <div class="input-prepend">
+            <span class="add-on"><i class="icon-envelope"></i></span>	  		  
+            <%= f.input :email, label: t('.email'),:input_html => { :class => "span4" } %>
+      </div>
+      </div>
+      </div>
 		  
-      <%= f.input :password,:input_html => { :class => "span4" } %>
+      <%= f.input :password, label: t('.password'),:input_html => { :class => "span4" },
+      	  placeholder: t('.passwordl') %>
 			  
-      <%= f.input :password_confirmation,:input_html => { :class => "span4" } %><br/>
+      <%= f.input :password_confirmation, label: t('.cpassword'),:input_html => { :class => "span4" } %><br/>
     
-      <%= f.submit "Create my account", class: "btn btn-medium btn-primary" %>
+      <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>
     <% end %>
   </div>
 </div>

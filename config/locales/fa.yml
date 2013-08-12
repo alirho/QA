@@ -52,14 +52,16 @@ fa:
   answers:
     title: "پاسخ‌ها"
     answer: 
-      submit: "پاسخ شما"
+      youranswer: "پاسخ خود را بنویسید"
+      submit: " ایجاد پاسخ"
     edit:
       submit: "بروزرسانی پاسخ"
-      back: "برگشت"
+      back: "بازگشت"
       head: "ویرایش پاسخ"
   comments:
     form:
       submit: "ایجاد دیدگاه"
+      yourcomment: "دیدگاه خود را اینجا بنویسید (دیدگاه شما نباید کمتر از ۲۰ کاراکتر باشد"
       
   layouts:
     footer:
@@ -89,10 +91,18 @@ fa:
     edit:
       head: "ویرایش پرسش"
       submit: "بروزرسانی پرسش"
-      back: "برگشت"
+      back: "بازگشت"
+      title: "عنوان پرسش"
+      body: "بدنه پرسش"
+      tag: "تگ‌ها"
     form:
       submit: "ایجاد پرسش"
-      back: "برگشت"
+      back: "بازگشت"
+      title: "عنوان پرسش"
+      body: "بدنه پرسش"
+      tag: "تگ‌ها"
+      titleq: "عنوان پرسش نباید کمتر از ۱۰ کاراکتر باشد."
+      tagq: "تگ‌ها را با کاما جدا کنید."
     index:
       search: "جستجو"
       askquestion: "پرسش خود را بپرسید"
@@ -108,7 +118,7 @@ fa:
       by: "توسط"
       ago: "قبل"
       edit: "ویرایش"
-      back: "برگشت"
+      back: "بازگشت"
       delete: "پاک کردن"
       tags: "تگ‌ها"
     show:
@@ -136,6 +146,8 @@ fa:
       signup: "ثبت نام کنید"
       newuser: "کاربر جدید هستید؟"
       otherservices: "چنانچه در یکی از سایت‌های زیر عضو هستید، می‌توانید مستقیما وارد شوید:"
+      email: "ایمیل"
+      password: "گذرواژه"
   
   tags:
     show:
@@ -150,11 +162,26 @@ fa:
     edit:
       head: "پروفایل خود را ویرایش کنید"
       submit: "ویرایش پروفایل"
+      name: "نام کاربری"
+      namel: "باید بین ۳ تا ۵۰ کاراکتر باشد"
+      email: "ایمیل"
+      password: "گذرواژه"
+      passwordl: "نباید کمتر از ۶ کاراکتر باشد"
+      cpassword: "تایید گذرواژه"
+      location: "محل سکونت"
+      website: "وبسایت"
+      realname: "نام واقعی"
     index:
     
     new:
       head: "ثبت نام"
       submit: "ایجاد اکانت"
+      name: "نام کاربری"
+      namel: "باید بین ۳ تا ۵۰ کاراکتر باشد"
+      email: "ایمیل"
+      password: "گذرواژه"
+      passwordl: "نباید کمتر از ۶ کاراکتر باشد"
+      cpassword: "تایید گذرواژه"
     
     profile:
       memberof: "عضو شده"
