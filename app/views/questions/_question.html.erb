@@ -32,12 +32,13 @@
   <% end %>
 <p></p>
 </div>
-<div class="span10">
+<div class="span11">
   <%= @question.body %>
 <p></p>
 </div>
-<div class="span10">
+<div class="span11">
   <% @question.tags.each do |tag| %>
     <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
   <% end %>
+  <hr>
 </div>        

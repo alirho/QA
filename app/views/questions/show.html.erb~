@@ -1,23 +1,14 @@
 <% provide(:title,)%>
 <p id="notice"><%= notice %></p>
-<div class="row">
+<div class="row well">
   <div class="span12">
     <%= render partial: 'question' %>
-    </br> 
-    <div class="row">
-      <div class="span12">
-      <hr>
-      </div>
-    </div>
     
     <%= render partial: 'comment' %>
     </br> 
-    <div class="row">
-      <div class="span11">
-      <hr>
-      </div>
-    </div>
+    <div class="span11">
     <p><%= t('.answers')%> (<%= @question.answers.size %>)</p>
+    </div>
     <%= render partial: 'answer' %>
   </div>
 </div>

@@ -176,6 +176,12 @@ fa:
     new:
       head: "ثبت نام"
       submit: "ایجاد اکانت"
+      name: "نام کاربری"
+      namel: "باید بین ۳ تا ۵۰ کاراکتر باشد"
+      email: "ایمیل"
+      password: "گذرواژه"
+      passwordl: "نباید کمتر از ۶ کاراکتر باشد"
+      cpassword: "تایید گذرواژه"
     
     profile:
       memberof: "عضو شده"

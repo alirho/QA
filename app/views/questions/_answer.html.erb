@@ -1,46 +1,38 @@
-<div class="row">
-  <div class="span11">
-    <% @question.answers.each do |answer| %>
-    <div class="span10">
-      <div class="row">
-      <div class="span10">
-      <div class="span3">
-      <% if  @answer.reputation_for(:votes).to_i >= 0 %>
-        <span class="space"><i class="icon- icon-thumbs-up"></i>
-        <%= pluralize answer.reputation_for(:votes).to_i, "" %>
-      <% else %>
-        <span class="space"><i class="icon- icon-thumbs-down"></i>
-        <%= pluralize answer.reputation_for(:votes).to_i, "" %>
-      <% end %>
-      <% if current_user && !current_user.voted_for?(answer) %>
-        | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
-        | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
-      <% end %>
-      </div>
-      <div class="offset5 span1">
-      <% if current_user?(answer.user) %>
-        <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
-      <% end %>
-      </div>
-      </div>
-      </div>
-      <br/>
-      <%= answer.body %>
-    </div> 
-    <div class="span3 offset6">
-      <%= time_ago_in_words answer.created_at %> <%= t('.ago') %> <%= t('.by') %>
-       <%= link_to answer.user.name, answer.user %>
-    </div>
-    <div class="row">
-      <div class="span10">
-        <hr>
-      </div>
-    </div>
-    <% end %>
-    <hr>
-    <% if signed_in? %>
-      <%= render partial: 'answers/answer' %>
-    <% end %>
-  </div>
+<% @question.answers.each do |answer| %>
+<div class="span7">
+  <span class="space"><i class="icon-user"></i> <%= t('.by')%>
+  	<%= link_to answer.user.name, answer.user %></span>
+  <span class="space"><i class="icon-calendar"></i>
+  	<%= time_ago_in_words answer.created_at %> <%= t('.ago') %></span>       
+  <% if  @answer.reputation_for(:votes).to_i >= 0 %>
+    <span class="space"><i class="icon- icon-thumbs-up"></i>
+    <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+  <% else %>
+    <span class="space"><i class="icon- icon-thumbs-down"></i>
+    <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+  <% end %>
+  <% if current_user && !current_user.voted_for?(answer) %>
+    | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
+    | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
+  <% end %>
+</div>
+<div class="span2 offset1">
+  <% if current_user?(answer.user) %>
+    <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
+    <%= link_to t('.delete'), @answer, method: :delete,
+    	data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+  <% end %>
+  <p></p>
+</div>
+<div class="span11">
+   <%= answer.body %>
+   <p></P><br/>
+   <hr>
+</div>    
+<% end %>
+<div class="span11">
+  <% if signed_in? %>
+    <%= render partial: 'answers/answer' %>
+  <% end %>
 </div>
 

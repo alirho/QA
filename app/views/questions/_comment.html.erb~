@@ -1,19 +1,18 @@
 <div class="row">
-<div class="span8 well offset1">
+<div class="span8 offset1">
   <p><%= t('.comments') %> (<%= @question.comments.size %>)</p>
   <small>
     <% @question.comments.each do |comment| %>
-    <p class="comment"><%= comment.body %><br>
-    <%= time_ago_in_words comment.created_at %> ago by <%= link_to comment.user.name, comment.user %></p>
+    <p><%= comment.body %><br>
+    <%= time_ago_in_words comment.created_at %> <%= t('.ago') %> <%= t('.by') %>
+     <%= link_to comment.user.name, comment.user %></p>
       <div class="row">
-        <div class="span8">
+        <div class="span9">
           <hr>
         </div>
       </div>
       <% end %>
-    
-      <%= render partial: 'comments/form' %>
-    
+    <%= render partial: 'comments/form' %>  
   </small>
 </div>
 </div>
