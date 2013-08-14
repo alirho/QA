@@ -1,0 +1,9 @@
+toolbar1:  undo redo | bold italic underline | alignleft aligncenter alignright alignjustify |
+           bullist numlist outdent indent | fullscreen preview | ltr rtl | formatinline
+plugins:
+    - fullscreen
+    - preview
+    - directionality
+    - visualblocks
+    
+
