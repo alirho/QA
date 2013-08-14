@@ -82,6 +82,7 @@ fa:
   questions:
     answer:
       edit: "ویرایش"
+      delete: "پاک کردن"
       ago: "قبل"
       by: "توسط"
     comment:

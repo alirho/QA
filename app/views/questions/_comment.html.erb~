@@ -6,6 +6,11 @@
     <p><%= comment.body %><br>
     <%= time_ago_in_words comment.created_at %> <%= t('.ago') %> <%= t('.by') %>
      <%= link_to comment.user.name, comment.user %></p>
+     <% if current_user?(comment.user) %>
+       <%= link_to t('.edit'), edit_question_comment_path(@comment), class: "btn btn-small" %>
+       <%= link_to t('.delete'), method: :delete,
+    		data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+     <% end %>
       <div class="row">
         <div class="span9">
           <hr>
@@ -15,4 +20,7 @@
     <%= render partial: 'comments/form' %>  
   </small>
 </div>
+</div>
+<div class="span11">
+  <hr>
 </div>

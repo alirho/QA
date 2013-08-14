@@ -1,0 +1,8 @@
+<%= simple_form_for [ @question, @comment ] do |f| %>
+  
+  <%= f.input :body, label: false, :input_html => { :class => "span7",rows: 3 }, 
+    placeholder: t('.yourcomment') %><br/>
+  <p>
+    <%= f.submit t('.submit'),class: "btn btn-small btn-primary" %>
+  </p>
+<% end %>

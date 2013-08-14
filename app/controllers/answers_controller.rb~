@@ -6,7 +6,7 @@ class AnswersController < ApplicationController
     @answer = @question.answers.new(answer_params)
     @answer.user = current_user
     @answer.save
-    flash[:success] = 'Answer was successfully created.'
+    flash[:success] = t('controllers.answers.create.flash.success')
     redirect_to @answer.question 
   end
   
@@ -18,21 +18,21 @@ class AnswersController < ApplicationController
   def update
     @answer = Answer.find(params[:id])
     @answer.update_attributes(answer_params)
-    flash[:success] = 'Answer was successfully updated.'
+    flash[:success] = t('controllers.answers.update.flash.success')
     redirect_to @answer.question
   end
   
   def destroy
     @answer = Answer.find(params[:id])
-    @question.answers.destroy
-    redirect_to @answer.question, :notice => "Successfully destroyed answer."
+    @questions.answer.destroy
+    redirect_to @answer.question, :notice => t('controllers.answers.destroy.flash.success')
   end
   
   def vote
     value = params[:type] == "up" ? 1 : -1
     @answer = Answer.find(params[:id])
     @answer.add_or_update_evaluation(:votes, value, current_user)
-    flash[:success] = "Thank you for voting"
+    flash[:success] = t('controllers.answers.vote.flash.success')
     redirect_to :back
   end
   
