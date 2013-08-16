@@ -7,7 +7,7 @@
     <%= render partial: 'comment' %>
     </br> 
     <div class="span11">
-    <p><%= t('.answers')%> (<%= @question.answers.size %>)</p>
+    <p><%= t('.answers')%> (<%= @question.answers.size.to_farsi %>)</p>
     </div>
     <%= render partial: 'answer' %>
   </div>

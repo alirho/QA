@@ -38,8 +38,8 @@ class UsersController < ApplicationController
   
   def update
     if @user.update_attributes(user_params)
-      flash[:success] = t('controllers.users.update.flash.success')
       sign_in @user
+      flash[:success] = t('controllers.users.update.flash.success')
       redirect_to @user
     else
       render 'edit'

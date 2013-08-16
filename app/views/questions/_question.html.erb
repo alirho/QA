@@ -5,16 +5,16 @@
     <%= link_to @question.user.name, @question.user %></span>
     <span class="space"><i class="icon-calendar"></i> <%= time_ago_in_words(@question.created_at) %> 
 	    <%= t('.ago')%></span>
-    <span class="space"><i class="icon-comment"></i> <%= @question.comments.size %></span>
+    <span class="space"><i class="icon-comment"></i> <%= @question.comments.size.to_farsi %></span>
     <span class="space"><i class="icon-eye-open"></i> 
-          <%= @question.visit.total_visits rescue 0 %></span>
-    <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count %></span>
+          <%= @question.visit.total_visits.to_farsi rescue 0 %></span>
+    <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count.to_farsi %></span>
       <% if  @question.reputation_for(:votes).to_i >= 0 %>
         <span class="space"><i class="icon- icon-thumbs-up"></i>
-        <%= pluralize @question.reputation_for(:votes).to_i, "" %>
+        <%= pluralize @question.reputation_for(:votes).to_i.to_farsi, "" %>
       <% else %>
         <span class="space"><i class="icon- icon-thumbs-down"></i>
-        <%= pluralize @question.reputation_for(:votes).to_i, "" %>
+        <%= pluralize @question.reputation_for(:votes).to_i.to_farsi, "" %>
       <% end %>
           
       <% if current_user && !current_user.voted_for?(@question) %>

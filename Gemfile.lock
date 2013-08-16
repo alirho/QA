@@ -61,6 +61,7 @@ GEM
       i18n (~> 0.5)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    farsifu (0.5.0)
     hashie (2.0.5)
     hike (1.2.3)
     httpauth (0.2.0)
@@ -187,6 +188,7 @@ DEPENDENCIES
   bootstrap-will_paginate (= 0.0.9)
   coffee-rails
   faker (= 1.1.2)
+  farsifu
   jbuilder (~> 1.0.1)
   jquery-rails
   mocha

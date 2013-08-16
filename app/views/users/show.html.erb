@@ -6,9 +6,9 @@
         <%= gravatar_for @user, size: 135 %>
         <%= @user.name %><br/>
       </h1>	
-	<strong><%= @total_questions.count %> <%= t('.questions') %></strong>
-	<strong style="padding-left:7em"><%= @total_answers.count %> <%= t('.answers') %></strong>
-	<strong style="padding-left:7em"><%= @total_comments.count %> <%= t('.comments') %></strong>
+	<strong><%= @total_questions.count.to_farsi %> <%= t('.questions') %></strong>
+	<strong style="padding-left:7em"><%= @total_answers.count.to_farsi %> <%= t('.answers') %></strong>
+	<strong style="padding-left:7em"><%= @total_comments.count.to_farsi %> <%= t('.comments') %></strong>
       
     </section>
     <div class="tabbable">
