@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'bootstrap-sass', '2.3.0.1'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'faker', '1.1.2'
 gem 'bootstrap-will_paginate', '0.0.9'
@@ -20,7 +19,10 @@ gem 'therubyracer'
 gem 'rails-i18n', git: 'https://github.com/iCEAGE/rails-i18n.git'
 gem 'farsifu'
 gem 'jalalidate'
-gem 'sanitize'x
+gem 'sanitize'
+gem "therubyracer"
+gem "less-rails"
+gem 'twitter-bootstrap-rails', git: "https://github.com/jnaqsh/twitter-bootstrap-rails.git"
 
 group :development do
   gem 'sqlite3', '1.3.7'

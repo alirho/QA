@@ -3,6 +3,6 @@
 <p><i class="icon-th"></i> <%= @user.website %> </p>
 <p><i class="icon-globe"></i> <%= @user.location %> </p>
 <p><i class="icon-user"></i> <%= @user.realname %> </p>
-<p><i class="icon-time"></i> member for: <%= @user.created_at %> </p>
+<p><i class="icon-time"></i> <%= t('.memberof') %>: <%= (@user.created_at).to_farsi %> </p>
 
 

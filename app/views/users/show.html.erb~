@@ -6,9 +6,9 @@
         <%= gravatar_for @user, size: 135 %>
         <%= @user.name %><br/>
       </h1>	
-	<strong><%= @total_questions.count.to_farsi %> <%= t('.questions') %></strong>
-	<strong style="padding-left:7em"><%= @total_answers.count.to_farsi %> <%= t('.answers') %></strong>
-	<strong style="padding-left:7em"><%= @total_comments.count.to_farsi %> <%= t('.comments') %></strong>
+	<strong style="padding-right:7em"><%= @total_questions.count.to_farsi %> <%= t('.questions') %></strong>
+	<strong style="padding-right:7em"><%= @total_answers.count.to_farsi %> <%= t('.answers') %></strong>
+	<strong style="padding-right:7em"><%= @total_comments.count.to_farsi %> <%= t('.comments') %></strong>
       
     </section>
     <div class="tabbable">
@@ -30,7 +30,7 @@
         <% @answers.each do |answer| %>
 	  <div class="row">
 	    <div class="span10">
-	      <li><%= link_to answer.question, question_path(@question) %></li>
+	      <li><%= link_to answer.question.title, question_path(@question) %></li>
 	    </div>
 	  </div><br>
 	<% end %>
@@ -39,7 +39,7 @@
 	<% @comments.each do |comment| %>
 	  <div class="row">
 	    <div class="span10">
-	      <li><%= link_to comment.question , question_path(@comment) %></li>
+	      <li><%= link_to comment.question.title , question_path(@comment) %></li>
 	    </div>
 	  </div><br>
 	<% end %>
