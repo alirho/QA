@@ -1,7 +1,7 @@
 class Question < ActiveRecord::Base
-  has_many :answers
+  has_many :answers, dependent: :destroy
   has_many :taggings
-  has_many :comments
+  has_many :comments, dependent: :destroy
   has_many :tags, through: :taggings
   has_one :visit, :as => :visitable
   belongs_to :user

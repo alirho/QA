@@ -21,6 +21,7 @@ gem 'rails-i18n', git: 'https://github.com/iCEAGE/rails-i18n.git'
 gem 'farsifu'
 gem 'jalalidate'
 
+
 group :development do
   gem 'sqlite3', '1.3.7'
 end

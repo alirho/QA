@@ -22,8 +22,8 @@ class CommentsController < ApplicationController
   
   def destroy
     @comment = Comment.find(params[:id])
-    @question.comments.destroy
-    redirect_to @comment.question, :notice => t('controllers.comments.destroy.flash.success')
+    @comment.destroy
+    redirect_to question_path(@comment.question), :notice => t('controllers.comments.destroy.flash.success')
   end
   
   private
