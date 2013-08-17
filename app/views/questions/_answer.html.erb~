@@ -25,7 +25,7 @@
   <p></p>
 </div>
 <div class="span11">
-   <%= answer.body %>
+   <%= sanitize answer.body %>
    <p></P><br/>
    <hr>
 </div>    

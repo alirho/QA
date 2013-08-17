@@ -24,7 +24,7 @@ class AnswersController < ApplicationController
   
   def destroy
     @answer = Answer.find(params[:id])
-    @question.answers.destroy
+    @answer.destroy
     redirect_to @answer.question, :notice => t('controllers.answers.destroy.flash.success')
   end
   

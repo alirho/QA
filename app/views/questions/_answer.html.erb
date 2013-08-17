@@ -19,7 +19,7 @@
 <div class="span2 offset1">
   <% if current_user?(answer.user) %>
     <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
-    <%= link_to t('.delete'), @answer, method: :delete,
+    <%= link_to t('.delete'), answer_path(answer), method: :delete,
     	data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
   <% end %>
   <p></p>
