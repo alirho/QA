@@ -7,8 +7,8 @@
     <p><%= time_ago_in_words comment.created_at %> <%= t('.ago') %> <%= t('.by') %>
      <%= link_to comment.user.name, comment.user %>
      <% if current_user?(comment.user) %>
-       <%= link_to t('.edit'), @comment,class: "btn btn-small" %>
-       <%= link_to t('.delete'), @comments,method: :delete,
+       <%= link_to t('.edit'), edit_qustion_comment_path(@question, comment), class: "btn btn-small" %>
+       <%= link_to t('.delete'), [comment.question, comment],method: :delete,
     		data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
      <% end %></p>
       <div class="row">

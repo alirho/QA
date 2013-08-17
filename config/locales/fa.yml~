@@ -18,6 +18,12 @@ fa:
       create:
         flash:
           success: "دیدگاه شما با موفقیت ایجاد شد."
+      update:
+        flash:
+          success: "دیدگاه شما با موفقیت ویرایش شد."
+      destroy:
+        flas:
+          success: "دیدگاه شما با موفقیت پاک شد."
     questions:
       create:
         flash:
@@ -43,7 +49,7 @@ fa:
         flash:
           success: "به سایت پرسش و پاسخ خوش‌آمدید"
       update:
-        falsh:
+        flash:
           success: "اطلاعات پروفایل شما به‌روز شد"
       destroy:
         flash:
@@ -87,6 +93,8 @@ fa:
       by: "توسط"
     comment:
       comments: "دیدگاه‌ها"
+      edit: "ویرایش"
+      delete: "پاک کردن"
       ago: "قبل"
       by: "توسط"
     edit:

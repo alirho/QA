@@ -6,10 +6,10 @@
   	<%= time_ago_in_words answer.created_at %> <%= t('.ago') %></span>       
   <% if  @answer.reputation_for(:votes).to_i >= 0 %>
     <span class="space"><i class="icon- icon-thumbs-up"></i>
-    <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+    <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
   <% else %>
     <span class="space"><i class="icon- icon-thumbs-down"></i>
-    <%= pluralize answer.reputation_for(:votes).to_i, "" %>
+    <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
   <% end %>
   <% if current_user && !current_user.voted_for?(answer) %>
     | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
@@ -19,7 +19,8 @@
 <div class="span2 offset1">
   <% if current_user?(answer.user) %>
     <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
-    <%= link_to t('.delete'), destroy_path(@answer), class: "btn btn-small btn-danger" %>
+    <%= link_to t('.delete'), @answer, method: :delete,
+    	data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
   <% end %>
   <p></p>
 </div>
