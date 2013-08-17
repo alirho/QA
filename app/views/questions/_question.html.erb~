@@ -33,7 +33,7 @@
 <p></p>
 </div>
 <div class="span11">
-  <%= @question.body %>
+  <%=  @question.body %>
 <p></p>
 </div>
 <div class="span11">

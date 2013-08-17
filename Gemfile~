@@ -20,7 +20,7 @@ gem 'therubyracer'
 gem 'rails-i18n', git: 'https://github.com/iCEAGE/rails-i18n.git'
 gem 'farsifu'
 gem 'jalalidate'
-gem 'sanitize'
+
 
 group :development do
   gem 'sqlite3', '1.3.7'
