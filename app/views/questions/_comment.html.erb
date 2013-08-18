@@ -9,7 +9,7 @@
      <% if current_user?(comment.user) %>
        <%= link_to t('.edit'), edit_question_comment_path(@question, comment), class: "btn btn-small" %>
        <%= link_to t('.delete'), [comment.question, comment],method: :delete,
-    		data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+    		data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-small btn-danger" %>
      <% end %></p>
       <div class="row">
         <div class="span9">

@@ -20,7 +20,7 @@
   <% if current_user?(answer.user) %>
     <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
     <%= link_to t('.delete'), answer_path(answer), method: :delete,
-    	data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+    	data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-small btn-danger" %>
   <% end %>
   <p></p>
 </div>
