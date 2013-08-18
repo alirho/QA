@@ -20,7 +20,7 @@
     	    | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
   	  <% end %>
         </div>
-        <div class="span2 offset1">
+        <div class="span2 offset2">
           <div class="pull-left">
             <% if current_user?(answer.user) %>
               <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>

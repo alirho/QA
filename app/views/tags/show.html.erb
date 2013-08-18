@@ -1,4 +1,5 @@
-<p class="offset4">Questions Tagged with <strong><%= @tag.name %> (<%= @total_tags.count.to_farsi %>)</strong></p>
+<p class="offset4 rtl">پرسش‌های دارای تگ 
+	<strong><%= @tag.name %> (<%= @total_tags.count.to_farsi %>)</strong></p>
 
 <hr>
   <% @tag.questions.each do |question| %>
