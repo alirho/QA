@@ -1,13 +1,13 @@
 <% provide(:title,)%>
 <p id="notice"><%= notice %></p>
-<div class="row well">
+<div class="row" styl="text-align:right">
   <div class="span12">
     <%= render partial: 'question' %>
     
     <%= render partial: 'comment' %>
     </br> 
     <div class="span11">
-    <p><%= t('.answers')%> (<%= @question.answers.size %>)</p>
+    <p><%= t('.answers')%> (<%= @question.answers.size.to_farsi %>)</p>
     </div>
     <%= render partial: 'answer' %>
   </div>

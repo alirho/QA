@@ -11,9 +11,14 @@
  *= require_self
  *= require bootstrap_and_overrides
  *= require questions.css.scss
- *= require_tree .
+ * require_tree .
  */
- .authentications {
+
+.rtl {
+  text-align: right;
+}
+
+.authentications {
   margin-bottom: 30px;
 }
 
@@ -75,3 +80,194 @@
 .space {
     margin-left: 10px;
 }
+
+/* mixins, variables, etc. */
+
+$grayMediumLight: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box_sizing: border-box;
+  -webkit-box_sizing: border-box;
+  box_sizing: border-box;
+}
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: right;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.container {
+text-align: left;
+width: 100%;
+zoom: 1;
+}
+
+#content {
+margin: 0 auto;
+width: 980px;
+min-height: 450px;
+}
+
+#mainbar, .mainbar {
+float: left;
+margin-bottom: 40px;
+width: 735px;
+}
+
+/* typography */
+
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $grayLight;
+}
+
+
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $grayMediumLight;
+  color: $grayLight;
+  a {
+    color: $gray;
+    &:hover { 
+      color: $grayDarker;
+    }
+  }  
+  small { 
+    float: left; 
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+
+/* sidebar */
+
+aside {
+  section{
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:first-child{
+      border: 0;
+      padding-top: 1;
+    }
+    span {
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1;
+    }
+    h1 {
+    font-size: 1.4em;
+    text-align: left;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    }
+  }
+}
+
+.h1 {
+    font-size: 1.4em;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+.gravatar {
+  float: right;
+  margin-left: 10px;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
+}
+
+#error_explanation {
+  color: #f00;
+  ul {
+  list-style: none;
+  margin: 0 0 18px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .control-group;
+  @extend .error;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child{
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+}
+

@@ -13,7 +13,12 @@
  *= require questions.css.scss
  * require_tree .
  */
- .authentications {
+
+.rtl {
+  text-align: right;
+}
+
+.authentications {
   margin-bottom: 30px;
 }
 
@@ -160,22 +165,6 @@ p {
 }
 
 
-/* header */
-
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: black;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  line-height: 1;
-  &:hover {
-    color: gray;
-    text-decoration: none;
-  }
-}
 
 /* footer */
 
@@ -229,8 +218,8 @@ aside {
 }
 
 .gravatar {
-  float: left;
-  margin-right: 10px;
+  float: right;
+  margin-left: 10px;
 }
 
 /* forms */
@@ -275,10 +264,3 @@ input {
   }
 }
 
-#tag_cloud {
-  width: 400px;
-  line-height: 1.6em;
-  .s { font-size: 0.8em; }
-  .m { font-size: 1.2em; }
-  .l { font-size: 1.8em; }
-}

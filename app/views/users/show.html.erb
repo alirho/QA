@@ -1,16 +1,19 @@
 <% provide(:title, @user.name)%>
-<div>
-  <aside>
-    <section>
-      <h1>
-        <%= gravatar_for @user, size: 135 %>
-        <%= @user.name %><br/>
-      </h1>	
-	<strong><%= @total_questions.count.to_farsi %> <%= t('.questions') %></strong>
-	<strong style="padding-left:7em"><%= @total_answers.count.to_farsi %> <%= t('.answers') %></strong>
-	<strong style="padding-left:7em"><%= @total_comments.count.to_farsi %> <%= t('.comments') %></strong>
-      
-    </section>
+<div class="row">
+  <div class="span12">
+    <div class="span2">
+      <%= gravatar_for @user, size: 135 %>
+    </div>
+    <div class="span9 rtl">
+      <legend><%= @user.name %></legend>
+      <strong><%= t('.questions') %> ( <%= @total_questions.count.to_farsi %> )</strong>
+      <strong class="offset1"><%= t('.answers') %> ( <%= @total_answers.count.to_farsi %> )</strong>
+      <strong class="offset1"><%= t('.comments') %> ( <%= @total_comments.count.to_farsi %> )</strong>
+    </div>
+  </div>
+</div>
+<p></p>  
+<div class="row rtl">
     <div class="tabbable">
       <ul class="nav nav-tabs ">
         <li class="active  offset2"><a href="#tab1" data-toggle="tab"><%= t('.profile') %></a></li>
@@ -20,34 +23,32 @@
 	<li><a href="#tab5" data-toggle="tab"><%= t('.aboutme') %></a></li>
       </ul>
       <div class="tab-content">
-      <div class="tab-pane active" id="tab1">
-        <%= render partial: 'profile' %>
+        <div class="tab-pane active" id="tab1">
+          <%= render partial: 'profile' %>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <%= render partial: 'question' %>
+        </div>
+        <div class="tab-pane" id="tab3">
+          <% @answers.each do |answer| %>
+	    <div class="row">
+	      <div class="span10">
+	        <li><%= link_to answer.question.title, question_path(answer) %></li>
+	      </div>
+	    </div><br>
+	  <% end %>
+        </div>
+        <div class="tab-pane" id="tab4">
+	  <% @comments.each do |comment| %>
+	    <div class="row">
+	      <div class="span10">
+	        <li><%= link_to comment.question.title , question_path(comment.question) %></li>
+	      </div>
+	    </div><br>
+	  <% end %>
+        </div>
+        <div class="tab-pane" id="tab5">
+          <%= @user.aboutme %>
+        </div>
       </div>
-      <div class="tab-pane" id="tab2">
-        <%= render partial: 'question' %>
-      </div>
-      <div class="tab-pane" id="tab3">
-        <% @answers.each do |answer| %>
-	  <div class="row">
-	    <div class="span10">
-	      <li><%= link_to answer.question.title, question_path(answer) %></li>
-	    </div>
-	  </div><br>
-	<% end %>
-      </div>
-      <div class="tab-pane" id="tab4">
-	<% @comments.each do |comment| %>
-	  <div class="row">
-	    <div class="span10">
-	      <li><%= link_to comment.question.title , question_path(comment.question) %></li>
-	    </div>
-	  </div><br>
-	<% end %>
-      </div>
-      <div class="tab-pane" id="tab5">
-        <%= @user.aboutme %>
-      </div>
-  </div>
-</div>
-  </aside>
 </div>

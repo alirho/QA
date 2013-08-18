@@ -1,14 +1,14 @@
 <% provide(:title) %>
 <div class="row">  
-  <div class="span5">
+  <div class="span4">
     <%= form_tag questions_path, :method => 'get' do %>
-      <p>
+      <p class="pull-right">
         <%= text_field_tag :search, params[:search], class: "search-query span3" %>
         <%= submit_tag t('.search'), :name => nil, class: "btn" %>
       </p>
     <% end %>
   </div>
-  <div class="span2 offset5">
+  <div class="span2 offset5 pull-left">
     <% if signed_in? %>
       <%= link_to t('.askquestion'), "questions/new", class: "btn btn-primary" %>
     <% else %>
@@ -19,28 +19,28 @@
 <div class="row offset1">
   <strong>
     <div class="span2">
-      <p><%= @total_questions.count %> <%= t('.questions') %></p>
+      <p class="pull-right"><%= t('.questions') %> ( <%= @total_questions.count.to_farsi %> )</p>
     </div>
     <div class="span2">
-      <p><%= @total_answers.count %> <%= t('.answers') %></p>
+      <p class="pull-right"><%= t('.answers') %> ( <%= @total_answers.count.to_farsi %> )</p>
     </div>
     <div class="span2">
-      <p><%= @total_comments.count %> <%= t('.comments') %></p>
+      <p class="pull-right"><%= t('.comments') %> ( <%= @total_comments.count.to_farsi %> )</p>
     </div>
     <div class="span2">
-      <p><%= @total_tags.count %> <%= t('.tags') %></p>
+      <p class="pull-right"><%= t('.tags') %> ( <%= @total_tags.count.to_farsi %> )</p>
     </div>
     <div class="span2">
-      <p><%= @total_users.count %> <%= t('.users') %></p>
+      <p class="pull-right"><%= t('.users') %> ( <%= @total_users.count.to_farsi %> )</p>
     </div>
   </strong>
 </div><br>
 <div class="tabbable">
   <ul class="nav nav-tabs">
-    <li class="active  offset1"><a href="#tab1" data-toggle="tab"><%= t('.questions') %></a></li>
+    <li class="active  "><a href="#tab1" data-toggle="tab"><%= t('.questions') %></a></li>
     <li><a href="#tab2" data-toggle="tab"><%= t('.users') %></a></li>
     <li><a href="#tab3" data-toggle="tab"><%= t('.tags') %></a></li>
-    <li><a href="#tab4" data-toggle="tab"><%= t('.unanswerd') %></a></li>
+    <li><a href="#tab4" data-toggle="tab"><%= t('.unanswered') %></a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">

@@ -3,16 +3,29 @@
 $grayMediumLight: #eaeaea;
 
 .digit {
-font-size: 14px;
-text-align: center;
-margin-right: 9px;
-padding: 5px;
-list-style: none;
-padding: 10px 0;
-padding-top: 10px;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 9px;
+	padding: 5px;
+	list-style: none;
+	padding: 10px 0;
+	padding-top: 10px;
 }
 
 #questions {
-        text-align: right;
+  text-align: right;  
+  margin-bottom: 5px;
 }
 
+#question {
+	margin-right: 5px;
+}
+
+.tags {
+	text-align: center;
+	margin-right: 0px;
+	padding: 5px;
+	list-style: none;
+	padding: 10px 0;
+	padding-top: 10px;
+}

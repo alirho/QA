@@ -16,13 +16,10 @@
           <span><%= t('.views')%></span>
         </li>
         </div>
-      <div class="span8">
+      <div class="span9" id="question">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
-      
-      <div class="row">
-        <div class="span8">
-          <p></p>
           <p>
+          <small>
             <i class="icon-user"></i> <%= t('.by')%> <%= link_to question.user.name, question.user %>
              | <i class="icon-calendar"></i> 
              	<%= time_ago_in_words(question.created_at).to_farsi %> <%= t('.ago')%>
@@ -30,13 +27,11 @@
                <% question.tags.each do |tag| %>
                  <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
                <% end %>
-          </p>
-        </div>
-      </div>
+          </small>
+          </p>        
       </div>
       </div>
       <hr>
     </div>
     </div>
-  <% end %>
-
+<% end %>

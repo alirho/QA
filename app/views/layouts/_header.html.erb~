@@ -6,9 +6,9 @@
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
       </a>
-      <%= link_to t('.brand_name'), root_path, id: "logo" %>
+      <%= link_to t('.brand_name'), root_path, class: "brand" %>  
       <div class="nav-collapse collapse">
-	<ul class="nav pull-right">
+	<ul class="nav pull-left">
 	  <li><%= link_to t('.faq'), faq_path %></li>
 	  <li class="divider-vertical"></li>
 	  <li><%= link_to t('.help'), help_path %></li>
@@ -30,9 +30,9 @@
 	    </ul>
             </div>
 	  <% else %>
-	    <li><%= link_to "Sign in", signin_path %></li>
+	    <li><%= link_to t('.signin'), signin_path %></li>
 	    <li class="divider-vertical"></li>
-            <li><%= link_to "Sign up now!", signup_path %></li>
+            <li><%= link_to t('.signup'), signup_path %></li>
 	    <li class="divider-vertical"></li>
 	    
 	  <% end %>	  

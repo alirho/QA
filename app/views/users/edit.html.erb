@@ -1,8 +1,8 @@
 <% provide(:title, "Edit user") %>
-<h4><%= t('.head') %></h4>
+<h4 class="rtl"><%= t('.head') %></h4>
 <%= simple_form_for @user do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
-  <div class="row">
+  <div class="row rtl">
     <div class="span4">
       <%= f.input :name, label: t('.name'), :input_html => { :class => "span4" }, 
       	placeholder: t('.namel') %>

@@ -1,9 +1,9 @@
 <% @questions.each do |question| %>
   <% if question.answers.count == 0 %>
     <div class="row">
-    <div class="span12">
+    <div class="span12" id="questions">
       <div class="row">
-      
+        <div class="span3">      
         <li class="span1 well well-small digit">
           <span><%= pluralize question.reputation_for(:votes).to_i.to_farsi, "" %></span><br/>
           <span><%= t('.votes')%></span>
@@ -16,19 +16,18 @@
           <span><%= question.visit.total_visits.to_farsi rescue 0 %></span><br/>
           <span><%= t('.views')%></span>
         </li>
-      <div class="span8">
+      </div>
+      <div class="span9" id="question">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
-      
-      <div class="row">
-        <div class="span6">
-          <p></p>
           <p>
+          <small>
             <i class="icon-user"></i> <%= t('.by')%> <%= link_to question.user.name %>
-             | <i class="icon-calendar"></i><%= time_ago_in_words(question.created_at) %> <%= t('.ago')%>
+             | <i class="icon-calendar"></i><%= time_ago_in_words(question.created_at).to_farsi %> <%= t('.ago')%>
              | <i class="icon-tags"></i> <%= t('.tags')%>: 
              <% question.tags.each do |tag| %>
                <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
              <% end %>
+           </small>
           </p>
         </div>
       </div>
