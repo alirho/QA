@@ -11,7 +11,7 @@
  *= require_self
  *= require bootstrap_and_overrides
  *= require questions.css.scss
- *= require_tree .
+ * require_tree .
  */
  .authentications {
   margin-bottom: 30px;

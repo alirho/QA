@@ -1,7 +1,8 @@
 <% @questions.each do |question| %>
     <div class="row">
-    <div class="span12">
+    <div class="span12" id="questions">
       <div class="row">
+        <div class="span3">
         <li class="span1 well well-small digit">
           <span><%= pluralize question.reputation_for(:votes).to_i.to_farsi, "" %></span><br/>
           <span><%= t('.votes')%></span>
@@ -14,6 +15,7 @@
           <span><%= question.visit.total_visits.to_farsi rescue 0 %></span><br/>
           <span><%= t('.views')%></span>
         </li>
+        </div>
       <div class="span8">
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
       
