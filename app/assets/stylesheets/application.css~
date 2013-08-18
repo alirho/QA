@@ -192,38 +192,7 @@ footer {
   }
 }
 
-/* sidebar */
 
-aside {
-  section{
-    padding: 10px 0;
-    border-top: 1px solid $grayLighter;
-    &:first-child{
-      border: 0;
-      padding-top: 1;
-    }
-    span {
-    display: block;
-    margin-bottom: 3px;
-    line-height: 1;
-    }
-    h1 {
-    font-size: 1.4em;
-    text-align: left;
-    letter-spacing: -1px;
-    margin-bottom: 3px;
-    margin-top: 0px;
-    }
-  }
-}
-
-.h1 {
-    font-size: 1.4em;
-    text-align: center;
-    letter-spacing: -1px;
-    margin-bottom: 3px;
-    margin-top: 0px;
-}
 .gravatar {
   float: right;
   margin-left: 10px;
@@ -271,3 +240,15 @@ input {
   }
 }
 
+/* comments */
+#comments {
+  text-align: right;
+  padding: 0px 0;
+  padding-top: -5px;
+  padding-bottom: -25px;
+}
+
+.hr {
+  padding-top: -50px;
+  padding-bottom: -50px;
+}

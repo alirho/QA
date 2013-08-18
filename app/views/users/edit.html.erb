@@ -1,8 +1,9 @@
 <% provide(:title, "Edit user") %>
-<h4 class="rtl"><%= t('.head') %></h4>
+<div class="rtl">
 <%= simple_form_for @user do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
-  <div class="row rtl">
+  <div class="row">
+    <legend><%= t('.head') %></legend>
     <div class="span4">
       <%= f.input :name, label: t('.name'), :input_html => { :class => "span4" }, 
       	placeholder: t('.namel') %>
@@ -19,6 +20,8 @@
       <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 20 } %>
     </div>
   </div>
+      <p></p>
       <%= f.submit t('.submit'), class: "btn btn-medium  btn-warning" %>
 <% end %>
+</div>
 

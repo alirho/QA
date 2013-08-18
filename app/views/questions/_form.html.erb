@@ -1,8 +1,8 @@
 <% provide(:title, 'New Question') %>
 
 
-<div class="row">
-<div class="span11 well">
+<div class="row rtl">
+  <div class="span11 well">
   <%= simple_form_for(@question,:html => { :novalidate => true }) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
     
@@ -20,6 +20,6 @@
     <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>
     <%= link_to t('.back'), questions_path, class: "btn" %>
   <% end %>
-</div>
+  </div>
 </div>
 

@@ -1,38 +1,51 @@
-<% @question.answers.each do |answer| %>
-<div class="span7">
-  <span class="space"><i class="icon-user"></i> <%= t('.by')%>
-  	<%= link_to answer.user.name, answer.user %></span>
-  <span class="space"><i class="icon-calendar"></i>
-  	<%= time_ago_in_words(answer.created_at).to_farsi %> <%= t('.ago') %></span>       
-  <% if  @answer.reputation_for(:votes).to_i >= 0 %>
-    <span class="space"><i class="icon- icon-thumbs-up"></i>
-    <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
-  <% else %>
-    <span class="space"><i class="icon- icon-thumbs-down"></i>
-    <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
-  <% end %>
-  <% if current_user && !current_user.voted_for?(answer) %>
-    | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
-    | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
-  <% end %>
+<div class="row rtl">
+  <div class="span12">
+    <p><%= t('.answers')%> (<%= @question.answers.size.to_farsi %>)</p>
+    <% @question.answers.each do |answer| %>
+      <div class="row">
+        <div class="span8">
+          <span class="space"><i class="icon-user"></i> <%= t('.by')%>
+  	    <%= link_to answer.user.name, answer.user %></span>
+          <span class="space"><i class="icon-calendar"></i>
+  	    <%= time_ago_in_words(answer.created_at).to_farsi %> <%= t('.ago') %></span>       
+          <% if  @answer.reputation_for(:votes).to_i >= 0 %>
+            <span class="space"><i class="icon- icon-thumbs-up"></i>
+            <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
+          <% else %>
+            <span class="space"><i class="icon- icon-thumbs-down"></i>
+            <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
+          <% end %>
+          <% if current_user && !current_user.voted_for?(answer) %>
+            | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
+    	    | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
+  	  <% end %>
+        </div>
+        <div class="span2 offset2">
+          <div class="pull-left">
+            <% if current_user?(answer.user) %>
+              <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
+              <%= link_to t('.delete'), answer_path(answer), method: :delete,
+    		  data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-small btn-danger" %>
+            <% end %>
+          </div>
+  	  <p></p>
+	</div>
+	<div class="span12">
+   	  <%= sanitize answer.body %>
+   	  <p></P><br/>
+   	  <hr>
+	</div>           
+      </div>
+    <% end %>
+    <% if signed_in? %>
+      <%= render partial: 'answers/answer' %>
+    <% end %>
+  </div>
 </div>
-<div class="span2 offset1">
-  <% if current_user?(answer.user) %>
-    <%= link_to t('.edit'), edit_answer_path(answer), class: "btn btn-small" %>
-    <%= link_to t('.delete'), answer_path(answer), method: :delete,
-    	data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-small btn-danger" %>
-  <% end %>
-  <p></p>
-</div>
-<div class="span11">
-   <%= sanitize answer.body %>
-   <p></P><br/>
-   <hr>
-</div>    
-<% end %>
-<div class="span11">
-  <% if signed_in? %>
-    <%= render partial: 'answers/answer' %>
-  <% end %>
-</div>
+
+
+
+
+
+
 
