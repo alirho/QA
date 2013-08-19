@@ -22,7 +22,7 @@
           <p>
           <small>
             <i class="icon-user"></i> <%= t('.by')%> <%= link_to question.user.name %>
-             | <i class="icon-calendar"></i><%= time_ago_in_words(question.created_at).to_farsi %> <%= t('.ago')%>
+             | <i class="icon-calendar"></i><%= to_jalali(question.created_at) %>
              | <i class="icon-tags"></i> <%= t('.tags')%>: 
              <% question.tags.each do |tag| %>
                <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
