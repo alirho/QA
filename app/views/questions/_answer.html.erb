@@ -4,16 +4,18 @@
     <% @question.answers.each do |answer| %>
       <div class="row">
         <div class="span8">
-          <span class="space"><i class="icon-user"></i> <%= t('.by')%>
-  	    <%= link_to answer.user.name, answer.user %></span>
+          <span><i class="icon-user"></i>
+  	    <%= link_to answer.user.name, answer.user %>
+  	  </span>
           <span class="space"><i class="icon-calendar"></i>
-  	    <%= to_jalali(answer.created_at) %></span>       
+  	    <%= to_jalali(answer.created_at) %>
+  	  </span>       
           <% if  @answer.reputation_for(:votes).to_i >= 0 %>
             <span class="space"><i class="icon- icon-thumbs-up"></i>
-            <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
+            <%= t('.votes')%> <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
           <% else %>
             <span class="space"><i class="icon- icon-thumbs-down"></i>
-            <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
+            <%= t('.votes')%> <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
           <% end %>
           <% if current_user && !current_user.voted_for?(answer) %>
             | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>

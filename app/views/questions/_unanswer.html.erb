@@ -21,12 +21,15 @@
         <h4><strong><%= link_to question.title, question_path(question) %></strong></h4>
           <p>
           <small>
-            <i class="icon-user"></i> <%= t('.by')%> <%= link_to question.user.name %>
-             | <i class="icon-calendar"></i><%= to_jalali(question.created_at) %>
-             | <i class="icon-tags"></i> <%= t('.tags')%>: 
-             <% question.tags.each do |tag| %>
-               <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
-             <% end %>
+            <% question.tags.each do |tag| %>
+                 <%= link_to tag.name, tag_path(tag), class: "label label-info" %>
+            <% end %>
+            <span class="space"><i class="icon-user"></i> 
+              <%= link_to question.user.name, question.user %>
+            </span>
+            <span class="space"><i class="icon-calendar"></i> 
+              <%= to_jalali(question.created_at) %>
+            </span>
            </small>
           </p>
       </div>

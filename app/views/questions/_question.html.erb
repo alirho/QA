@@ -2,19 +2,24 @@
 <div class="row">
   <div class="span8">
     </small>
-      <span class="space"><i class="icon-user"></i> <%= t('.by')%> 
+      <span><i class="icon-user"></i> 
       <%= link_to @question.user.name, @question.user %></span>
       <span class="space"><i class="icon-calendar"></i> <%= to_jalali(@question.created_at) %></span>
-      <span class="space"><i class="icon-comment"></i> <%= @question.comments.size.to_farsi %></span>
-      <span class="space"><i class="icon-eye-open"></i> 
-          <%= @question.visit.total_visits.to_farsi rescue 0 %></span>
-      <span class="space"><i class="icon-pencil"></i> <%= @question.answers.count.to_farsi %></span>
+      <span class="space"><i class="icon-comment"></i> 
+         <%= t('.comments')%> <%= @question.comments.size.to_farsi %>
+      </span>
+      <span class="space"><i class="icon-eye-open"></i>
+        <%= t('.views')%> <%= @question.visit.total_visits.to_farsi rescue 0 %>
+      </span>
+      <span class="space"><i class="icon-pencil"></i> 
+        <%= t('.answers')%> <%= @question.answers.count.to_farsi %>
+      </span>
         <% if  @question.reputation_for(:votes).to_i >= 0 %>
           <span class="space"><i class="icon- icon-thumbs-up"></i>
-          <%= pluralize @question.reputation_for(:votes).to_i.to_farsi, "" %>
+          <%= t('.votes')%> <%= pluralize @question.reputation_for(:votes).to_i.to_farsi, "" %>
         <% else %>
           <span class="space"><i class="icon- icon-thumbs-down"></i>
-          <%= pluralize @question.reputation_for(:votes).to_i.to_farsi, "" %>
+          <%= t('.votes')%> <%= pluralize @question.reputation_for(:votes).to_i.to_farsi, "" %>
         <% end %>
           
         <% if current_user && !current_user.voted_for?(@question) %>
