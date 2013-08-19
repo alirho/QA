@@ -10,6 +10,9 @@
       <strong class="offset1"><%= t('.answers') %> ( <%= @total_answers.count.to_farsi %> )</strong>
       <strong class="offset1"><%= t('.comments') %> ( <%= @total_comments.count.to_farsi %> )</strong>
     </div>
+    <div class="pull-left">
+      <%= link_to t('.askquestion'), "/questions/new", class: "btn btn-primary" %>
+    </div>
   </div>
 </div>
 <p></p>  

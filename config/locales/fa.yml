@@ -81,7 +81,7 @@ fa:
       about: "درباره ما"
       contact: "ارتباط با ما"
       profile: "پروفایل"
-      settings: "تنظیمات"
+      settings: "ویرایش پروفایل"
       signout: "خروج"
       signin: "ورود"
       signup: "ثبت نام"
@@ -210,6 +210,7 @@ fa:
       aboutme: "درباره من"
       noanswer: "شما به هیچ پرسشی پاسخ نداده‌اید."
       nocomment: "شما هیچ دیدگاهی برای پرسشی ننوشته‌اید."
+      askquestion: "پرسش خود را بپرسید"
 
   
   
