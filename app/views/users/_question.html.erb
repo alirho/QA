@@ -1,3 +1,5 @@
+
+<% if @total_questions.count > 0 %>
 <% @questions.each do |question| %>
     <h5><strong><%= link_to question.title, question_path(question) %></strong></h5>
         <p></p>
@@ -25,4 +27,8 @@
         </small>
         </p>
     <hr>
+<% end %>
+  
+<% else %>
+  <strong><%= t('.noquestion') %></strong>
 <% end %>

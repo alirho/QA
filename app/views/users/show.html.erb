@@ -31,21 +31,29 @@
           <%= render partial: 'question' %>
         </div>
         <div class="tab-pane" id="tab3">
-          <% @answers.each do |answer| %>
-	    <div class="row">
-	      <div class="span10">
-	        <li><%= link_to answer.question.title, question_path(answer) %></li>
-	      </div>
-	    </div><br>
+          <% if @total_answers.count > 0 %>
+            <% @answers.each do |answer| %>
+	      <div class="row">
+	        <div class="span10">
+	          <li><%= link_to answer.question.title, question_path(answer) %></li>
+	        </div>
+	      </div><br>
+	    <% end %>
+	  <% else %>
+	    <strong><%= t('.noanswer') %></strong>
 	  <% end %>
         </div>
         <div class="tab-pane" id="tab4">
-	  <% @comments.each do |comment| %>
-	    <div class="row">
-	      <div class="span10">
-	        <li><%= link_to comment.question.title , question_path(comment.question) %></li>
-	      </div>
-	    </div><br>
+	  <% if @total_comments.count > 0 %>
+	    <% @comments.each do |comment| %>
+	      <div class="row">
+	        <div class="span10">
+	          <li><%= link_to comment.question.title , question_path(comment.question) %></li>
+	        </div>
+	      </div><br>
+	    <% end %>
+	  <% else %>
+	    <strong><%= t('.nocomment')%></strong>
 	  <% end %>
         </div>
         <div class="tab-pane" id="tab5">
