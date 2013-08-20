@@ -1,7 +1,8 @@
-<p class="offset4 rtl">پرسش‌های دارای تگ 
-	<strong><%= @tag.name %> (<%= @total_tags.count.to_farsi %>)</strong></p>
-
+<p class="rtl offset5"> 
+  <strong> پرسش‌های دارای تگ ( <%= @total_tags.count.to_farsi %> ) <%= @tag.name %> </strong>
+</p>
 <hr>
+<% if @total_tags.count > 0 %>
   <% @tag.questions.each do |question| %>
    <div class="row">
     <div class="span12" id="questions">
@@ -41,3 +42,6 @@
     </div>
     </div>
   <% end %>
+<% else %>
+  <h2 class="rtl offset4"><%= t('.notag') %></h2>
+<% end %>
