@@ -1,21 +1,29 @@
 <% provide(:title,'Sign up') %>
 <div class="row rtl">
-  <div class="span4">
+  <div class="span4 well">
     <legend><%= t('.head') %></legend>
     <%= simple_form_for(@user) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
-    
+      <p>حساب دارید؟ <%= link_to t('.ruser'), signin_path %></p>
       <%= f.input :name, label: t('.name'),:input_html => { :class => "span4" },
           placeholder: t('.namel') %>
 		  		  
-      <%= f.input :email, label: t('.email'),:input_html => { :class => "span4" } %>
+      <%= f.input :email, label: t('.email'),:input_html => { :class => "span4" },
+          placeholder: t('.emaill') %>
 		  
       <%= f.input :password, label: t('.password'),:input_html => { :class => "span4" },
       	  placeholder: t('.passwordl') %>
 			  
-      <%= f.input :password_confirmation, label: t('.cpassword'),:input_html => { :class => "span4" } %><br/>
+      <%= f.input :password_confirmation, label: t('.cpassword'),:input_html => { :class => "span4" },
+          placeholder: t('.passwordl') %><br/>
     
       <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>
+      <%= link_to t('.nsubmit'), root_path, class: "btn btn-medium"%>
     <% end %>
+     
+  </div>
+  <div class="span7 well">
+    <legend>به سایت پرسش و پاسخ خوش ‌آمدید.</legend>
+    <p>برای اطلاعات بیشتر می‌توانید به قسمت<a href="/faq"> سوالات متداول </a>مراجعه کنید.</p>
   </div>
 </div>

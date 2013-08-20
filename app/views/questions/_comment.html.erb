@@ -1,25 +1,31 @@
 <div class="row">
-  <div class="span11 offset1">
+  <div class="span10 offset1 alert">
     <p><%= t('.comments') %> (<%= @question.comments.size.to_farsi %>)</p>
   <small>
     <% @question.comments.each do |comment| %>
       <p id="comments">
         <%= comment.body %>
-        <%= to_jalali(comment.created_at) %> <%= t('.by') %>
-        <%= link_to comment.user.name, comment.user %>
+        <small class="space">
+        <%= to_jalali(comment.created_at) %> 
+        </small>
+        <small class="space">
+        <%= t('.by') %> <%= link_to comment.user.name, comment.user %>
+        </small>
         <% if current_user?(comment.user) %>
-          <%= link_to t('.edit'), edit_question_comment_path(@question, comment), class: "btn btn-small" %>
+          <%= link_to t('.edit'), edit_question_comment_path(@question, comment), class: "btn btn-mini" %>
           <%= link_to t('.delete'), [comment.question, comment],method: :delete,
-    		data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-small btn-danger" %>
-        <% end %>
+    		data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-mini btn-danger" %>
+        <% end %>    
       </p>  
       <div class="row">
-        <div class="span11">
+        <div class="span10">
           <hr>
         </div>
       </div>
     <% end %>
-    <%= render partial: 'comments/form' %>  
+    <% if signed_in? %>
+      <%= render partial: 'comments/form' %>  
+    <% end %>
   </small>
   </div>
 </div>

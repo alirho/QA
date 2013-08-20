@@ -1,7 +1,7 @@
 <h3><%= @question.title %></h3>
 <div class="row">
   <div class="span8">
-    </small>
+    <small>
       <span><i class="icon-user"></i> 
       <%= link_to @question.user.name, @question.user %></span>
       <span class="space"><i class="icon-calendar"></i> <%= to_jalali(@question.created_at) %></span>
@@ -23,8 +23,8 @@
         <% end %>
           
         <% if current_user && !current_user.voted_for?(@question) %>
-          | <%= link_to "up", vote_question_path(@question, type: "up"), method: "post" %>
-          | <%= link_to "down", vote_question_path(@question, type: "down"), method: "post" %>
+          <%= link_to "+", vote_question_path(@question, type: "up"), method: "post" %>
+          | <%= link_to "-", vote_question_path(@question, type: "down"), method: "post" %>
         <% end %>
     </small>
   </div>

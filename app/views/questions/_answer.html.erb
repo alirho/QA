@@ -18,8 +18,8 @@
             <%= t('.votes')%> <%= pluralize answer.reputation_for(:votes).to_i.to_farsi, "" %>
           <% end %>
           <% if current_user && !current_user.voted_for?(answer) %>
-            | <%= link_to "up", vote_answer_path(answer, type: "up"), method: "post" %>
-    	    | <%= link_to "down", vote_answer_path(answer, type: "down"), method: "post" %>
+            <%= link_to "+", vote_answer_path(answer, type: "up"), method: "post" %>
+    	    | <%= link_to "-", vote_answer_path(answer, type: "down"), method: "post" %>
   	  <% end %>
         </div>
         <div class="span2 offset2">
