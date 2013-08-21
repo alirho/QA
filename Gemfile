@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'faker', '1.1.2'
 gem 'bootstrap-will_paginate', '0.0.9'
-gem 'simple_form'
+gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 gem 'nifty-generators'
 gem "activerecord", "~> 4.0.0"
 gem 'omniauth'

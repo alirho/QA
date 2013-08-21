@@ -1,27 +1,45 @@
 <% provide(:title, "Edit user") %>
 <div class="rtl">
-<%= simple_form_for @user do |f| %>
-  <%= render 'shared/error_messages', object: f.object %>
+<%= simple_form_for @user,  :html => { :class => 'form-horizontal' } do |f| %>
+
   <div class="row">
     <legend><%= t('.head') %></legend>
-    <div class="span4">
-      <%= f.input :name, label: t('.name'), :input_html => { :class => "span4" }, 
-      	placeholder: t('.namel') %>
-      <%= f.input :email, label: t('.email'),:input_html => { :class => "span4" }, disabled: true %>
-      <%= f.input :password, label: t('.password'),:input_html => { :class => "span4" }, required: false,
-          placeholder: t('.passwordl') %>
-      <%= f.input :password_confirmation, label: t('.cpassword'),
-          :input_html => { :class => "span4" }, required: false %>
-      <%= f.input :location, label: t('.location'),:input_html => { :class => "span4" } %>
-      <%= f.input :website, label: t('.website'),:input_html => { :class => "span4" } %>
-      <%= f.input :realname, label: t('.realname'),:input_html => { :class => "span4" } %>                    
+    <div class="span3">
+      <%= f.input :name, :wrapper => :prepend, label: t('.name') do %>
+        <span class="add-on"><i class="icon-user"></i></span>
+        <%= f.input_field :name, placeholder: t('.namel') %>
+      <% end %>
+      <%= f.input :email, :wrapper => :prepend, label: t('.email') do %>
+        <span class="add-on"><i class="icon-envelope"></i></span>
+        <%= f.input_field :email, disabled: true %>
+      <% end %>
+      <%= f.input :password, :wrapper => :prepend, label: t('.password') do %>
+        <span class="add-on"><i class="icon-lock"></i></span>
+        <%= f.input_field :password, placeholder: t('.passwordl') %>
+      <% end %>
+      <%= f.input :password_confirmation, :wrapper => :prepend, label: t('.cpassword') do %>
+        <span class="add-on"><i class="icon-lock"></i></span>
+        <%= f.input_field :password_confirmation, placeholder: t('.passwordl') %>
+      <% end %>
+      <%= f.input :location, :wrapper => :prepend, label: t('.location') do %>
+        <span class="add-on"><i class="icon-globe"></i></span>
+        <%= f.input_field :location %>
+      <% end %>
+      <%= f.input :website, :wrapper => :prepend, label: t('.website') do %>
+        <span class="add-on"><i class="icon-th"></i></span>
+        <%= f.input_field :website %>
+      <% end %>
+      <%= f.input :realname, :wrapper => :prepend, label: t('.realname') do %>
+        <span class="add-on"><i class="icon-user"></i></span>
+        <%= f.input_field :realname %>
+      <% end %>
     </div>
-    <div class="span5">
-      <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 20 } %>
+    <div class="span3 offset1">
+      <%= f.input :aboutme,:input_html => { :class => "span6" , rows: 15 }, label: t('.aboutme') %>
     </div>
   </div>
       <p></p>
-      <%= f.submit t('.submit'), class: "btn btn-medium  btn-warning" %>
+      <%= f.submit t('.submit'), class: "btn btn-medium  btn-warning  space2" %>
 <% end %>
 </div>
 

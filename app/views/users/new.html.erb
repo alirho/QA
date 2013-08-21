@@ -1,28 +1,34 @@
 <% provide(:title,'Sign up') %>
 <div class="row rtl">
-  <div class="span4 well">
+  <div class="span ">
     <legend><%= t('.head') %></legend>
-    <%= simple_form_for(@user) do |f| %>
+    <%= simple_form_for(@user, html: {class: ""}) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
       <p>حساب دارید؟ <%= link_to t('.ruser'), signin_path %></p>
-      <%= f.input :name, label: t('.name'),:input_html => { :class => "span4" },
-          placeholder: t('.namel') %>
-		  		  
-      <%= f.input :email, label: t('.email'),:input_html => { :class => "span4" },
-          placeholder: t('.emaill') %>
-		  
-      <%= f.input :password, label: t('.password'),:input_html => { :class => "span4" },
-      	  placeholder: t('.passwordl') %>
-			  
-      <%= f.input :password_confirmation, label: t('.cpassword'),:input_html => { :class => "span4" },
-          placeholder: t('.passwordl') %><br/>
+         
+      <%= f.input :name, :wrapper => :prepend, label: false do %>
+        <span class="add-on"><i class="icon-user"></i></span>
+        <%= f.input_field :name, placeholder: t('.namel') %>
+      <% end %>
+      <%= f.input :email, :wrapper => :prepend, label: false do %>
+        <span class="add-on"><i class="icon-envelope"></i></span>
+        <%= f.input_field :email, placeholder: t('.emaill') %>
+      <% end %>
+      <%= f.input :password, :wrapper => :prepend, label: false do %>
+        <span class="add-on"><i class="icon-lock"></i></span>
+        <%= f.input_field :password, placeholder: t('.passwordl') %>
+      <% end %>
+      <%= f.input :password_confirmation, :wrapper => :prepend, label: false do %>
+        <span class="add-on"><i class="icon-lock"></i></span>
+        <%= f.input_field :password_confirmation, placeholder: t('.passwordl') %>
+      <% end %>
     
-      <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>
-      <%= link_to t('.nsubmit'), root_path, class: "btn btn-medium"%>
+      <%= f.submit t('.submit'), class: "btn btn-small btn-primary" %>
+      <%= link_to t('.nsubmit'), root_path, class: "btn btn-small" %>
     <% end %>
      
   </div>
-  <div class="span7 well">
+  <div class="span7 offset1">
     <legend>به سایت پرسش و پاسخ خوش ‌آمدید.</legend>
     <p>برای اطلاعات بیشتر می‌توانید به قسمت<a href="/faq"> سوالات متداول </a>مراجعه کنید.</p>
   </div>

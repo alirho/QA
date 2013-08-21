@@ -67,7 +67,7 @@ fa:
   comments:
     form:
       submit: "ایجاد دیدگاه"
-      yourcomment: "دیدگاه خود را اینجا بنویسید (دیدگاه شما نباید کمتر از ۲۰ کاراکتر باشد"
+      yourcomment: "دیدگاه خود را اینجا بنویسید (دیدگاه شما نباید کمتر از ۲۰ کاراکتر باشد)"
       createcomment: "ایجاد دیدگاه"
       
   layouts:
@@ -81,7 +81,7 @@ fa:
       about: "درباره ما"
       contact: "ارتباط با ما"
       profile: "پروفایل"
-      settings: "تنظیمات"
+      settings: "ویرایش پروفایل"
       signout: "خروج"
       signin: "ورود"
       signup: "ثبت نام"
@@ -92,6 +92,8 @@ fa:
       delete: "پاک کردن"
       ago: "قبل"
       by: "توسط"
+      answers: "پاسخ‌ها"
+      votes: "امتیاز"
     comment:
       comments: "دیدگاه‌ها"
       edit: "ویرایش"
@@ -131,6 +133,10 @@ fa:
       back: "بازگشت"
       delete: "پاک کردن"
       tags: "تگ‌ها"
+      answers: "پاسخ‌ها"
+      comments: "دیدگاه‌ها"
+      votes: "امتیاز"
+      views: "نمایش‌"
     show:
       answers: "پاسخ‌ها"
     summary:
@@ -159,6 +165,12 @@ fa:
       email: "ایمیل"
       password: "گذرواژه"
   
+  static_pages:
+    faq:
+      squestion: "چگونه هوشمندانه سوال کنیم"
+      linux: "لینوکس ویندوز نیست"
+      linuxandlife: "راهنمای هکرها و گیک ها برای لینوکس و زندگی"
+  
   tags:
     show:
       votes: "امتیاز"
@@ -167,13 +179,14 @@ fa:
       by: "توسط"
       ago: "قبل"
       tags: "تگ‌ها"
+      notag: "پرسشی برای این تگ پیدا نشد."
   
   users:
     edit:
       head: "پروفایل خود را ویرایش کنید"
       submit: "ویرایش پروفایل"
       name: "نام کاربری"
-      namel: "باید بین ۳ تا ۵۰ کاراکتر باشد"
+      namel: "باید بین ۳ تا ۲۰ کاراکتر باشد"
       email: "ایمیل"
       password: "گذرواژه"
       passwordl: "نباید کمتر از ۶ کاراکتر باشد"
@@ -187,11 +200,14 @@ fa:
       head: "ثبت نام"
       submit: "ایجاد اکانت"
       name: "نام کاربری"
-      namel: "باید بین ۳ تا ۵۰ کاراکتر باشد"
+      namel: "باید بین ۳ تا ۲۰ کاراکتر باشد."
       email: "ایمیل"
+      emaill: "پس از ثبت‌نام غیرقابل تغییر است."
       password: "گذرواژه"
-      passwordl: "نباید کمتر از ۶ کاراکتر باشد"
+      passwordl: "نباید کمتر از ۶ کاراکتر باشد."
       cpassword: "تایید گذرواژه"
+      nsubmit: "لغو"
+      ruser: "وارد شوید"
     
     profile:
       memberof: "عضو شده"
@@ -199,6 +215,11 @@ fa:
     question:
       by: "توسط"
       ago: "قبل"
+      noquestion: "شما هیچ پرسشی نپرسیده‌اید."
+      answers: "پاسخ‌ها"
+      comments: "دیدگاه‌ها"
+      votes: "امتیاز"
+      views: "نمایش‌"
     
     show:
       questions: "پرسش‌ها"
@@ -206,6 +227,9 @@ fa:
       comments: "دیدگاه‌ها"
       profile: "پروفایل"
       aboutme: "درباره من"
+      noanswer: "شما به هیچ پرسشی پاسخ نداده‌اید."
+      nocomment: "شما هیچ دیدگاهی برای پرسشی ننوشته‌اید."
+      askquestion: "پرسش خود را بپرسید"
 
   
   

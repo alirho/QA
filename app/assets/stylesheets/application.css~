@@ -240,15 +240,6 @@ input {
   }
 }
 
-/* comments */
-#comments {
-  text-align: right;
-  padding: 0px 0;
-  padding-top: -5px;
-  padding-bottom: -25px;
-}
-
-.hr {
-  padding-top: -50px;
-  padding-bottom: -50px;
+.space2 {
+  margin-right: 1800px;
 }
