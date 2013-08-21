@@ -1,7 +1,7 @@
 <% provide(:title, 'FAQ')%>
 <div class="rtl">
   <h3>اگر شما کاربر تازه کار هستید بهتر است پیش از پرسیدن پرسش خود به لینک‌های زیر مراجعه کنید.</h3>
-    <li><a href="http://wiki.ubuntu-ir.org/SmartQuestions"><p>چگونه هوشمندانه سوال کنیم</p></a>
-    <li><a href="http://lwn.azadrahkar.org/"><p>لینوکس ویندوز نیست</p></a>
-    <li><a href="http://www.linuxbook.ir/doku.php"><p>راهنمای هکرها و گیک ها برای لینوکس و زندگی</p></a>
+    <li><p><%= link_to t('.squestion'), "http://wiki.ubuntu-ir.org/SmartQuestions", :target => "_blank"%></p>
+    <li><p><%= link_to t('.linux'), "http://lwn.azadrahkar.org/", :target => "_blank"%></p>
+    <li><p><%= link_to t('.linuxandlife'), "http://www.linuxbook.ir/doku.php", :target => "_blank"%></p>
 </div>

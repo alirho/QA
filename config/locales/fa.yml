@@ -165,6 +165,12 @@ fa:
       email: "ایمیل"
       password: "گذرواژه"
   
+  static_pages:
+    faq:
+      squestion: "چگونه هوشمندانه سوال کنیم"
+      linux: "لینوکس ویندوز نیست"
+      linuxandlife: "راهنمای هکرها و گیک ها برای لینوکس و زندگی"
+  
   tags:
     show:
       votes: "امتیاز"
