@@ -7,6 +7,7 @@ Qa::Application.routes.draw do
   resources :users
   resources :tags
   resources :sessions, only: [:new, :create, :destroy]
+  resources :password_resets
   resources :answers do
     member { post :vote }
   end

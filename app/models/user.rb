@@ -15,6 +15,12 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 6 }, :allow_blank => true
   validates :password_confirmation, presence: true, :allow_blank => true
   
+  def send_password_reset
+    create_remember_token
+    self.password_reset_sent_at = Time.zone.now
+    save!
+    UserMailer.password_reset(self).deliver
+  end
   
   def voted_for?(question)
     evaluations.where(target_type: question.class, target_id: question.id).present?
