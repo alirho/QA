@@ -7,7 +7,11 @@ class SessionsController < ApplicationController
    def create
     user = User.find_by(email: params[:email].downcase)
     if user && user.authenticate(params[:password])
-      sign_in user
+      if params[:remember_me]
+        sign_in user
+      else
+        cookies[:remember_token] = user.remember_token
+      end
       flash[:success] = t('controllers.sessions.create.flash.success')
       redirect_back_or root_path
     else
