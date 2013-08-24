@@ -1,21 +1,30 @@
-<%= form_for @user, :url => password_reset_path(params[:id]) do |f| %>
-  <% if @user.errors.any? %>
-    <div class="error_messages">
-      <h2>Form is invalid</h2>
-      <ul>
-        <% for message in @user.errors.full_messages %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
+<div class="row rtl">
+  <legend class="span5"><%= t('.title') %></legend>
+</div>
+<div class="row rtl">
+  <div class="span5">
+    <%= simple_form_for @user, url: password_reset_path(params[:id]),
+                    :html => { :class => 'form-horizontal' } do |f| %>
+    <%= f.input :password, :wrapper => :prepend do %>
+    <span class="add-on"><i class="icon-lock"></i></span>
+    <%= f.input_field :password %>
   <% end %>
-  <div class="field">
-    <%= f.label :password %>
-    <%= f.password_field :password %>
+
+  <%= f.input :password_confirmation, :wrapper => :prepend do %>
+    <span class="add-on"><i class="icon-lock"></i></span>
+    <%= f.input_field :password_confirmation %>
+  <% end %>
+
+  <div class="form-actions">
+    <%= f.button :submit, t('.title'), :class => 'btn-primary' %>
   </div>
-  <div class="field">
-    <%= f.label :password_confirmation %>
-    <%= f.password_field :password_confirmation %>
-  </div>
-  <div class="actions"><%= f.submit "Update Password" %></div>
+
 <% end %>
+  </div>
+</div>
+
+
+
+
+
+

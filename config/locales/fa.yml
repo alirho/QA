@@ -101,6 +101,7 @@ fa:
       title: "بازنشانی گذرواژه"
       reset_password: "بازنشانی گذرواژه"
     edit:
+      title: "بازنشانی گذرواژه"
       
     
   questions:
@@ -181,6 +182,7 @@ fa:
       otherservices: "چنانچه در یکی از سایت‌های زیر عضو هستید، می‌توانید مستقیما وارد شوید:"
       email: "ایمیل"
       password: "گذرواژه"
+      forgot_password: "گذرواژه خود را فراموش‌ کرده‌اید؟"
   
   static_pages:
     faq:
