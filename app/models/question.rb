@@ -6,7 +6,7 @@ class Question < ActiveRecord::Base
   has_one :visit, :as => :visitable
   belongs_to :user
   default_scope -> { order('created_at DESC') }
-  validates :title, presence: true, length: { minimum: 10 , maximum: 150 }
+  validates :title, presence: true, length: { minimum: 10 , maximum: 200 }
   validates :body, presence: true, length: { minimum: 30 }
   validates :user_id, presence: true
   validates :tags, presence: true
