@@ -1,7 +1,19 @@
-<%= form_tag password_resets_path, :method => :post do %>
-  <div class="field">
-    <%= label_tag :email %>
-    <%= text_field_tag :email, params[:email] %>
+<div class="row rtl">
+  <legend class="span3"><%= t('.title') %></legend>
+</div>
+<div class="row rtl">
+  <div class="span3">
+    <%= form_tag password_resets_path, method: :post do %>
+      <div class="control-group email optional">
+          <label class="email control-label">ایمیل</label>
+          <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                <%= email_field_tag :email, params[:email], class: "string email" %>
+              </div>
+          </div>
+        </div>
+      <div class="actions"><%= submit_tag t('.reset_password'), class: "btn btn-primary" %>
+    <% end %>
   </div>
-  <div class="actions"><%= submit_tag "Reset Password", class: "btn btn-primary" %></div>
-<% end %>
+</div>

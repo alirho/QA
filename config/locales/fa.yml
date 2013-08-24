@@ -24,6 +24,16 @@ fa:
       destroy:
         flash:
           success: "دیدگاه شما با موفقیت پاک شد."
+    
+    password_resets:
+      create:
+        flash:
+          success: "دستور بازنشانی گذرواژه به ایمیل شما فرستاده شد."
+      update:
+        flash:
+          fail:  "زمان بازنشانی گذرواژه تمام شده‌است، دوباره سعی کنید."
+          success: "گذرواژه جدید با موفقیت بازنشانی شد."
+    
     questions:
       create:
         flash:
@@ -86,6 +96,13 @@ fa:
       signin: "ورود"
       signup: "ثبت نام"
       
+  password_resets:
+    new:
+      title: "بازنشانی گذرواژه"
+      reset_password: "بازنشانی گذرواژه"
+    edit:
+      
+    
   questions:
     answer:
       edit: "ویرایش"
