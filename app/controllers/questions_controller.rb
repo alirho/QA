@@ -53,14 +53,12 @@ class QuestionsController < ApplicationController
   # PATCH/PUT /questions/1
   # PATCH/PUT /questions/1.json
   def update
-    
-      if @question.update(question_params)
-        flash[:success] = t('controllers.questions.update.flash.success')
-        redirect_to @question
-      else
-       render  'edit'
-      end
-   
+    if @question.update(question_params)
+      flash[:success] = t('controllers.questions.update.flash.success')
+      redirect_to @question
+    else
+      render  'edit'
+    end  
   end
   
   
