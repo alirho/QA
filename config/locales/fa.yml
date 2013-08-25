@@ -199,6 +199,8 @@ fa:
       ago: "قبل"
       tags: "تگ‌ها"
       notag: "پرسشی برای این تگ پیدا نشد."
+      search: "جستجو"
+      askquestion: "پرسش خود را بپرسید"
   
   users:
     edit:

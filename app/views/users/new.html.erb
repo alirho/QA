@@ -1,9 +1,8 @@
 <% provide(:title,'Sign up') %>
 <div class="row rtl">
-  <div class="span ">
+  <div class="span4 ">
     <legend><%= t('.head') %></legend>
     <%= simple_form_for(@user, html: {class: ""}) do |f| %>
-      <%= render 'shared/error_messages', object: f.object %>
       <p>حساب دارید؟ <%= link_to t('.ruser'), signin_path %></p>
          
       <%= f.input :name, :wrapper => :prepend, label: false do %>
@@ -28,7 +27,7 @@
     <% end %>
      
   </div>
-  <div class="span7 offset1">
+  <div class="span6 offset1">
     <legend>به سایت پرسش و پاسخ خوش ‌آمدید.</legend>
     <p>برای اطلاعات بیشتر می‌توانید به قسمت<a href="/faq"> سوالات متداول </a>مراجعه کنید.</p>
   </div>
