@@ -57,10 +57,10 @@ fa:
     users:
       create:
         flash:
-          success: "به سایت پرسش و پاسخ خوش‌آمدید"
+          success: "به سایت پرسش و پاسخ خوش‌آمدید."
       update:
         flash:
-          success: "اطلاعات پروفایل شما به‌روز شد"
+          success: "اطلاعات پروفایل شما به‌ روز شد."
       destroy:
         flash:
           success: "با موفقیت پاک شد."
@@ -108,16 +108,12 @@ fa:
     answer:
       edit: "ویرایش"
       delete: "پاک کردن"
-      ago: "قبل"
-      by: "توسط"
       answers: "پاسخ‌ها"
       votes: "امتیاز"
     comment:
       comments: "دیدگاه‌ها"
       edit: "ویرایش"
       delete: "پاک کردن"
-      ago: "قبل"
-      by: "توسط"
     edit:
       head: "ویرایش پرسش"
       submit: "بروزرسانی پرسش"
@@ -145,8 +141,6 @@ fa:
     new:
       head: "پرسش جدید"
     question:
-      by: "توسط"
-      ago: "قبل"
       edit: "ویرایش"
       back: "بازگشت"
       delete: "پاک کردن"
@@ -161,15 +155,11 @@ fa:
       votes: "امتیاز"
       answers: "پاسخ‌"
       views: "نمایش‌"
-      by: "توسط"
-      ago: "قبل"
       tags: "تگ‌ها"
     unanswer:
       votes: "امتیاز"
       answers: "پاسخ‌"
       views: "نمایش‌"
-      by: "توسط"
-      ago: "قبل"
       tags: "تگ‌ها"
   
   sessions:
@@ -195,8 +185,6 @@ fa:
       votes: "امتیاز"
       answers: "پاسخ‌"
       views: "نمایش‌"
-      by: "توسط"
-      ago: "قبل"
       tags: "تگ‌ها"
       notag: "پرسشی برای این تگ پیدا نشد."
       search: "جستجو"
@@ -235,8 +223,6 @@ fa:
       memberof: "عضو شده"
     
     question:
-      by: "توسط"
-      ago: "قبل"
       noquestion: "شما هیچ پرسشی نپرسیده‌اید."
       answers: "پاسخ‌ها"
       comments: "دیدگاه‌ها"
@@ -253,11 +239,3 @@ fa:
       nocomment: "شما هیچ دیدگاهی برای پرسشی ننوشته‌اید."
       askquestion: "پرسش خود را بپرسید"
 
-  
-  
-  
-  
-  
-  
-  
-   

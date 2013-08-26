@@ -49,7 +49,7 @@ class UsersController < ApplicationController
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = t('controllers.users.destroy.flash.success')
-    redirect_to users_url
+    redirect_to root_url
   end
   
   
