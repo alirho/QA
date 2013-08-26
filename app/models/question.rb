@@ -9,6 +9,7 @@ class Question < ActiveRecord::Base
   validates :title, presence: true, length: { minimum: 10 , maximum: 200 }
   validates :body, presence: true, length: { minimum: 30 }
   validates :user_id, presence: true
+  validates :tag_list, presence: true
   validates :tags, presence: true
   has_reputation :votes, source: :user, aggregated_by: :sum
 
