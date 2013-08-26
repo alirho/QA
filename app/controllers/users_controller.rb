@@ -63,7 +63,8 @@ class UsersController < ApplicationController
     def signed_in_user
 	unless signed_in?
 	  store_locatin
-	  redirect_to signin_url, notice: "Please sign in"
+	  flash[:error] = t('controllers.users.signed_in_user.flash.error')
+	  redirect_to signin_url
 	end
     end
     

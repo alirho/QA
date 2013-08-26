@@ -11,7 +11,7 @@
         <small class="space">
         <%= t('.by') %> <%= link_to comment.user.name, comment.user %>
         </small>
-        <% if current_user?(comment.user) %>
+        <% if current_user && current_user.admin? || current_user?(comment.user) %>
           <%= link_to t('.edit'), edit_question_comment_path(@question, comment), class: "btn btn-mini" %>
           <%= link_to t('.delete'), [comment.question, comment],method: :delete,
     		data: { confirm: "آیا مطمئن هستید؟" }, class: "btn btn-mini btn-danger" %>

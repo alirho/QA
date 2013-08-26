@@ -29,7 +29,7 @@
     </small>
   </div>
   <div class="span3 offset1">
-    <% if current_user?(@question.user) %>
+    <% if current_user && current_user.admin? || current_user?(@question.user) %>
       <div class="pull-left">
         <%= link_to t('.edit'), edit_question_path(@question), class: "btn btn-small" %> 
         <%= link_to t('.back'), questions_path, class: "btn btn-small" %>

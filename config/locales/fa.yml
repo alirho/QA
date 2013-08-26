@@ -64,6 +64,9 @@ fa:
       destroy:
         flash:
           success: "با موفقیت پاک شد."
+      signed_in_user:
+        flash:
+          error: "لطفا وارد شوید."
           
   answers:
     title: "پاسخ‌ها"

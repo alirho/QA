@@ -4,7 +4,6 @@
 <div class="row rtl">
   <div class="span11 well">
   <%= simple_form_for(@question,:html => { :novalidate => true }) do |f| %>
-
     
     <%= f.input :title, placeholder: t('.titleq'),
     :input_html => { :class => "span11" }, label: t('.title') %>

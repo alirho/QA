@@ -3,7 +3,13 @@
     <div class="thumbnail clearfix">
       <%= gravatar_for user, size: 52, class: "pull-left span1 clearfix", style: 'margin-right:10px' %>
       <div class="span2">
-        <h5><%= link_to user.name, user %></h5>
+        <h5><%= link_to user.name, user %>
+          <small>
+            <% if current_user && current_user.admin? && !current_user?(user) %>
+                | <%= link_to "delete", user, method: :delete, data: { confirm: "آیا مطمئن هستید؟" } %>
+            <% end %>
+          </small>
+        </h5>
       </div>
     </div>
   </li>

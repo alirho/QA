@@ -1,12 +1,8 @@
 <h1><%= t('.head') %></h1>
 
-<div class="span11 well rtl">
-  
-  
-    <%= simple_form_for @question do |f| %>
-        <%= render 'shared/error_messages', object: f.object %>
-  
-        <%= f.input :title, :input_html => { :class => "span11" }, label: t('.title') %>
+<div class="span11 well rtl"> 
+    <%= simple_form_for @question do |f| %> 
+        <%= f.input :title, :input_html => { :class => "span11 " }, label: t('.title') %>
         
         <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
         <%= tinymce %>
@@ -17,10 +13,6 @@
         
         <%= link_to t('.back'), @question, class: "btn" %>
     <% end %>
-  
-   
-  
-
 </div>
 
 
