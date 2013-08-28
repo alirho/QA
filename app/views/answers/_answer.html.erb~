@@ -1,5 +1,5 @@
-<div class="answers">
-  <%= simple_form_for(@answer,:html => { :novalidate => true }) do |f| %>
+<div>
+  <%= simple_form_for(@answer) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
       
     <%=  hidden_field_tag :question_id, @answer.question.id %>
