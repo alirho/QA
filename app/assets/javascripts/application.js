@@ -15,4 +15,6 @@
 //= require twitter/bootstrap
 //= require turbolinks
 //= require tinymce-jquery
+//= require jquery.purr
+//= require best_in_place
 //= require_tree .

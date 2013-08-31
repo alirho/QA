@@ -1,23 +1,19 @@
 <% provide(:title, 'New Question') %>
 
-
-<div class="row rtl">
-  <div class="span11 well">
-  <%= simple_form_for(@question,:html => { :novalidate => true }) do |f| %>
-    
-    <%= f.input :title, placeholder: t('.titleq'),
-    :input_html => { :class => "span11" }, label: t('.title') %>
+<%= simple_form_for(@question,:html => { :novalidate => true }) do |f| %>
+     
+  <%= f.input :title, placeholder: t('.titleq'),
+    :input_html => { :class => "span10" }, label: t('.title') %>
         
-    <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
-    <%= tinymce %>
+  <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
+  <%= tinymce %>
                 
-    <%= f.input :tag_list, placeholder: t('.tagq'), 
-    :input_html => { :class => "span11" }, label: t('.tag') %><br/>
+  <%= f.input :tag_list, placeholder: t('.tagq'), 
+    :input_html => { :class => "span10" }, label: t('.tag') %><br/>
     
                 
-    <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>
-    <%= link_to t('.back'), questions_path, class: "btn" %>
-  <% end %>
-  </div>
-</div>
+  <%= f.submit t('.submit'), class: "btn btn-medium btn-primary" %>
+  <%= link_to t('.back'), questions_path, class: "btn" %>
+<% end %>
+ 
 

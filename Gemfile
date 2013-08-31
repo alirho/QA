@@ -22,6 +22,7 @@ gem 'sanitize'
 gem "therubyracer"
 gem "less-rails"
 gem 'twitter-bootstrap-rails', git: "https://github.com/jnaqsh/twitter-bootstrap-rails.git"
+gem 'best_in_place', github: 'bernat/best_in_place' 
 
 group :development do
   gem 'sqlite3', '1.3.7'
