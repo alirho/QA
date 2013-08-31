@@ -8,8 +8,7 @@
     <%= f.input :title, placeholder: t('.titleq'),
     :input_html => { :class => "span11" }, label: t('.title') %>
         
-    <%= f.input :body, placeholder: 'add your question',
-    :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
+    <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
     <%= tinymce %>
                 
     <%= f.input :tag_list, placeholder: t('.tagq'), 

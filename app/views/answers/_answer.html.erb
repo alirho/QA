@@ -1,15 +1,13 @@
 <div>
   <%= simple_form_for(@answer,:html => { :novalidate => true }) do |f| %>
-    <%= render 'shared/error_messages', object: f.object %>
       
     <%=  hidden_field_tag :question_id, @answer.question.id %>
     
-    <%= f.input :body, label: false, label: t('.youranswer'),
-        :input_html => { :class => "tinymce span10",rows: 15 } %><br/>
+    <%= f.input :body, label: t('.youranswer'),
+        :input_html => { :class => "tinymce",rows: 15 } %><br/>
     
     <%= f.submit  t('.submit') , class: "btn btn-medium btn-primary" %>
-    
-    
+      
   <% end %>
 </div>
 <%= tinymce %>

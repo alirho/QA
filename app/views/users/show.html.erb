@@ -41,7 +41,7 @@
             <% @answers.each do |answer| %>
 	      <div class="row">
 	        <div class="span10">
-	          <li><%= link_to answer.question.title, question_path(answer) %></li>
+	          <li><%= link_to answer.question.title, question_path(answer.question, answer) %></li>
 	        </div>
 	      </div><br>
 	    <% end %>
@@ -54,7 +54,7 @@
 	    <% @comments.each do |comment| %>
 	      <div class="row">
 	        <div class="span10">
-	          <li><%= link_to comment.question.title , question_path(comment.question) %></li>
+	          <li><%= link_to comment.question.title , question_path(comment.question, comment) %></li>
 	        </div>
 	      </div><br>
 	    <% end %>
