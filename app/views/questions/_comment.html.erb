@@ -4,11 +4,7 @@
   <small>
     <% @question.comments.each do |comment| %>
       <p id="comments">
-        <% if current_user?(comment.user) %>
-          <%= best_in_place [comment.question, comment], :body, type: :textarea  %>
-        <% else %>
-          <%= comment.body %>
-        <% end %>
+        <%= comment.body %>
         <small class="space">
         <%= to_jalali(comment.created_at) %> 
         </small>

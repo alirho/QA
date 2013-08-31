@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  respond_to :html, :json
+
   def create
     @comment = Comment.new(comment_params)
     @comment.question_id = params[:question_id]
@@ -16,7 +16,7 @@ class CommentsController < ApplicationController
   def update
     @comment = Comment.find(params[:id])
     @comment.update_attributes(comment_params)
-    respond_with @comment
+    redirect_to @comment.question
     flash[:success] = t('controllers.comments.update.flash.success')
   end
   

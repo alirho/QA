@@ -1,8 +1,20 @@
-<%= simple_form_for [@question, @comment] do |f| %>
+
+<div class="row rtl">
+  <div class="span9 well">
+  <legend><strong><%= t('.head') %></strong></legend>
+    <p>
+      <%= t('.create')%>
+      <%= link_to @comment.user.name, @comment.user %>
+      <small class="space">( <%= to_jalali(@comment.created_at) %> )</small>
+    </p>
+  <p style="padding-top:5px"></p>
+  <%= simple_form_for [@comment.question, @comment] do |f| %>
   
   <%= f.input :body, label: false, :input_html => { :class => "span9",rows: 3 }, 
                 placeholder: t('.yourcomment') %><br/>
-  <p>
-    <%= f.submit t('.submit'),class: "btn btn-small btn-primary" %>
-  </p>
+
+  <%= f.submit t('.submit'),class: "btn btn-small btn-primary" %>
+
 <% end %>
+  </div>
+</div>
