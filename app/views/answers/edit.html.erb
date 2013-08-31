@@ -1,12 +1,16 @@
 <% provide(:tilte, 'Edit Answer') %>
 
 <div class="row rtl">
-  <div class="span12 well">
-  <strong class="offset5"><%= t('.head') %></strong>
-  <p></p>
+  <div class="span10 offset1 well">
+  <legend><%= t('.head') %></legend>
+    <p>
+      <%= t('.create')%>
+      <%= link_to @answer.user.name, @answer.user %>
+      <small class="space">( <%= to_jalali(@answer.created_at) %> )</small>
+    </p>
+  <p style="padding-top:5px"></p>
   <%= simple_form_for @answer do |f| %>
-    <%= render 'shared/error_messages', object: f.object %>
-      
+
     <%=  hidden_field_tag :question_id, @answer.question.id %>
     
     <%= f.input :body, label: false, :input_html => { :class => "tinymce span10",rows: 15 } %><br/>

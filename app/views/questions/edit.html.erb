@@ -1,18 +1,25 @@
-<h1><%= t('.head') %></h1>
-
-<div class="span11 well rtl"> 
-    <%= simple_form_for @question do |f| %> 
-        <%= f.input :title, :input_html => { :class => "span11 " }, label: t('.title') %>
+<% provide(:tilte, 'Edit Question') %>
+<div class="row rtl">
+  <div class="span10 offset1 well">
+  <legend><%= t('.head') %></legend>
+    <p>
+      <%= t('.create')%>
+      <%= link_to @question.user.name, @question.user %>
+      <small class="space">( <%= to_jalali(@question.created_at) %> )</small>
+    </p>
+  <p style="padding-top:5px"></p>
+  <%= simple_form_for @question do |f| %> 
+        <%= f.input :title, :input_html => { :class => "span10 " }, label: t('.title') %>
         
         <%= f.input :body, :input_html => { :class => "tinymce",rows: 15 }, label: t('.body') %>
         <%= tinymce %>
                 
-        <%= f.input :tag_list, :input_html => { :class => "span11" }, label: t('.tag') %><br/>
+        <%= f.input :tag_list, :input_html => { :class => "span10" }, label: t('.tag') %><br/>
                 
         <%= f.submit t('.submit'), class: "btn btn btn-warning" %>
         
         <%= link_to t('.back'), @question, class: "btn" %>
     <% end %>
+  </div>
 </div>
-
 
