@@ -1,3 +1,6 @@
+<% if @questions && @questions.empty? %>
+  <strong>پرسشی پیدا نشد.</strong>
+<% else %>
 <% @questions.each do |question| %>
     <div class="row">
     <div class="span12" id="questions">
@@ -36,4 +39,5 @@
       <hr>
     </div>
     </div>
+<% end %>
 <% end %>

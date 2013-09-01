@@ -6,14 +6,6 @@ GIT
     activerecord-reputation-system (2.0.2)
 
 GIT
-  remote: git://github.com/bernat/best_in_place.git
-  revision: df178520bf9ba405baee9528d5dbb630d6ff760c
-  specs:
-    best_in_place (2.1.0)
-      jquery-rails
-      rails (>= 3.1)
-
-GIT
   remote: git://github.com/plataformatec/simple_form.git
   revision: 359606f222fa0972a4a14ec70140ac00f7c80839
   specs:
@@ -218,7 +210,6 @@ DEPENDENCIES
   activerecord (~> 4.0.0)
   activerecord-reputation-system!
   bcrypt-ruby (~> 3.0.0)
-  best_in_place!
   bootstrap-will_paginate (= 0.0.9)
   coffee-rails
   faker (= 1.1.2)
