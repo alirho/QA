@@ -1,6 +1,6 @@
 <div class="row rtl">
   <div class="span12">
-    <p><%= t('.answers')%> (<%= @question.answers.size.to_farsi %>)</p>
+    <p><%= t('.answers')%> ( <%= @question.answers.size.to_farsi %> )</p>
     <% @question.answers.each do |answer| %>
       <div class="row">
         <div class="span8">

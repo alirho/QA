@@ -14,6 +14,7 @@ class User < ActiveRecord::Base
   has_secure_password
   validates :password, length: { minimum: 6 }, :allow_blank => true
   validates :password_confirmation, presence: true, :allow_blank => true
+
   
   def send_password_reset
     self.password_reset_token = SecureRandom.urlsafe_base64

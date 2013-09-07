@@ -30,7 +30,6 @@ class Question < ActiveRecord::Base
   def self.search(search)
     if search && !search.blank? 
       find(:all, :conditions => ['body LIKE ?', "%#{search}%"])
-    
     else
       find(:all)
     end

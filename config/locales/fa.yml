@@ -88,6 +88,7 @@ fa:
       create: "ایجاد شده توسط"
       yourcomment: "دیدگاه خود را اینجا بنویسید (دیدگاه شما نباید کمتر از ۱۰ کاراکتر باشد)"
       submit: "ویرایش دیدگاه"
+      back: "بازگشت"
       
   layouts:
     footer:
@@ -111,8 +112,10 @@ fa:
       reset_password: "بازنشانی گذرواژه"
     edit:
       title: "بازنشانی گذرواژه"
+      password: "گذرواژه"
+      passwordl: "نباید کمتر از ۶ کاراکتر باشد"
+      cpassword: "تایید گذرواژه"
       
-    
   questions:
     answer:
       edit: "ویرایش"

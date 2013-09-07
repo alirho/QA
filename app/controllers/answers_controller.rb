@@ -5,9 +5,12 @@ class AnswersController < ApplicationController
     @question = Question.find(params[:question_id])
     @answer = @question.answers.new(answer_params)
     @answer.user = current_user
-    @answer.save
-    flash[:success] = t('controllers.answers.create.flash.success')
-    redirect_to @answer.question 
+    if @answer.save
+      flash[:success] = t('controllers.answers.create.flash.success')
+      redirect_to @answer.question 
+    else
+      render 'questions/show'
+    end
   end
   
   

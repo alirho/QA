@@ -1,6 +1,6 @@
 <div class="row">
   <div class="span10 offset1 form-actions">
-    <p><%= t('.comments') %> (<%= @question.comments.size.to_farsi %>)</p>
+    <p><%= t('.comments') %> ( <%= @question.comments.size.to_farsi %> )</p>
   <small>
     <% @question.comments.each do |comment| %>
       <p id="comments">

@@ -1,12 +1,17 @@
 class CommentsController < ApplicationController
 
   def create
+    @question = Question.find(params[:question_id])
+    @answers = @question.answers
     @comment = Comment.new(comment_params)
     @comment.question_id = params[:question_id]
     @comment.user = current_user
-    @comment.save
-    flash[:success] = t('controllers.comments.create.flash.success')
-    redirect_to question_path(@comment.question)
+    if @comment.save
+      flash[:success] = t('controllers.comments.create.flash.success')
+      redirect_to question_path(@comment.question)
+    else
+      render 'questions/show'
+    end
   end
   
   def edit
